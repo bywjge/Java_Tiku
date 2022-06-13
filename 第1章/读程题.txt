@@ -1,0 +1,23 @@
+题库中第1题:
+给出下列【代码】注释标注的代码的输出结果。
+public class Example {
+   public static void main(String args[]) {
+      System.out.println("hello"); //【代码】
+      
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：hello
+
+
+题库中第2题:
+给出下列【代码】注释标注的代码的输出结果。
+public class E {
+   public static void main(String args[]) {
+       System.out.println(100);  //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100

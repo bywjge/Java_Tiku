@@ -1,0 +1,294 @@
+题库中第1题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      
+      try{
+           FileOutputStream fileOut = new FileOutputStream(file);
+           ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+           objectOut.writeObject(new Integer(100));   
+           objectOut.close(); 
+           FileInputStream fileIn = new FileInputStream(file);
+           ObjectInputStream objectIn = new ObjectInputStream(fileIn);
+           Integer number = (Integer)objectIn.readObject();   
+           System.out.println(number.intValue()); //【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第2题:
+ 假设hello.txt的大小为4个字节(byte)，给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+   public static void main(String args[]) {
+      File f = new File("hello.txt");
+      try{  RandomAccessFile in = new RandomAccessFile(f,"rw");
+            long m = f.length();   
+            FileOutputStream out = new FileOutputStream(f);
+            long n = f.length();  
+             System.out.printf("%d:%d",m,n) ; //【代码】
+      }
+      catch(IOException e) {
+           System.out.println("File read Error"+e);
+      }
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：4:0
+
+
+题库中第3题:
+假设a.txt的大小为4个字节(byte)，给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+   public static void main(String args[]) {
+      File f = new File("a.txt");
+      try{  RandomAccessFile in = new RandomAccessFile(f,"rw");
+            long m = f.length();   
+            FileOutputStream out = new FileOutputStream(f,true);
+            long n = f.length();  
+             System.out.printf("%d:%d",m,n) ; //【代码】
+      }
+      catch(IOException e) {
+           System.out.println("File read Error"+e);
+      }
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：4:4
+
+
+题库中第4题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       int n=-1;
+       File f =new File("hello.txt");
+       byte [] a="abcd".getBytes();
+       try{  FileOutputStream out=new FileOutputStream(f);
+             out.write(a);
+             out.close(); 
+             FileInputStream in=new FileInputStream(f);
+             byte [] tom= new byte[100];
+             int m = in.read(tom);
+             String s=new String(tom,0,m);
+             System.out.printf("%d:%s",m,s); //【代码】
+      }
+      catch(IOException e) {}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：4:abcd
+
+
+题库中第5题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       int n=-1;
+       File f = new File("hello.txt");
+       char[] a ="你好hello".toCharArray();
+       try{  FileWriter out=new FileWriter(f);
+             out.write(a);
+             out.close(); 
+             FileReader in=new  FileReader(f);
+             char [] tom= new char[4];
+             int m = in.read(tom);
+             String s=new String(tom,0,m);
+             System.out.printf("%d:%s",m,s); //【代码】
+      }
+      catch(IOException e) {}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：4:你好he
+
+
+题库中第6题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+   public static void main(String args[]) {
+       RandomAccessFile inAndOut = null;
+       int m = 12;
+       long n = 99;
+       try{  inAndOut = new RandomAccessFile("tom.dat","rw");
+             inAndOut.writeInt(m);
+             inAndOut.writeLong(n);
+             inAndOut.seek(4);          
+             long t1 =  inAndOut.readLong();
+             inAndOut.seek(0);          
+             long t2 =  inAndOut.readInt();
+             System.out.printf("%d:%d",t1,t2);
+             inAndOut.close();
+      }
+      catch(IOException e){} 
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：99:12
+
+
+题库中第7题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+import java.util.*;
+public class E {
+    public static void main(String args[]){
+       int sum= 0;
+       File f =new File("hello.txt");
+       byte [] b = "苹果 12元,鸭梨18元".getBytes();
+       try{
+            FileOutputStream out = new FileOutputStream(f);
+            out.write(b);
+            out.close();
+            Scanner sc = new Scanner(f);
+            sc.useDelimiter("[^0123456789]+"); 
+            while(sc.hasNextInt()){
+                int n = sc.nextInt();
+                sum += n;
+            }
+            System.out.println(sum);
+
+      }
+      catch(IOException e) {}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：30
+
+
+题库中第8题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+import javax.swing.JButton;
+public class E {
+    public static void main(String args[]){
+      File file = new File("hello.data");   
+      JButton button = new JButton("yes");   
+      try{
+           FileOutputStream fileOut = new FileOutputStream(file);
+           ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);
+           objectOut.writeObject(button);   
+           objectOut.close(); 
+           FileInputStream fileIn = new FileInputStream(file);
+           ObjectInputStream objectIn = new ObjectInputStream(fileIn);
+           JButton b = (JButton)objectIn.readObject(); 
+           b.setText("ok");  
+           System.out.printf("%s:%s",button.getText(),b.getText()); //【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：yes:ok
+
+
+题库中第9题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+      File file = new File("hello.text");   
+      byte [] b = "ABCDEF".getBytes();   
+      try{
+           FileOutputStream out = new FileOutputStream(file);
+           out.write(b);
+           FileInputStream in = new  FileInputStream(file);
+           int c = in.read();
+           c = in.read();
+           System.out.println((char)c);//【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：B
+
+
+题库中第10题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+      File file = new File("hello.text");   
+      byte [] b = "ABCDEF".getBytes();   
+      try{
+           FileOutputStream out = new FileOutputStream(file);
+           out.write(b);
+           FileInputStream in = new  FileInputStream(file);
+           int m = in.read(b);
+           String s = new String(b);
+           System.out.printf("%d:%s",m,s);//【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6:ABCDEF
+
+
+题库中第11题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+      File file = new File("hello.text");   
+      byte [] b = "abcdef".getBytes();   
+      try{
+           FileOutputStream out = new FileOutputStream(file);
+           out.write(b);
+           FileInputStream in = new  FileInputStream(file);
+           byte [] a = new byte[5];
+           int m =in.read(a,0,5);
+           String s1 = new String(a);
+           m = in.read(a,0,5);
+           String s2 = new String(a);
+           System.out.printf("%s:%s",s1,s2); //【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：abcde:fbcde
+
+
+题库中第12题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+      File file = new File("hello.text"); 
+      char [] tom = new char[3];  
+      try{
+           FileWriter out = new FileWriter(file);
+           out.write("大家好");
+           out.close();
+           FileReader in = new  FileReader(file);
+           int m =in.read(tom);
+           System.out.println(new String(tom));//【代码】
+       }
+       catch(Exception exp){}
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：大家好

@@ -1,0 +1,402 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        byte b =(byte)-129;
+        System.out.println(b);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：127
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        int b =(int)3.14;
+        System.out.println(b);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：3
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        char ch =(char)(65536+97);
+        System.out.println(ch);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：a
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        char ch =(char)(65536+65);
+        System.out.println(ch);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：A
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        int m = 100;
+        m = m^m;
+        System.out.println(m);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：0
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m = 5;
+        m = m<<2;
+        System.out.println(m);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：20
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m = 24;
+        m = m>>3;
+        System.out.println(m);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：3
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m = 28,n =10;
+        m = m^n;
+        m = m^n;
+        System.out.println(m);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：28
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)>9)&&((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：truehello100
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)<9)&((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：falsehello100
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)<9)&&((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：falsehello10
+
+
+题库中第12题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)>9)||((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：truehello10
+
+
+题库中第13题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)<9)||((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：truehello100
+
+
+题库中第14题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        boolean boo =false;
+        int x = -1;
+        boo = ((x=10)>9)|((x=100)>99);
+        System.out.println(boo+"hello"+x); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：truehello100
+
+
+题库中第15题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        char ch1 = 'A',ch2 ='B',ch3 = 'N';
+        char t = '\0';
+        if(ch2 > ch1) {
+           t = ch1; 
+           ch1 = ch2;
+           ch2 = t;
+        }
+        if(ch3 > ch1) {
+           t = ch1; 
+           ch1 = ch3;
+           ch3 = t;
+        }
+        if(ch3 > ch2) {
+           t = ch2; 
+           ch2 = ch3;
+           ch3 = t;
+        }
+        System.out.printf("%c%c%c",ch1,ch2,ch3);       //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：NBA
+
+
+题库中第16题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m =100,n =10;
+        if(m > n) {
+           n = 100;
+           m = 10;
+        }
+        else
+          n = -100;
+          m = -99;
+        System.out.printf("%d:%d",m,n);       //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：-99:100
+
+
+题库中第17题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        int m =100,n =10;
+        if(m > n) {
+           n = 100;
+           m = 10;
+        }
+        else {
+           n = -100;
+           m = -99;
+        }
+        System.out.printf("%d:%d",m,n);       //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:100
+
+
+题库中第18题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) {
+        int m = 0; 
+        char ch ='A';
+        switch(ch) {
+           case 9 :
+           case 'a' :  m = m+1;;
+                       break;
+           case 'A' :  m = m+1;
+           case  66 :  m = m+1;
+           default:    m = m+3;
+       }
+       System.out.println(m); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：5
+
+
+题库中第19题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) {
+        int m = 0; 
+        char ch ='a';
+        switch(ch) {
+           case 9 :
+           case 'a' :  m = m+1;
+           case 'A' :  m = m+1;
+                       break;
+           case  66 :  m = m+1;
+           default:    m = m+3;
+       }
+       System.out.println(m); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：2
+
+
+题库中第20题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) {
+        int m = 6789;
+        int [] a = new int[4]; 
+        for(int i=0;i<a.length;i++) {
+           a[i] = m%10;
+           m = m/10;
+        }
+        System.out.printf("%d%d%d%d",a[0],a[1],a[2],a[3]); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：9876
+
+
+题库中第21题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) {
+        int m = 123;
+        int sum = 0,t = 100;
+        while(t > 0){
+           sum = sum+m%10*t;
+           m = m/10;
+           t = t/10;
+        }
+        System.out.printf("%d",sum); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：321
+
+
+题库中第22题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) {
+        long sum = 0,a = 3,item = a,n = 3;
+        for(int i=1;i<=3;i++) {
+           sum = sum+item;
+           item = item*10+a;  
+        }
+        System.out.println(sum); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：369
+
+
+题库中第23题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) {
+        int x = 1,y = 6;
+        while (y-->0) {
+            x--;
+        }
+        System.out.printf("%d:%d",x,y); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：-5:-1
+
+
+题库中第24题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) {
+        int []a={1,2,3},b;
+        int sum = 0;
+        b = new int[a.length];
+        for(int i = 0 ;i<a.length;i++){
+            b[i] = a[i];
+        }
+        for(int number:b){
+           sum += number;
+        }
+        System.out.printf("%d",sum); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6

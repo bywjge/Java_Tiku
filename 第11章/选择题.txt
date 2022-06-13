@@ -1,0 +1,173 @@
+题库中第1题:
+下列哪个是加载JDBC-MySQL数据库驱动（连接器）
+A. try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+B. try{  Class.forName("oracle.jdbc.driver.oracleDriver");
+      }
+      catch(Exception e){}
+C.  try{  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+      }
+      catch(Exception e){}
+D.  try{  Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+      }
+      catch(Exception e){}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+下列哪个是加载JDBC-SQLServer数据库驱动（连接器）
+A. try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+B. try{  Class.forName("oracle.jdbc.driver.oracleDriver");
+      }
+      catch(Exception e){}
+C.  try{  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+      }
+      catch(Exception e){}
+D.  try{  Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+      }
+      catch(Exception e){}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第3题:
+下列哪个是加载JDBC-Oracle数据库驱动（连接器）
+A. try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+B. try{  Class.forName("oracle.jdbc.driver.oracleDriver");
+      }
+      catch(Exception e){}
+C.  try{  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+      }
+      catch(Exception e){}
+D.  try{  Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+      }
+      catch(Exception e){}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+下列哪个是加载JDBC-Derby数据库驱动（连接器）
+A. try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+B. try{  Class.forName("oracle.jdbc.driver.oracleDriver");
+      }
+      catch(Exception e){}
+C.  try{  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+      }
+      catch(Exception e){}
+D.  try{  Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+      }
+      catch(Exception e){}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第5题:
+下列哪个是正确的？（多选）
+A.在MySQL安装目录的bin子目录下键入mysqld或mysqld -nt 启动MySQL数据库服务器。
+B.在MySQL安装目录的bin子目录下键入mysql 启动MySQL数据库服务器。
+C.MySQL服务器默认占用的端口是3306 。
+D.MySQL服务器的默认用户是root，密码为空(没有密码)。
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第6题:
+
+下列哪个是错误的？
+A.在MySQL安装目录的bin子目录下键入mysqld或mysqld -nt 启动MySQL数据库服务器。
+B.在MySQL安装目录的bin子目录下键入mysql 启动MySQL数据库服务器。
+C.MySQL服务器默认占用的端口是3306 。
+D.MySQL服务器的默认用户是root，密码为空(没有密码)。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+
+下列哪个是错误的？
+A.ResultSet对象和数据库连接对象（Connection对象）实现了紧密的绑定，一旦连接对象被关闭，ResultSet对象中的数据立刻消失。
+B.ResultSet对象一次只能看到一个数据行，使用next()方法移到下一个数据行，
+next()方法最初的查询位置，即游标位置，位于第一行的前面。
+C.连接对象调用prepareStatement(String sql)方法对参数sql指定的SQL语句进行预编译处理，
+并返回一个Statement对象。
+D.Navicat for MySQL是一款MySQL客户端管理工具 。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第8题:
+
+下列哪些是正确的？（多选）
+A.SQL语句：select * from mess where height>1.6 and height<=1.8
+是查询mess表中字段（列）height值在1.6和1.8之间的记录（记录的各个列值都要）。
+B. SQL语句 select * from mess where name like '%林%'
+是查询mess表中字段（列）name值等于“林”的记录（记录的各个列值都要）。
+C.SQL语句 update mess set height =1.77 where name='张三'
+是将mess表中name字段（列）值是张三的记录(行)的height的值更新为1.77。
+D. SQL语句 insert into mess values
+ ('R1008','将林','2010-12-20',1.66),('R1008','秦仁','2010-12-20',1.66)
+是向表mess里添加了两条记录（两行）。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第9题:
+下列哪个是错误的？
+A.SQL语句：select * from mess where height>1.6 and height<=1.8
+是查询mess表中字段（列）height值在1.6和1.8之间的记录（记录的各个列值都要）。"
+B. SQL语句 select * from mess where name like '%林%'
+是查询mess表中字段（列）name值等于“林”的记录（记录的各个列值都要）。"
+C.SQL语句 update mess set height =1.77 where name='张三'
+是将mess表中name字段（列）值是张三的记录(行)的height的值更新为1.77。
+D. SQL语句 insert into mess values
+ ('R1008','将林','2010-12-20',1.66),('R1008','秦仁','2010-12-20',1.66)
+是向表mess里添加了两条记录（两行）。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第10题:
+下列哪个是错误的？
+A.程序使用PreparedStatement对象不仅减轻了数据库的负担，而且也提高了访问数据库的速度。
+B.连接对象调用prepareStatement(String sql)方法对参数sql指定的SQL语句进行预编译处理，
+并返回一个PreparedStatement对象。
+C.结果集rs执行rs.getString(1)按字符串返回结果集当前行第1列的值。
+D."jdbc:mysql://localhost:3306/students?useSSL=true"中的"mysql"是用户数据库的名字。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+下列哪个是错误的？
+A.程序使用PreparedStatement对象会加重数据库的负担。
+B.连接对象调用prepareStatement(String sql)方法对参数sql指定的SQL语句进行预编译处理，
+并返回一个PreparedStatement对象。
+C.结果集rs执行rs.getString(1)按字符串返回结果集当前行第1列的值。
+D."jdbc:mysql://localhost:3306/students?useSSL=true"中的"students"是用户数据库的名字。
+ 
+A	B	C	D
+图像的名字无图.jpg
+答案：A

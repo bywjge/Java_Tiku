@@ -1,0 +1,333 @@
+题库中第1题:
+编译下列E.java得到
+E$1.class,
+E.class,
+HelloMachine.class,
+SpeakHello.class
+字节码文件。下列哪个叙述是正确的？
+A.	E$1.class是接口匿名类的字节码（编译器编译器给该匿名类的名字是E$1）。
+B.E.class是接口匿名类的字节码。
+C.	HelloMachine.class是接口匿名类的字节码。
+D.	SpeakHello.class是接口匿名类的字节码.
+
+interface SpeakHello {
+     void speak();
+}
+class  HelloMachine {
+   public void turnOn(SpeakHello hello) {
+       hello.speak();
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      HelloMachine machine = new HelloMachine();
+      machine.turnOn( new  SpeakHello() {   //和接口SpeakHello有关的匿名类
+                          public void speak() {
+                             System.out.println("hello,you are welcome!");
+                          }
+                    } ); 
+      } 
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+编译下列E.java得到
+E$1.class,
+E.class,
+HelloMachine.class,
+SpeakHello.class
+字节码文件。下列哪个叙述是正确的？
+A. SpeakHello.class是接口匿名类的字节码。
+B .E.class是接口匿名类的字节码。
+C. 	HelloMachine.class是接口匿名类的字节码。
+D. E$1.class是接口匿名类的字节码（编译器编译器给该匿名类的名字是E$1）。
+
+abstract class SpeakHello {
+    abstract void speak();
+}
+class  HelloMachine {
+   public void turnOn(SpeakHello hello) {
+       hello.speak();
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      HelloMachine machine = new HelloMachine();
+      machine.turnOn( new  SpeakHello() {   //子类匿名类
+                          public void speak() {
+                             System.out.println("hello,you are welcome!");
+                          }
+                    } ); 
+      } 
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第3题:
+编译下列E.java得到的E$1.class字节码，反编译该字节码，如图7_1,jpg，下列哪个叙述是错误的？
+A. 匿名类有构造方法。
+B. 编译器给了匿名类一个名字:E$1。
+C. E$1是用户给的类名。
+D. 匿名类是final类。
+abstract class SpeakHello {
+    abstract void speak();
+}
+class  HelloMachine {
+   public void turnOn(SpeakHello hello) {
+       hello.speak();
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      HelloMachine machine = new HelloMachine();
+      machine.turnOn( new  SpeakHello() {   //子类匿名类
+                          public void speak() {
+                             System.out.println("hello,you are welcome!");
+                          }
+                    } ); 
+      } 
+}
+
+
+A	B	C	D
+图像的名字无图7_1.jpg
+答案：C
+
+
+题库中第4题:
+哪个叙述是正确的？
+A．和接口有关的匿名类可以是抽象类。
+B．和类有关的匿名类还可以额外地实现某个指定的接口。
+C．和类有关的匿名类一定是该类的一个非抽象子类。
+D．和接口有关的匿名类的类体中可以有static成员变量。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+下列哪个叙述是错误的？
+A. 内部类的外嵌类的成员变量在内部类中仍然有效。
+B. 内部类中的方法也可以调用外嵌类中的方法。
+C. 内部类的类体中可以声明类变量(static)变量。
+D. 外嵌类的类体中可以用内部类声明对象，作为外嵌类的成员。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+下列哪些叙述是正确的？（多选）
+A. 内部类的外嵌类的成员变量在内部类中仍然有效。
+B. 内部类中的方法也可以调用外嵌类中的方法。
+C. 内部类的类体中可以声明类变量(static)变量。
+D. 外嵌类的类体中可以用内部类声明对象，作为外嵌类的成员。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第7题:
+下列哪个叙述是错误的？
+A. 可以用private或protected修饰内部类。
+B. 内部类仅供它的外嵌类使用，其他类不可以用某个类的内部类声明对象。
+C. static内部类不能操作外嵌类中的实例成员变量。
+D. 非匿名内部类不可以实现接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第8题:
+下列哪些叙述是正确的？（多选）
+A. 可以用private或protected修饰内部类。
+B. 内部类仅供它的外嵌类使用，其他类不可以用某个类的内部类声明对象。
+C. static内部类不能操作外嵌类中的实例成员变量。
+D. 非匿名内部类不可以实现接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第9题:
+下列哪个叙述是错误的？
+A. 非匿名内部类也可以有（内部）子类。
+B. 内部类不可以是final类。
+C. 不可能用匿名类声明对象，但却可以直接用匿名类创建一个对象。
+D. 匿名子类（和子类有关的匿名类）可以继承父类的方法也可以重写父类的方法。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第10题:
+下列哪些叙述是正确的？（多选）
+A. 非匿名内部类也可以有（内部）子类。
+B. 内部类不可以是final类。
+C. 不可能用匿名类声明对象，但却可以直接用匿名类创建一个对象。
+D. 匿名子类（和子类有关的匿名类）可以继承父类的方法也可以重写父类的方法。
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第11题:
+下列哪个叙述是错误的？
+A. 匿名子类（和子类有关的匿名类）的类体中不可以声明static成员变量和static方法。
+B. 接口匿名类（和接口有关的匿名类）的类体中不可以声明static成员变量和static方法。
+C. 匿名类一定是内部类。
+D. Java使用throws关键字抛出一个Exception的子类的实例表示异常发生。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第12题:
+下列哪些叙述是正确的？（多选）
+A. 匿名子类（和子类有关的匿名类）的类体中不可以声明static成员变量和static方法。
+B. 接口匿名类（和接口有关的匿名类）的类体中不可以声明static成员变量和static方法。
+C. 匿名类一定是内部类。
+D. Java使用throws关键字抛出一个Exception的子类的实例表示异常发生。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第13题:
+下列哪个叙述是错误？
+A. try~catch语句可以由几个catch组成，分别处理发生的相应异常。 
+B. 一个方法在声明时可以使用throws关键字声明要产生的若干个异常。 
+C. 一个方法在声明时可以使用throw关键字声明要产生的若干个异常。
+D. throw的作用就是抛出异常.throw和throws是两个不同的关键字。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第14题:
+下列哪些叙述是正确的？（多选）
+A. try~catch语句可以由几个catch组成，分别处理发生的相应异常。 
+B. 一个方法在声明时可以使用throws关键字声明要产生的若干个异常。 
+C. 一个方法在声明时可以使用throw关键字声明要产生的若干个异常。
+D. throw的作用就是抛出异常.throw和throws是两个不同的关键字。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第15题:
+下列哪个叙述是错误的？
+A. 接口匿名类（和接口有关的匿名类）可以是抽象类。
+B. 匿名子类（子类有关的匿名类）一定是final类。
+C. 匿名子类（子类有关的匿名类）一定不是抽象类。
+D. 接口匿名类（和接口有关的匿名类）一定是final类。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第16题:
+下列哪些叙述是正确的？（多选）
+A. 接口匿名类（和接口有关的匿名类）可以是抽象类。
+B. 匿名子类（子类有关的匿名类）一定是final类。
+C. 匿名子类（子类有关的匿名类）一定不是抽象类。
+D. 接口匿名类（和接口有关的匿名类）一定是final类。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第17题:
+下列哪个叙述是错误的？
+A. 匿名类没有构造方法。
+B. 匿名类只一个不带参数的构造方法（编译器会给匿名类一个名字和构造方法）。
+C. 匿名类一定是final类。
+D. 匿名类一定是内部类。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第18题:
+下列哪些叙述是正确的？（多选）
+A. 匿名类没有构造方法。
+B. 匿名类只一个不带参数的构造方法（编译器会给匿名类一个名字和构造方法）。
+C. 匿名类一定是final类。
+D. 匿名类一定是内部类。
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第19题:
+下列哪些叙述是错误的？（多选）
+A. 匿名类没有构造方法。
+B. 一个方法在声明时可以使用throws关键字声明要产生的若干个异常。
+C. 匿名类一定是final类。
+D. 匿名子类（和子类有关的匿名类）的类体中可以定义static方法。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第20题:
+下列哪些叙述是正确的？（多选）
+A. 匿名类没有构造方法。
+B. 一个方法在声明时可以使用throws关键字声明要产生的若干个异常。
+C. 匿名类一定是final类。
+D. 匿名子类（和子类有关的匿名类）的类体中可以定义static方法。
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第21题:
+编译下列E.java得到的E$1.class字节码，反编译该字节码，如图7_1,jpg，下列哪个叙述是正确的？（多选）
+A. 匿名类有构造方法。
+B. 编译器给了匿名类一个名字：E$1。
+C. E$1是用户给的类名。
+D. 匿名类是final类。
+interface SpeakHello {
+    public abstract void speak();
+}
+class  HelloMachine {
+   public void turnOn(SpeakHello hello) {
+       hello.speak();
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      HelloMachine machine = new HelloMachine();
+      machine.turnOn( new  SpeakHello() {   //接口匿名类
+                          public void speak() {
+                             System.out.println("hello,you are welcome!");
+                          }
+                    } ); 
+      } 
+}
+
+
+A	B	C	D
+图像的名字无图7_2.jpg
+答案：ABD

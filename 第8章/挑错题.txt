@@ -1,0 +1,168 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str1 = new String("");  //A
+       int [] a = {97,98,99};
+       String str2 = new String (a);  //B
+       char [] c = {'a','b','c'};
+       String str3 = new String (c);  //C
+       String str4 = new String();    //D
+       System.out.println(str4.equals(""));  
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       int index =  str.indexof("BC");      //A
+       index =  str.lastIndexOf("BC");      //B
+       int m = str.length();                 //C
+       boolean boo= str.startsWith("Java");  //D
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       int index =  str.indexOf("BC");      //A
+       index =  str.lastIndexOf("BC");      //B
+       int m = str.length();                //C
+       boolean boo= str.startWith("Java");  //D
+   } 
+}   
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       int index =  str.indexOf("BC");      //A
+       index =  str.lastIndexOf("BC");      //B
+       int m = "java".compareto("java");    //C
+       boolean boo= str.endsWith("Java");  //D
+   } 
+}   
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       char c =  str.charAt(2);           //A
+       byte [] b =   str.getBytes();      //B
+       String s = str.subString(0,3);     //C
+       boolean boo= str.contains("Java"); //D
+   } 
+}   
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       boolean bn =  str.equal("");      //A
+       byte [] b =   str.getBytes();      //B
+       String s = str.substring(0,3);     //C
+       boolean boo= str.contains("Java"); //D
+   } 
+}   
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String("ABCABC");  
+       int m =  str.equals("");          //A
+       byte [] b =   str.getBytes();      //B
+       String s = str.substring(1);      //C
+       char [] c = str.toCharArray();    //D
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+       String  s = new String("ABCABC");  
+       boolean  m =  s.equals("");            //A
+       s =   s.replaceAll("[ABC]+","**");      //B
+       s = s.substring(1);                    //C
+       int n = s.length ;                    //D
+       System.out.println(s);
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+        String s = null;
+        s = String("ok");          //A
+        String str = "123";        //B
+        str = str.toLowerCase();   //C
+        str = "abcd".toUpperCase();//D
+        System.out.println(str);
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main (String[]args)   { 
+        String s = null;
+        s = new String("ok");      //A
+        String str = 123;          //B
+        str = str.toLowerCase();   //C
+        str = "abcd".toUpperCase();//D
+        System.out.println(str);
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：B

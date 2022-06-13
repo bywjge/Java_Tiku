@@ -1,0 +1,508 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class People {
+    int m = 10,n;    //A
+    n = 200;         //B
+    void f(){
+       if(m == n)
+          n =+ m;    //C
+       else
+          n = n - m; //D 
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Hello {
+     Hello(int m)  //A
+     {
+     }
+     int Hello()   //B
+     {
+         return 20;
+     }
+     hello()      //C
+     {
+     }
+     void go()   //D
+     {
+     }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+  int  x;
+  long y = x          //A
+  y = x;              //B
+  public void f(int n) {
+     int m = 0;         //C 
+     int t = n+m;      //D   
+  } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+  int  x;
+  long y = x          //A
+  y = x;              //B
+  public void f(int n) {
+     int m = 0;         //C 
+     int t = n+m;      //D   
+  } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+    int  x;                 
+    public void f(int n) {
+       int m;               //A
+       int t = x+n;         //B  
+       int y = x+m;         //C 
+       m = 10;
+       y = x+m;             //D   
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+  int  x;             //A
+  long y = x          //B
+  public void f(int n) {
+     int m ;         //C 
+     int t = n+m;      //D   
+  } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+  int  x;            
+  long y = x          //A
+  public void f(int n) {
+     int m ;          //B 
+     int p = 0;
+     int t = n+m;      //C 
+     y = n+p;          //D   
+  } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+   public void move() {
+      int n = m;  //A
+   }
+   int m;
+   void start(){
+       c = 'a';   //B
+       n = 200;   //C 
+   }
+   char c;
+   void stop() {
+       c = 'A';   
+       x = 2025;   //D
+   }
+   int  x;  
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+   int x;
+   static int y; 
+   void start(){
+       x = 100;   //A
+       y = 200;   //B 
+   }
+   static void stop() {
+       x = 1000;   //C
+       y = 2000;   //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+   int x;
+   static int y; 
+   void showXY(){
+       System.out.printf("%d,%d\n",x,y);  
+   }
+   static void showY() {
+       System.out.printf("%d\n",y);  
+   }
+}
+public class E {
+   public static void main(String aqgs[]){
+       Tom.y = 100;  //A
+       Tom cat = new Tom();
+       cat.x = 100;  
+       cat.y = 200;  //B 
+       Tom.x = 300;  //C
+       cat.showXY();
+       Tom.showY();  //D
+       
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第11题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+   int x;
+   static int y; 
+   void showXY(){
+       System.out.printf("%d,%d\n",x,y);  
+   }
+   static void showY() {
+       System.out.printf("%d\n",y);  
+   }
+}
+public class E {
+   public static void main(String aqgs[]){
+       Tom.y = 300;  //A
+       Tom cat = new Tom();
+       cat.x = 100;   //B 
+       Tom.showXY();  //C
+       cat.showY();   //D
+       
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第12题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+    private int x = 120;
+    protected int y = 20;
+    int z = 11;
+    private void f() {
+        x = 200;
+        System.out.println(x);  
+    } 
+    void g() {
+        x = 200;
+        System.out.println(x); 
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        Tom tom = new Tom();
+        tom.x = 22;   //A
+        tom.y = 33;   //B
+        tom.z = 55;   //C
+        tom.g();     //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第13题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+    private int x = 120;
+    protected int y = 20;
+    int z = 11;
+    private void showX() {
+        System.out.println(x);  
+    } 
+    public void setX(int x) {
+        this.x = x;
+        System.out.println(x); 
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        Tom tom = new Tom();
+        tom.setX(22);     //A
+        tom.y = 33;       //B
+        tom.z = 55;       //C
+        tom.showX();      //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第14题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+   int f(int x,int y){
+      int x;      //A
+      int m = y;  //B
+      return m; 
+   }
+   int A(int m)   //C
+   {
+      return m;
+   }
+}
+public class E {
+    public static void main(String args[]) {
+        A a = new A(); //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第15题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+     void  Tom()       //A
+     { 
+        System.out.print("ok");
+     }
+     Tom(byte m)       //B
+     { 
+        System.out.print("你好");
+     }
+     Tom(int m)       //C
+     { 
+        System.out.print(":"+m);
+     }
+}
+public class E {
+    public static void main(String args[]) {
+        Tom a = new Tom(); //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第16题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+     void  Tom(){
+         System.out.print("ok");
+     }
+     Tom(byte m)  {
+         System.out.print("你好");
+     }
+     Tom(int m)    {
+         System.out.print(m);
+     }
+}
+public class E {
+    public static void main(String args[]) {
+        Tom a = new Tom();           //A
+        Tom b = new Tom(127);        //B
+        Tom c = new Tom((byte)127);  //C
+        Tom d = new Tom('好');       //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第17题:
+ 下列ABCD注释标注的哪行代码有错误？
+package china.beijing;
+package china.beijing;   //A
+class People {
+     static void  speak(){
+         System.out.print("take care of");
+     }
+     void People(int m)   // B
+     {
+     }
+}
+public class E {
+    public static void main(String args[]) {
+        People zh = new People(); //C
+        zh.speak();               //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第18题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Animal  //A
+{}
+class Dog      //B
+{}
+protected class Cat  //C
+{}
+class _class        //D
+{}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第19题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Animal  //A
+{}
+private class Dog      //B
+{}
+class Cat  //C
+{}
+class _class        //D
+{}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第20题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Bird {
+   Cat cat;   //A
+   int height;
+}
+class Cat {
+   int leg;
+}
+public class E {
+    public static void main(String args[]) {
+        Bird bird = new bird(); //B
+        Cat cat = new Cat();    //C
+        cat.leg = 4;           //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第21题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Bird {
+   Cat cat;   //A
+   int height;
+}
+class Cat {
+   int leg;
+}
+public class E {
+    public static void main(String args[]) {
+        Bird bird = new Bird(); //B
+        Cat cat = new cat();    //C
+        cat.leg = 4;           //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第22题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Cat {
+    int leg;
+    static int water;
+    void setLeg(int leg) {
+       this.leg = leg;    //A
+       this.water = 100;  //B
+    }
+    static void setWater(int water) {
+       this.water = water;    //C
+       Cat.water = water;    //D
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第23题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Cat {
+    int leg;
+    static int water;
+    void setLeg(int leg) {
+       this.leg = leg;    //A
+       this.water = 100;  //B
+    }
+    static void setWater(int water) {
+       Cat.water = water;    //C
+       leg = 4;              //D
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第24题:
+ 下列ABCD注释标注的哪行代码无编译错误，但运行时刻触发NullPointerException异常？
+class Cat {
+    int leg;
+    static int water;
+    void setLeg(int leg) {
+       this.leg = leg;    //A
+       this.water = 100;  //B
+    }
+    static void setWater(int water) {
+       Cat.water = water;    //C
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        Cat cat = null;
+        cat.setLeg(4); //D  
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D

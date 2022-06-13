@@ -1,0 +1,451 @@
+题库中第1题:
+下列哪个叙述是正确的？
+A. 一个类最多可以实现两个接口。
+B．如果一个抽象类实现某个接口，那么它必须要重写接口中的全部方法。
+C．如果一个非抽象类实现某个接口，那么它可以只重写接口中的部分方法。
+D．允许接口中只有一个抽象方法。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+下列哪个叙述是正确的？
+A.能用public修饰接口。
+B.能用protected修饰接口。
+C.能用final修饰接口。
+D.能用private修饰接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第3题:
+对于下列Com接口(Com.java)类，哪个叙述是正确的？
+interface Com {
+   int MAX = 100;
+   int f();
+}
+
+A.Com是一个public接口。
+B.编译器认为int MAX = 100;就是 public static final int MAX = 100;
+C.编译器认为int f();就是abstract int f();
+D.编译器认为int MAX = 100;就是 public final int MAX = 100;
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+对于下列代码，哪个叙述是正确的？
+interface Com {
+   int MAX = 100;
+   public void stop();
+   protected void start();
+   abstract void loop();
+}
+
+A. protected void start();会导致编译出错。
+B. public void stop(;会导致编译出错。
+C  abstract void loop();会导致编译出错。
+D. int MAX = 100;会导致编译出错。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第5题:
+对于下列代码，下列哪个叙述是错误的？
+interface Com {
+   int MAX = 100;
+   void stop();
+   abstract void start();
+}
+
+A.void stop();会导致编译出错。
+B.编译器认为 void stop();就是public abstract void stop();
+C 编译器认为 abstract void start();就是public abstract void start();
+D.编译器认为 int MAX = 100;就是 public static final int MAX = 100;
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第6题:
+对于下列代码，下列哪个叙述是错误的？
+interface Com {
+   int MAX ;
+   void stop();
+   abstract void start();
+}
+
+A.Com是个友好接口。
+B.编译器认为 void stop();就是public abstract void stop();
+C 编译器认为 abstract void start();就是public abstract void start();
+D.int MAX ;不会导致编译错误。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第7题:
+下列哪个叙述是错误的？
+A.如果一个非abstract类实现某个接口，该类必须重写接口中的全部abstract方法。
+B.可以用接口名直接访问接口中的常量。
+C.不能用final修饰接口。
+D.能用protected 修饰接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第8题:
+下列哪些叙述是正确的？（多选）
+A.如果一个非abstract类实现某个接口，该类必须重写接口中的全部abstract方法。
+B.可以用接口名直接访问接口中的常量。
+C.能用abstract修饰接口。
+D.能用private 修饰接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第9题:
+下列哪个叙述是错误的？
+A. 类声明class A implements Printable,Addable意思是A类实现Prinabe和Addable两个接口。
+B. 类声明class Stu extends People implements Com 意思是Stu类是People类的子类，同时实现Com接口。
+C. 类声明class Stu extends People implements Com 意思是Stu类是People类的子类，父类People实现Com接口。 
+D. inferfce Com1 extends Com2 意思是Com1是Com2的子接口。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第10题:
+下列哪些叙述是正确的？（多选）
+A. 类声明class A implements Printable,Addable意思是A类实现Prinabe和Addable两个接口。
+B. 类声明class Stu extends People implements Com 意思是Stu类是People类的子类，同时实现Com接口。
+C. 类声明class Stu extends People implements Com 意思是Stu类是People类的子类，父类People实现Com接口。 
+D. inferfce Com1 extends Com2 意思是Com1是Com2的子接口。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第11题:
+下列哪个叙述是错误的？
+A.  一个类声明实现一个接口，但没有重写接口中的所有方法，那么这个类必须是抽象类。
+B.  子接口将继承父接口中的全部方法和常量。
+C.  接口也是Java中一种重要数据类型，用接口声明的变量称做接口变量。
+D.  可以把一个int数据赋值给接口变量。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第12题:
+下列哪些叙述是正确的？（多选）
+A.  一个类声明实现一个接口，但没有重写接口中的所有方法，那么这个类必须是抽象类。
+B.  子接口将继承父接口中的全部方法和常量。
+C.  接口变量中可以存放实现该接口的类的实例的引用(对象的引用)。
+D.  可以把一个int数据赋值给接口变量。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第13题:
+对于下列代码，下列哪个叙述是错误的？
+A.把实现某一接口的类创建的对象的引用赋值给该接口变量，那么该接口变量就可以调用被类实现的接口方法。
+B.接口中只可以有常量，不能有变量。
+C.接口中的方法可以用private或protected修饰。
+D.abstract类中既可以有常量也可以有变量。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第14题:
+下列哪些叙述是正确的？（多选）
+A.把实现某一接口的类创建的对象的引用赋值给该接口变量，那么该接口变量就可以调用被类实现的接口方法。
+B.接口中只可以有常量，不能有变量。
+C.接口中的方法可以用private或protected修饰。
+D.abstract类中既可以有常量也可以有变量。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第15题:
+下列哪些叙述是正确的？（多选）
+A.接口中的常量可以不指定初值，编译器会提供默认值。
+B.接口中的常量必须指定初值。
+C.可以用abstract修饰接口。
+D.可以用private或proteced修饰接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第16题:
+下列哪些叙述是错误的？（多选）
+A.接口中的常量可以不指定初值，编译器会提供默认值。
+B.接口中的常量必须指定初值。
+C.可以用abstract修饰接口。
+D.可以用private或proteced修饰接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第17题:
+下列哪个叙述是正确的？
+A. 一个接口可以继承多个接口。
+B. 可以用final修饰接口中的方法。
+C. 接口默认是public接口。
+D. public类只能实现public接口，不能实现友好接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第18题:
+下列哪些叙述是错误的？（多选）
+A. 一个接口可以继承多个接口。
+B. 可以用final修饰接口中的方法。
+C. 接口默认是public接口。
+D. public类只能实现public接口，不能实现友好接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第19题:
+下列哪些叙述是错误的？（多选）
+A. 类和它所实现的接口不一定在同一个包里。
+B. abstract类不能实现任何接口。
+C. 一个类至多可实现一个接口。
+D. 一个类不能重复实现同一个接口，例如class A implements Com,Com
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第20题:
+下列哪些叙述是正确的？（多选）
+A. 类和它所实现的接口不一定在同一个包里。
+B. abstract类不能实现任何接口。
+C. 一个类至多可实现一个接口。
+D. 一个类不能重复实现同一个接口，例如class A implements Com,Com
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第21题:
+下列哪些叙述是错误的？（多选）
+A. final类不能实现任何接口。
+B. public接口可以被任何一个类实现。
+C. 友好类和它所实现的接口必须在一个包里。
+D. 如果一个类和友好接口在同一个包里，就允许它实现该接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AC
+
+
+题库中第22题:
+下列哪想叙述是正确的？（多选）
+A. final类不能实现任何接口。
+B. public接口可以被任何一个类实现。
+C. 友好类和它所实现的接口必须在一个包里。
+D. 如果一个类和友好接口在同一个包里，就允许它实现该接口。
+A	B	C	D
+图像的名字无图.jpg
+答案：BD
+
+
+题库中第23题:
+下列哪些叙述是正确的？（多选）
+A.允许public类实现任何友好接口。
+B.任何一个类都可以实现public接口。
+C.如果一个类和友好接口在同一个包里，就允许它实现该接口。
+D.接口变量中可以存放任何对象的引用。
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第24题:
+下列哪些叙述是错误的？（多选）
+A.允许public类实现任何友好接口。
+B.任何一个类都可以实现public接口。
+C.如果一个类和友好接口在同一个包里，就允许它实现该接口。
+D.接口变量中可以存放任何对象的引用。
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第25题:
+下列哪个叙述是错误的？
+A 一个类最多可以实现两个接口。
+B.能用public修饰接口。
+C 如果一个非abstract类实现某个接口，该类必须重写接口中的全部abstract方法。
+D.可以用接口名直接访问接口中的常量。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第26题:
+下列哪个叙述是错误的？
+A. 接口也是Java中一种重要数据类型，用接口声明的变量称做接口变量。
+B. 接口变量中可以存放实现该接口的类的实例的引用(对象的引用)。
+C. 可以把一个int数据赋值给接口变量。 
+D. 把实现某一接口的类创建的对象的引用赋值给该接口声明的接口变量，那么该接口变量就可以调用被类实现的接口方法。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第27题:
+下列哪个叙述是正确的？
+A. 类和它所实现的接口必须在同一个包里。
+B. 一个类声明实现一个接口，但没有重写接口中的所有方法，那么这个类必须是抽象类
+C. final类不可以实现接口。
+D. 允许public类实现任何友好接口。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第28题:
+下列哪个叙述是错误的？
+A. 接口中的方法也可以用private或protected修饰。
+B. 接口变量中可以存放实现该接口的类的实例的引用(对象的引用)。
+C. 任何一个类都可以实现public接口。 
+D. 接口中的方法的访问权限一定都是public（允许省略public）。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第29题:
+下列哪些叙述是正确的？（多选）
+A. 接口中的方法也可以用private或protected修饰。
+B. 接口变量中可以存放实现该接口的类的实例的引用(对象的引用)。
+C. 任何一个类都可以实现public接口。 
+D. 接口中的方法的访问权限一定都是public（允许省略public）。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第30题:
+下列哪个叙述是错误的？
+A. 类声明class Stu extends People implements Com 意思是Stu类是People类的子类，同时实现Com接口。
+B. 接口也是Java中一种重要数据类型，用接口声明的变量称做接口变量。
+C. 接口中 void f();方法声明等价于public abstract void f(); 
+D. 接口中的常量可以不指定初值，编译器会提供默认值。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第31题:
+对于下列代码，哪个叙述是正确的？
+interface Com {
+   int MAX;
+   public void stop();
+   void start();
+   abstract void loop();
+}
+
+A. void start();会导致编译出错。
+B. public void stop(;会导致编译出错。
+C  abstract void loop();会导致编译出错。
+D. int MAX;会导致编译出错。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第32题:
+将下列（A,B,C,D）哪个代码替换下列源文件Com.java中的【代码】不会导致编译错误。
+A．public int f() {
+       return 100+M;
+   }
+B．int f() { 
+      return 100;
+   }
+C．public double f(){
+      return 2.6;
+   }
+D．public abstract int f();
+
+public interface Com {
+     int M = 200;
+     int f();
+}
+class ImpCom implements Com {
+     【代码】
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第33题:
+将下列（A,B,C,D）哪个代码替换下列源文件AAA.java中的【代码】不会导致编译错误。
+interface Com {
+      abstract void start();
+      void stop();
+}
+public class AAA implements Com {
+      【代码】
+}
+
+A．public void start() {
+       System.out.println("start");
+   }
+B．public void start() {
+       System.out.println("start");
+   }
+   public void stop() {
+       System.out.println("stop");
+   }
+C．public void stop() {
+       System.out.println("stop");
+   }
+D．void start() {
+       System.out.println("start");
+   }
+   void stop() {
+       System.out.println("stop");
+   }
+A	B	C	D
+图像的名字无图.jpg
+答案：B

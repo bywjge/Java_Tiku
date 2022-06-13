@@ -1,0 +1,205 @@
+题库中第1题:
+给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+   public static void main(String args[]) { 
+       Target t = new Target();
+        Thread dog =new Thread(t);   
+        Thread cat =new Thread(t); 
+        dog.start();          
+        cat.start();
+        while(true){
+          if(dog.isAlive() == false&&cat.isAlive() == false) {
+             break;
+          }
+        }
+        System.out.println(t.buffer); //【代码】
+   }
+}
+class Target implements Runnable{
+    StringBuffer buffer;
+    Target(){
+       buffer = new StringBuffer();
+    } 
+    public void run(){
+         f();
+    }
+    public synchronized void f(){
+       for(int i = 1;i<= 3;i++){
+           buffer.append(i);
+       }
+    }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：123123
+
+
+题库中第2题:
+给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+   public static void main(String args[]) { 
+       Target t = new Target();
+        Thread dog =new Thread(t);   
+        Thread cat =new Thread(t); 
+        dog.start();          
+        cat.start();
+   }
+}
+class Target implements Runnable{
+    int  number = 0;
+    public void run(){
+         f();
+    }
+    public synchronized void f(){
+       while( number < 6 ){
+          try{
+               number = 6;
+               wait();
+               System.out.printf("%d",number);  //【代码】
+          }
+          catch(InterruptedException exp){}
+       }
+       number = 10;
+       notify();
+    }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：10
+
+
+题库中第3题:
+给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+   public static void main(String args[]) { 
+       Target t = new Target();
+        Thread dog =new Thread(t);   
+        Thread cat =new Thread(t); 
+        dog.start();          
+        cat.start();
+   }
+}
+class Target implements Runnable{
+    String  s = "abc";
+    public void run(){
+         f();
+    }
+    public synchronized void f(){
+       while( s.length() <= 3){
+          try{
+               s = "Java";
+               wait();
+               System.out.printf("%s",s);  //【代码】
+          }
+          catch(InterruptedException exp){}
+       }
+       s = "hello";
+       notify();
+    }
+}
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：hello
+
+
+题库中第4题:
+给出下列【代码】注释标注的代码的输出结果。
+public class Target implements Runnable {
+   StringBuffer buffer=new StringBuffer();
+   Thread cat,dog;
+   Target() {  cat=new Thread(this);
+               dog=new Thread(this);
+   }
+   public synchronized void addChar(char c) {
+      if(Thread.currentThread()==cat) {
+          while(buffer.length()==0) {
+            try{ wait();
+            }
+            catch(Exception e){}
+          }
+          buffer.append(c);
+      }
+     if(Thread.currentThread()==dog) {
+         buffer.append(c);
+         notifyAll(); 
+     }
+  }
+  public void run() {
+     if(Thread.currentThread()==cat)
+        addChar('A') ;
+     if(Thread.currentThread()==dog)
+        addChar('B') ;
+  } 
+  public static void main(String s[]) {
+     Target target=new Target();
+     target.cat.start();
+     target.dog.start();
+     while(target.cat.isAlive()||target.dog.isAlive()){}
+     System.out.println(target.buffer);    //【代码】
+  }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：BA
+
+
+题库中第5题:
+给出下列【代码】注释标注的代码的输出结果。
+import java.awt.*;
+import java.awt.event.*;
+public class Target implements Runnable {
+   StringBuffer buffer=new StringBuffer();
+   Thread cat,dog,mouse;
+   Target() {  cat=new Thread(this);
+               dog=new Thread(this);
+               mouse=new Thread(this);
+   }
+   public synchronized void addChar(char c) {
+      if(Thread.currentThread()==cat) {
+          while(buffer.length()==0) {
+            try{ wait();
+                 System.out.println("cat");
+            }
+            catch(Exception e){}
+          }
+          buffer.append(c);
+          notifyAll();
+      }
+     if(Thread.currentThread()==dog) {
+          while(buffer.length()==0||buffer.length()==1) {
+            try{ wait();
+                 System.out.println("dog");
+            }
+            catch(Exception e){}
+          }
+          buffer.append(c);
+     }
+     if(Thread.currentThread()==mouse) {
+          buffer.append(c);
+          notifyAll();
+     }
+  }
+  public void run() {
+     if(Thread.currentThread()==cat)
+        addChar('1') ;
+     if(Thread.currentThread()==dog)
+        addChar('2') ;
+     if(Thread.currentThread()==mouse)
+        addChar('3') ;
+  } 
+  public static void main(String s[]) {
+     Target target=new Target();
+     target.cat.start();
+     target.dog.start();
+     target.mouse.start();
+     while(target.cat.isAlive()||target.dog.isAlive()|target.mouse.isAlive()){}
+     System.out.println(target.buffer);    //【代码】
+  }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：312

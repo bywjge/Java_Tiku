@@ -1,0 +1,195 @@
+题库中第1题:
+下列哪个是JDK提供的编译器?
+A. java.exe
+B. javac.exe
+C. javap.exe
+D. javaw.exe
+A	B	C	D
+图像的名字无图jpg
+答案：B
+
+
+题库中第2题:
+下列哪个是表明Java应用程序主类的main方法?
+A. public void main (String args[ ])
+B. static void main (String args[ ])
+C. public static void Main (String args[])
+D. public static void main (String args[ ])
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第3题:
+下列哪个叙述是正确的?
+A. Java语言是2005年5月Sun公司推出的编程语言，
+B. Java语言是1995年5月IBM司推出的编程语言，
+C. Java语言的名字是印度尼西亚一个盛产咖啡的岛名，
+D. Java语言的主要贡献者是比尔盖茨。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第4题:
+下列哪个叙述是正确的?
+A. Java源文件是由若干个书写形式互相独立的类组成。
+B. Java源文件中只能有一个类。
+C. 如果源文件中有多个类，那么至少有一个类必须是public类
+D. Java源文件的扩展名是.txt
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第5题:
+对于图1_1的提示，下列哪个解释是正确的？
+A. 源文件命名是错误的，
+B. 源文件的第4行丢失了语句分号，
+C. 源文件的第4行有错误，无法识别system（应该修改为System）,
+D. 源文件中的E类不是主类。
+A	B	C	D
+图像的名字图1_1.jpg
+答案：C
+
+
+题库中第6题:
+图1_2给出的四个人物，下列哪个是正确的？
+A. 图中左1是java之父:James Gosling，
+B. 图中左2是java之父:James Gosling,
+C. 图中左3是java之父:James Gosling,
+D. 图中左4是java之父:James Gosling。
+A	B	C	D
+图像的名字图1_2.jpg
+答案：B
+
+
+题库中第7题:
+下列哪个叙述是正确的?
+A. 源文件名字必须是A.java,
+B. 如果源文件中有多个类，这些类可以都不是public类,
+C. 如果源文件中只有一个类，这个类必须是public类,
+D. 如果源文件中只有一个类，这个类必须是主类.
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第8题:
+对于下列源文件，哪个叙述是正确的
+A. 源文件名字必须是A.java，
+B. 源文件有错误，
+C. 源文件必须命名为E.java,编译无错误。有两个主类,E和A。程序可以执行主类E也可以执行主类A.
+D. 源文件中的E类不是主类。
+public class E {    
+   public static void main(String []args) { 
+      System.out.println("ok");              
+      System.out.println("您好");              
+   }
+}
+class A {
+   public static void main(String []args) { 
+      System.out.println("ok");              
+      System.out.println("您好");              
+   }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第9题:
+下列哪个叙述是正确的？
+A.JDK的全称是Java Development Kit，
+B.可以用Microsoft Word 2010 编写Java源文件,
+C.不用NetBean或MyEclipse就无法开发Java程序，
+D.为了运行Java程序，必须要安装NetBean或MyEclipse。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第10题:
+java程序运行入口的main方法(即主类的main方法)的返回类型是什么？
+A. void
+B. static
+C. char
+D. int
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第11题:
+对于下列源文件，哪个叙诉是正确的？
+
+public class Cat {
+  
+   public void cry() {
+  
+      System.out.println("maiomaio");
+    
+   }
+
+}
+A. 源文件的名字必须是Cat.java。
+B. 源文件的名字可以是cat.java。
+C. 源文件的名字可以任意。
+D. Cat类是主类。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第12题:
+对于下列源文件，哪些叙诉是错误的？（多选）
+
+public class Cat {
+  
+   public void cry() {
+  
+      System.out.println("maiomaio");
+    
+   }
+
+}
+class E {
+   public static void main(String args[]) {
+       System.out.println("ok");
+   }
+}
+A. 源文件的名字必须是Cat.java。
+B. 源文件的名字可以是E.java。
+C. 编译源文件得到Cat.class和E.class两个字节码文件。
+D. Cat类是主类，可以java Cat运行程序。
+A	B	C	D
+图像的名字无图.jpg
+答案：BD
+
+
+题库中第13题:
+对于下列源文件，哪个叙诉是错误的？
+
+public class Cat {
+  
+   public void cry() {
+  
+      System.out.println("maiomaio");
+    
+   }
+
+}
+class E {
+   public static void main(String args[]) {
+       System.out.println("ok");
+   }
+}
+A. 源文件的名字必须是Cat.java。
+B. 源文件的名字可以是E.java。
+C. 编译源文件得到Cat.class和E.class两个字节码文件。
+D. E类是主类，java E 来运行程序。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+

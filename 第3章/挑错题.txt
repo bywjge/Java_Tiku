@@ -1,0 +1,219 @@
+
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        byte b = 'a'; //A
+        int n  =100;
+        char c = 65;  //B
+        b = b;        //C
+        b = b+1;      //D
+    }
+}
+注解：允许把不超出byte的取值范围int常量赋值给byte变量。但是注意，编译器在编译时并不计算b+1中变量b中的值，只是编译出b+1表达式的值是int型数据(注意java认为1是int型常量)。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        char ch = '花';  //A
+        byte n  = -100;
+        ch = ch-ch;      //B
+        n = n;           //C
+        n = 127;         //D
+    }
+}
+注解：允许把不超出char的取值范围的int常量赋值给char变量。但是注意，编译器在编译时并不计算char-char中变量char中的值，只是编译出char-char表达式的值是int型数据。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        byte b = 32;       //A
+        int n  =100;
+        char c = 'A'+b;      //B
+        b = b;              //C
+        int m = b+1;       //D
+    }
+}
+注解：允许把不超出byte,short,char的取值范围int常量赋值给相应变量。但是注意，编译器在编译时并不计算'A'+b中变量b中的值，只是编译出该表达式的值是int型数据。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        byte b = 32;       //A
+        char c = 'A';      //B
+        byte n = (byte)c;  //C
+        short m = b+1;     //D
+    }
+}
+注解：允许把不超出byte,short,char的取值范围int常量赋值给相应变量。但是注意，编译器在编译时并不计算b+1中变量b中的值，只是编译出该表达式的值是int型数据。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第5题:
+下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m = 12;
+       int n = 12;
+       int number = 100+'w'; //A
+       switch(number) {      
+          case 12: n++;       //B
+          case 100:n--;       //C
+                   break;
+          case n  : m++;      //D
+       }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第6题:
+下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m = 12;
+       int n = 12;
+       long number = 100;   //A
+       switch(number)       //B
+       {      
+          case 12: n++;       
+          case 100:n--;     //C
+                   break;
+          case 12+9  : m++; //D
+       }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m =100,n =10;
+        if(100 = m)      //A
+        {
+           System.out.println("No");
+        }
+        else if(10 == n ) //B
+        { 
+           System.out.println("逻辑相等常量在前是好习惯");
+        }
+        else if(100 == m ) //C
+        { 
+            System.out.println("逻辑相等常量在前是好习惯");
+        }
+        else if(m != n) //D
+        {    
+            System.out.println("ok");
+        }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        int m =1000;
+        while(m > 100) //A
+        {
+           m = m--;    //B
+           if (m == 600){ //C
+             break;      
+             m++;         //D
+           }
+        }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m =1000;
+        while(m > 100) //A
+        {
+           m = m--;    //B
+           if (m == 600){ //C
+             continue;      
+             m++;         //D
+           }
+        }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int a[] = {1,2,3,4};//A
+        for(int n = 0;n < a.length; n++) //B
+        { 
+            System.out.println(a[n]);
+        }
+        for(int i:a) //C 
+        {              
+            System.out.println(i);
+        } 
+        int m = 0;
+        for(m:a)       //D
+        {          
+            System.out.println(m);
+        }  
+   }
+} 
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+ 下列ABCD注释标注的哪行代码有错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+        byte b =7;
+        b = 7+120;  //A
+        b = b;      //B
+        b =  b+120; //C
+        b += 120;  //D
+   }
+}
+注解：允许把不超出byte,short,char的取值范围int常量赋值给相应变量。但是注意，编译器在编译时并不计算120+b中变量b中的值，只是编译出该表达式的值是int型数据。有关知识点见教材3.1.3节。
+需要注意的是，对于 +=.*=,/=,-= 缩略运算符，编译器自动将赋值符号右侧的表达式的值转换成左边变量所要求的类型，例如b += 120等同于
+b =(byet)(b+120)
+A	B	C	D
+图像的名字无图.jpg
+答案：D

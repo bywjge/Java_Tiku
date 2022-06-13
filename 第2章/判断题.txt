@@ -1,0 +1,494 @@
+题库中第1题:
+
+ 标识符的第一个字符可以是数字。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第2题:
+
+ 标识符的长度最多为30个字符长度。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第3题:
+
+ *号可以出现在标识符中。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第4题:
+
+ 标识符不能是true、false和null（尽管true、false和null不是Java关键字）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+ 汉字可以出现在标识符中。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+ Bird和bird是相同的标识符。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第7题:
+
+ java是关键字。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第8题:
+
+ System是关键字。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第9题:
+
+ 3.14是float型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第10题:
+
+ 3.14F和0.618f都是float型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第11题:
+
+ 3.14和0.618d都是double型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第12题:
+
+ 2e5和3.14E2都是double型常量.
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+ 3e10f是float型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+ int []a;和int a[];都是正确的声明了一个一维数组a。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+ int [] a,b;是声明了2个int型一维数组a和b。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第16题:
+
+ int a[],b;是声明了一个int型一维数组a和一个int型变量b。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+ int a[],b[];是声明了2个int型一维数组a和b。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+ int [] a,b[];是声明了1个int型一维数组a和1个int型二维数组b。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+ float a[20];是错误的数组声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+ boolean yes = false;是正确的boolean变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第21题:
+
+ int a[20];是正确的数组声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第22题:
+
+ good-class可以作为标识符。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+ _int可以作为标识符。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+ float height = 1.0;是正确的float变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第25题:
+
+ boolean yes = TRUE;是正确的boolean变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第26题:
+
+ float foo = 0x0123;是正确的float变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第27题:
+
+ int OK = 3.19;是正确的int型变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第28题:
+
+ float area = 1e1;是错误的float变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+ double width = 1e1;是正确的double变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第30题:
+
+ float height = 1.0f;是正确的float变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第31题:
+
+ char ch = '\\';是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第32题:
+
+ char ch = '\u0061';是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第33题:
+
+ char ch = 97;是错误的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第34题:
+
+ char型字符在Unicode表中的位置范围是0至65535。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第35题:
+
+ char型字符在Unicode表中的位置范围是-32768至32767。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第36题:
+
+ 对于int a[] = new int[3];a.length的值是3
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第37题:
+
+ 对于int [] a = new int[3];a[0],a[1],a[2]的值都是0。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第38题:
+
+ 对于int a[][] = new int[6][4];a.length的值是6。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第39题:
+
+ 对于int a[][] = new int[2][9];a.length的值是2,a[0].length,a[1].length的值都是9。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第40题:
+
+对于 int [][] a ={{1,2,3},{4,5,6,7}};a[0].length的值是3，a[1].length的值是4。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第41题:
+
+ char ch = '\n';是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第42题:
+
+ char ch ="a";是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第43题:
+
+ char ch ='abcd';是错误的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第44题:
+
+ char ch ='\0';是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第45题:
+
+ char ch ='\u777f;是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第46题:
+
+ char ch ='\u777g;是正确的char变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第47题:
+
+ main是java语言规定的关键字。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第48题:
+
+ boolean yes = 1;是正确的boolean变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第49题:
+
+ byte amount = 128;是正确的byte型变量声明。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第50题:
+
+  下列源文件Test.java代码可以通过编译，即没有编译错误，但运行时触发异常：
+  ArrayIndexOutOfBoundsException: 3
+Test.java:
+  public class Test {
+     public static void main(String args[]){
+          int [] a = {1,2,3};
+          System.out.println(a[3]);
+     }
+  }
+null	null	null	null
+图像的名字无图6.jpg
+答案：正确
+
+题库中第51题:
+
+  下列源文件Test.java代码可以通过编译，即没有编译错误，但运行时触发异常：
+  ArrayIndexOutOfBoundsException: 2
+Test.java:
+  public class Test {
+     public static void main(String args[]){
+         int [][] a = {{1,2,3},{100,200}};
+         System.out.println(a[2][0]);
+     }
+  }
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第52题:
+
+  下列源文件Test.java代码可以通过编译，即没有编译错误，但运行时触发异常：
+  ArrayIndexOutOfBoundsException: 0
+Test.java:
+  public class Test {
+     public static void main(String args[]){
+         int [][] a = {{1,2,3},{}};
+         System.out.println(a[1][0]);
+     }
+  }
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第53题:
+
+  下列源文件Test.java代码可以通过编译，即没有编译错误，但运行时触发异常：
+  ArrayIndexOutOfBoundsException: 2
+Test.java:
+  public class Test {
+     public static void main(String args[]){
+         int [][] a = {{1,2,3},{5,6}};
+         System.out.println(a[1][2]);
+     }
+  }
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第54题:
+
+  下列源文件Test.java代码可以通过编译，即没有编译错误，但运行时触发异常：
+  ArrayIndexOutOfBoundsException: 3
+Test.java:
+  public class Test {
+     public static void main(String args[]){
+         int [][] a = {{1,2,3},{5,6}};
+         System.out.println(a[0][3]);
+     }
+  }
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第55题:
+
+ public和class都是java语言规定的关键字。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第56题:
+
+e1是10的1次幂（1次方）。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第57题:
+
+1e1是10的1次幂（1次方）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第58题:
+
+1e是10的1次幂（1次方）。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第59题:
+
+1e2是int型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第60题:
+
+1e2是double型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第61题:
+
+1e2f是float型常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第62题:
+
+把一个int型常量赋值给一个byte、short和char型变量时，不可超出这些变量的取值范围，否则必须进行类型转换运算
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第63题:
+
+标识符由字母、下划线、美元符号和数字组成，并且第一个字符不能是数字字符。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第64题:
+
+Java语言有8种基本数据类型：boolean、byte、short、int、long、float、double、char。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第65题:
+
+数组是相同类型的数据元素按顺序组成的一种复合数据类型，因此两个相同类型的数组如果具有相同的引用，它们就有完全相同的元素。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确

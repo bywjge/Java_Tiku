@@ -1,0 +1,329 @@
+题库中第1题:
+
+javax.swing包中JComponent类是java.awt包中Container类的子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+java.awt包中Container类是java.awt包中Component类的子类。
+null	null	null	null
+图像的名字无图1.jpg
+答案：正确
+
+题库中第3题:
+
+Container类提供了一个public方法：add( )，一个容器可以调用这个方法将组件添加到该容器中。
+null	null	null	null
+图像的名字无图2.jpg
+答案：正确
+
+题库中第4题:
+
+Java提供的JFrame类的实例就是一个底层容器，即通常所称的窗口。
+null	null	null	null
+图像的名字无图3.jpg
+答案：正确
+
+题库中第5题:
+
+窗口默认地被系统添加到显示器屏幕上，因此不允许将一个窗口添加到另一个容器中。
+null	null	null	null
+图像的名字无图4.jpg
+答案：正确
+
+题库中第6题:
+
+容器也可以添加JFrame的实例到该容器中。
+null	null	null	null
+图像的名字无图5.jpg
+答案：错误
+
+题库中第7题:
+
+JTextField文本框允许用户在文本框中输入单行文本。
+null	null	null	null
+图像的名字无图6.jpg
+答案：正确
+
+题库中第8题:
+
+JTextField文本框允许用户在文本框中输入多行文本。。
+null	null	null	null
+图像的名字无图7.jpg
+答案：错误
+
+题库中第9题:
+
+JFrame类的对象的默认布局是BorderLayout布局。
+null	null	null	null
+图像的名字无图8.jpg
+答案：正确
+
+题库中第10题:
+
+JDialog类的对象的默认布局是BorderLayout布局。
+null	null	null	null
+图像的名字无图9.jpg
+答案：正确
+
+题库中第11题:
+
+JTextField可以触发ActionEvent事件。
+null	null	null	null
+图像的名字无图10.jpg
+答案：正确
+
+题库中第12题:
+
+MouseListener接口中只有一个方法。
+null	null	null	null
+图像的名字无图11.jpg
+答案：错误
+
+题库中第13题:
+
+一个应用程序中最多只能有一个窗口。
+null	null	null	null
+图像的名字无图12.jpg
+答案：错误
+
+题库中第14题:
+
+JFrame创建的窗口默认是不可见的。
+null	null	null	null
+图像的名字无图13.jpg
+答案：正确
+
+题库中第15题:
+
+窗口（JFrame）可以调用setTitle(String s)方法设置窗口的标题。
+null	null	null	null
+图像的名字无图14.jpg
+答案：正确
+
+题库中第16题:
+
+JButton对象可以使用使用addActionLister(ActionListener l)方法将没有实现ActionListener接口的类的实例注册为自己的监视器。
+null	null	null	null
+图像的名字无图15.jpg
+答案：错误
+
+题库中第17题:
+
+对于有监视器的JTextField文本框，如果该文本框处于活动状态（有输入焦点）时，
+用户即使不输入文本，只要按回车（Enter）键也可以触发ActionEvent事件。
+null	null	null	null
+图像的名字无图16.jpg
+答案：正确
+
+题库中第18题:
+
+创建监视KeyEvent事件的监视器的类必须实现KeyListener接口。
+null	null	null	null
+图像的名字无图17.jpg
+答案：正确
+
+题库中第19题:
+
+创建监视WindowEvent事件的监视器的类必须实现WindowListener接口。
+null	null	null	null
+图像的名字无图18.jpg
+答案：正确
+
+题库中第20题:
+
+使用FlowLayout布局的容器最多可以添加5个组件。
+null	null	null	null
+图像的名字无图19.jpg
+答案：错误
+
+题库中第21题:
+
+使用BorderLayout布局的容器被划分成5个区域。
+null	null	null	null
+图像的名字无图20.jpg
+答案：错误
+
+题库中第22题:
+
+JPanel的默认布局是FlowLayout布局。
+null	null	null	null
+图像的名字无图21.jpg
+答案：错误
+
+题库中第23题:
+
+JCheckBox选择框提供两种状态，一种是选中，另一种是未选中。
+null	null	null	null
+图像的名字无图22.jpg
+答案：正确
+
+题库中第24题:
+
+JPasswordField密码框，允许用户在密码框中输入单行密码，默认回显字符是*。
+null	null	null	null
+图像的名字无图23.jpg
+答案：正确
+
+题库中第25题:
+
+JCheckBox选择框可以触发ItemEvent事件。
+null	null	null	null
+图像的名字无图24.jpg
+答案：正确
+
+题库中第26题:
+
+JTextArea文本区的Document对象可以触发DocumentEvent事件。
+null	null	null	null
+图像的名字无图25.jpg
+答案：正确
+
+题库中第27题:
+
+任何组件上都可以发生MouseEvent事件。
+null	null	null	null
+图像的名字无图26.jpg
+答案：正确
+
+题库中第28题:
+
+有模式的对话框只让程序响应对话框内部的事件，将堵塞其它线程的执行，
+用户不能再激活对话框所在程序中的其它窗口，直到该对话框消失不可见。
+null	null	null	null
+图像的名字无图27.jpg
+答案：正确
+
+题库中第29题:
+
+在Java中能触发事件的组件，都用方法：
+addXXXListener(XXXListener listener)
+将某个对象注册为自己的监视器，方法中的参数是一个接口，
+listener可以引用任何实现了该接口的类所创建的对象，当事件源发生事件时，接口listener立刻回调被类实现的接口中的某个方法。
+null	null	null	null
+图像的名字无图28.jpg
+答案：正确
+
+题库中第30题:
+
+MVC是：
+	模型(model) 用于存储数据的对象。
+	视图(view) 为模型提供数据显示的对象。
+	控制器(controller) 处理用户的交互操作，对于用户的操作作出响应，让模型和视图进行必要的交互。
+null	null	null	null
+图像的名字无图29.jpg
+答案：正确
+
+题库中第31题:
+
+使用GridLayout布局的容器中的单元格大小相同。
+null	null	null	null
+图像的名字无图30.jpg
+答案：正确
+
+题库中第32题:
+
+一个容器可以调用setLayout(LayoutManager mgr)方法更改自己的布局。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第33题:
+
+java.awt.event包中的WindowAdapter类实现了WindowListener接口。
+null	null	null	null
+图像的名字无图1.jpg
+答案：正确
+
+题库中第34题:
+
+ActionListener接口在java.awt.event包中。
+null	null	null	null
+图像的名字无图2.jpg
+答案：正确
+
+题库中第35题:
+
+java.awt.event包中的KeyAdapter类实现了KeyListener接口。
+null	null	null	null
+图像的名字无图4.jpg
+答案：正确
+
+题库中第36题:
+
+java.awt.event包中的FocusAdapter类实现了FocusListener接口。
+null	null	null	null
+图像的名字无图5.jpg
+答案：正确
+
+题库中第37题:
+
+java.awt.event包中的MouseAdapter类实现了MouseListener接口。
+null	null	null	null
+图像的名字无图6.jpg
+答案：正确
+
+题库中第38题:
+
+能触发ActionEvent事件的组件调用addActionListener（ActionListener listen）方法为自己注册一个监视器。
+null	null	null	null
+图像的名字无图7.jpg
+答案：正确
+
+题库中第39题:
+
+能触发ItemEvent事件的组件调用addItemListener（ItemListener listen）方法为自己注册一个监视器。
+null	null	null	null
+图像的名字无图7.jpg
+答案：正确
+
+题库中第40题:
+
+创建监视ActionEvent事件的监视器的类必须实现KeyListener接口。
+null	null	null	null
+图像的名字无图8.jpg
+答案：错误
+
+题库中第41题:
+
+创建监视FocusEvent事件的监视器的类必须实现WindowListener接口。
+null	null	null	null
+图像的名字无图9.jpg
+答案：错误
+
+题库中第42题:
+
+创建监视ActionEvent事件的监视器的类必须实现ActionListener接口。
+null	null	null	null
+图像的名字无图10.jpg
+答案：正确
+
+题库中第43题:
+
+创建监视ItemEvent事件的监视器的类必须实现ItemListener接口。
+null	null	null	null
+图像的名字无图11.jpg
+答案：正确
+
+题库中第44题:
+
+监视KeyEvent事件的监视器也可以是KeyAdapater类的子类的实例。
+null	null	null	null
+图像的名字无图12.jpg
+答案：正确
+
+题库中第45题:
+
+监视WindowEvent事件的监视器也可以是WindowAdapter的子类的实例。
+null	null	null	null
+图像的名字无图13.jpg
+答案：正确
+
+题库中第46题:
+
+监视MouseEvent事件的监视器也可以是MouseAdapter的子类的实例。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确

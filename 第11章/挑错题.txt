@@ -1,0 +1,40 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;   //A
+      Statement sql;         //B
+      ResultSet rs;          //C
+      Class.forName("com.mysql.jdbc.Driver"); //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;   
+      Statement sql;         
+      ResultSet rs;          
+      try{  Class.forName("com.mysql.jdbc.Driver"); //A
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true"; //B
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); //C
+      }
+      catch(SQLException e){ }
+      sql=con.createStatement();  //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D

@@ -1,0 +1,173 @@
+题库中第1题:
+
+线程不是进程，但其行为很象进程，线程是比进程更小的执行单位。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+一个进程在其执行过程中，可以产生多个线程。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+一个进程在其执行过程中，至多可以产生1个线程。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第4题:
+
+Java应用程序总是从主类的main方法开始执行，JVM加载代码，发现main方法之后，就会启动一个线程，这个线程称为“主线程”（main线程），该线程负责执行main方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+线程在它的一个完整的生命周期中通常要经历如下的四种状态:1.新建, 2．运行 ,3中断,4．死亡。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+可以使用Thread类或其子类创建（新建）线程。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+线程调用start方法将启动线程，使之从新建状态进入就绪队列排队.
+一旦轮到它来享用CPU资源时，就可以脱离创建它的线程独立开始自己的生命周期了.
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+线程不调用start方法，JVM就不会把它当作一个线程来对待，仅仅当作一个普通的对象而已。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第9题:
+
+线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是false。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第10题:
+
+线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是true。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第11题:
+
+ currentThread()方法是Thread类中的static方法，该方法返回当前正在使用CPU资源的线程.
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第12题:
+
+线程调用interrupt()方法将使得处于speep方法或wait方法中断的该线程触发InterruptedException异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+当一个线程调用synchronized方法时，其他线程想调用这个synchronized方法时就必须等待，
+直到线程A调用完该synchronized方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+wait()、notify()和notifyAll()都是Object类中的final方法，
+被所有的类继承、且不允许重写的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+一个线程在执行同步方法时，如果执行wait()方法，使本线程进入中断，
+就允许其它线程使用这个同步方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第16题:
+
+一个因执行wait方法进入中断状态的线程，需要其他线程执行notify()或notifyAll()通知它结束中断状态。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+线程在执行完run()方法之前，如果再次让线程执行start方法，
+就会发生ILLegalThreadStateException 异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+javax.swing.Timer类称为计时器线程，计时器的监视器必须是组件类的子类的实例，否则计时器无法启动。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+线程默认是非守护线程。当程序中的所有非守护户线程都已结束运行时，
+即使守护线程的run方法中还有需要执行的语句，守护线程也立刻结束运行。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+必须在synchronized方法中使用wait()方法、notify()及notifyAll()方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第21题:
+
+线程的默认级别是10级。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第22题:
+
+Java中的线程不可以共享数据。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+进入运行状态的线程，调用isAlive()方法返回的值是true。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+一个线程调用synchronized方法期间，执行sleep方法进入中断后，其他线程就能成功调用这个synchronized方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误

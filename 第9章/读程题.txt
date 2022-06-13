@@ -1,0 +1,365 @@
+题库中第1题:
+ 当用户将复选框选中时（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JCheckBox check;
+   public Win() {
+      setLayout(new FlowLayout());
+      check = new JCheckBox("good");
+      check.addItemListener(new Listener());                
+      add(check);                                              
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements ItemListener {
+    public void itemStateChanged(ItemEvent e){
+       JCheckBox box =(JCheckBox)e.getSource();
+       if(box.isSelected())
+          System.out.println(box.getText());    //【代码】
+    }
+}
+null	null	null	null
+图像的名字图9_1.jpg
+答案：good
+
+
+题库中第2题:
+ 当用户在文本框中输入9按回车键（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextField text;
+   public Win() {
+      setLayout(new FlowLayout());
+      text = new JTextField(8);
+      text.addActionListener(new Listener());                
+      add(text);                                              
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements ActionListener {
+    public void actionPerformed(ActionEvent e){
+       JTextField text =(JTextField)e.getSource();
+       int m = Integer.parseInt(text.getText());
+       System.out.println(m*m);   //【代码】 
+    }
+}
+null	null	null	null
+图像的名字图9_2.jpg
+答案：81
+
+
+题库中第3题:
+ 当用户在文本框中输入9,然后单击确定按钮（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextField text;
+   JButton button;
+   Listener listen;
+   public Win() {
+      setLayout(new FlowLayout());
+      text = new JTextField(8);
+      button = new JButton("确定");
+      listen = new Listener();
+      listen.setView(this);
+      button.addActionListener(listen);                
+      add(text);  
+      add(button);                                            
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements ActionListener {
+    Win view;
+    public void actionPerformed(ActionEvent e){
+         int m = Integer.parseInt(view.text.getText());
+         System.out.println((int)Math.sqrt(m));  //【代码】   
+    }
+    public void setView(Win view){
+       this.view = view;
+    }
+}
+null	null	null	null
+图像的名字图9_3.jpg
+答案：3
+
+
+题库中第4题:
+ 当用户在文本框中输入2,然后单击“求立方”按钮（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextField text;
+   JButton buttonSquare,buttonCubic;
+   Listener listen;
+   public Win() {
+      setLayout(new FlowLayout());
+      text = new JTextField(8);
+      buttonSquare = new JButton("求平方");
+      buttonCubic = new JButton("求立方");
+      listen = new Listener();
+      listen.setView(this);
+      buttonSquare.addActionListener(listen);
+      buttonCubic .addActionListener(listen);               
+      add(text);  
+      add(buttonSquare);
+      add(buttonCubic);                                            
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements ActionListener {
+    Win view;
+    public void actionPerformed(ActionEvent e){
+         int m = Integer.parseInt(view.text.getText());
+         int n = 0; 
+         if(e.getSource() == view.buttonSquare)  
+             n =m*m;
+         else if  (e.getSource() == view.buttonCubic) 
+             n = m*m*m;
+         System.out.println(n);//【代码】 
+    }
+    public void setView(Win view){
+        this.view = view;
+    }
+}
+null	null	null	null
+图像的名字图9_4.jpg
+答案：8
+
+
+题库中第5题:
+ 当用户在文本区中输入：abc（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.event.*;
+public class Win extends JFrame { 
+   JTextArea text;
+   Listener listen;
+   int m = 0;
+   public Win() {
+      setLayout(new FlowLayout());
+      text = new JTextArea(4,10);
+      listen = new Listener();
+      listen.setView(this);
+      text.getDocument().addDocumentListener(listen);
+      add(text);  
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements  DocumentListener {
+      Win view;
+      public void changedUpdate(DocumentEvent e) {
+         view.m++;
+         if(view.m >= 3)
+            System.out.println(view.m);//【代码】 
+      }
+      public void removeUpdate(DocumentEvent e) { 
+          changedUpdate(e);
+      }
+      public void insertUpdate(DocumentEvent e) { 
+          changedUpdate(e);
+      }
+      public void setView(Win view){
+         this.view = view;
+      }
+}
+
+
+
+
+
+
+
+null	null	null	null
+图像的名字图9_5.jpg
+答案：3
+
+
+题库中第6题:
+ 当用户将鼠标指针进入红色面板区域，然后又将鼠标指针退出红色面板区域（如图），给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JPanel panel;
+   Listener listen;
+   int m = 0;
+   public Win() {
+      setLayout(new FlowLayout());
+      panel = new JPanel();
+      panel.setBackground(Color.red);
+      panel.setPreferredSize(new Dimension(200,160));
+      listen = new Listener();
+      listen.setView(this);
+      panel.addMouseListener(listen);
+      add(panel);  
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener extends  MouseAdapter{
+      Win view;
+      public void mouseEntered(MouseEvent e) {
+          view.m++;
+      }
+      public void mouseExited(MouseEvent e) { 
+          view.m++;
+          System.out.println(view.m); //【代码】
+          view.m = 0;
+      }
+      public void setView(Win view){
+        this.view = view;
+      }
+}
+
+
+
+
+
+
+
+null	null	null	null
+图像的名字图9_6.jpg
+答案：2
+
+
+题库中第7题:
+ 当用户执行Ctrl+A键盘操作时，给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JButton button;
+   Listener listen;
+   boolean boo;
+   public Win() {
+      setLayout(new FlowLayout());
+      button = new JButton("ok");
+      listen = new Listener();
+      listen.setView(this);
+      button.addKeyListener(listen);
+      add(button);  
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener extends  KeyAdapter{
+      Win view;
+      public void keyPressed(KeyEvent e) {
+           if(e.getKeyCode() == KeyEvent.VK_CONTROL)
+              view.boo = true;
+           if(e.getKeyCode() == KeyEvent.VK_A && view.boo)
+              System.out.println((char)e.getKeyCode()); //【代码】
+      }
+      public void keyReleased(KeyEvent e) { 
+           if(e.getKeyCode() == KeyEvent.VK_CONTROL)
+             view.boo = false;
+      }
+      public void setView(Win view){
+           this.view = view;
+      }
+}
+
+
+
+
+
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：A
+
+
+题库中第8题:
+用户在前两个文本框分别输入12和5，然后单击相加按钮（如图）， 给出下列【代码】注释标注的代码的输出结果。
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextField textN1,textN2;
+   JTextField showResult;
+   JButton buttonAdd,buttonSub;
+   Listener listen;
+   public Win() {
+      setLayout(new FlowLayout());
+      textN1 = new JTextField(8);
+      textN2 = new JTextField(8);
+      showResult = new JTextField(8);
+      buttonAdd = new JButton("相加");
+      buttonSub = new JButton("相减");
+      listen = new Listener();
+      listen.setView(this);
+      buttonAdd.addActionListener(listen);
+      buttonSub.addActionListener(listen);               
+      add(textN1);
+      add(textN2);
+      add(showResult);  
+      add(buttonAdd);
+      add(buttonSub);                                            
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); 
+   }
+   public static void main(String args[]){
+       new Win();
+   }
+}
+class Listener implements ActionListener {
+    Win view;
+    public void actionPerformed(ActionEvent e){
+         int m = Integer.parseInt(view.textN1.getText());
+         int n = Integer.parseInt(view.textN2.getText());
+         int result = 0;
+         if(e.getSource() == view.buttonAdd)  
+             result = m+n;
+         else if  (e.getSource() == view.buttonSub) 
+             result = m - n;
+         view.showResult.setText(""+result);
+         System.out.println(result);   //【代码】 
+    }
+    public void setView(Win view){
+        this.view = view;
+    }
+}
+null	null	null	null
+图像的名字图9_7.jpg
+答案：17

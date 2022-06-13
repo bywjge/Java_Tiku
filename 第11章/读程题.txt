@@ -1,0 +1,208 @@
+题库中第1题:
+用户数据库为students，其中的表mess的结构与部分记录如图。给出下列【代码】注释标注的代码的输出结果。
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;
+      Statement sql; 
+      ResultSet rs;
+      try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true";
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); 
+      }
+      catch(SQLException e){ }
+      try { 
+          sql=con.createStatement();
+          rs=sql.executeQuery("SELECT * FROM mess where number = '00000'"); 
+          if(rs.next()) {
+             String height=rs.getString(4);
+             System.out.printf("%s\n",height);//【代码】
+          }
+          con.close();  
+      }
+      catch(SQLException e) {}
+  }
+}
+
+
+null	null	null	null
+图像的名字图11_1.jpg
+答案：1.63
+
+
+题库中第2题:
+用户数据库为students，其中的表mess的结构与部分记录如图。给出下列【代码】注释标注的代码的输出结果。
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;
+      Statement sql; 
+      ResultSet rs;
+      try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true";
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); 
+      }
+      catch(SQLException e){ }
+      String str = "SELECT birthday,name  FROM mess where"+
+                 " year(birthday)=1989 and month(birthday)=9 and day(birthday)=10";
+      try { 
+          sql=con.createStatement();
+          rs=sql.executeQuery(str); 
+          if(rs.next()) {
+             String name=rs.getString(2);
+             System.out.printf("%s\n",name);//【代码】
+          }
+          con.close();  
+      }
+      catch(SQLException e) {}
+  }
+}
+
+
+null	null	null	null
+图像的名字图11_1.jpg
+答案：大刘伟
+
+
+题库中第3题:
+用户数据库为students，其中的表mess的结构与部分记录如图。给出下列【代码】注释标注的代码的输出结果。
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;
+      Statement sql; 
+      ResultSet rs;
+      try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true&characterEncoding=utf-8";
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); 
+      }
+      catch(SQLException e){ }
+      String jiLu= "('T1001','安卓','2000-10-23',1.66),"+
+                      "('T1002','安康','1989-7-22',1.76)";      
+      String sqlStr ="insert into mess values"+jiLu;
+
+      String str = "SELECT name,height  FROM mess where "+
+                    " number = 'T1001'";
+      try { 
+          sql=con.createStatement();
+          sql.executeUpdate(sqlStr);
+          rs=sql.executeQuery(str); 
+          if(rs.next()) {
+             String name=rs.getString(1);
+             String h=rs.getString(2);
+             System.out.printf("%s:%s\n",name,h);//【代码】
+          }
+          con.close();  
+      }
+      catch(SQLException e) {}
+  }
+}
+
+
+null	null	null	null
+图像的名字图11_1.jpg
+答案：安卓:166
+
+
+题库中第4题:
+用户数据库为students，其中的表mess的结构与部分记录如图。给出下列【代码】注释标注的代码的输出结果。
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;
+      PreparedStatement sql; 
+      ResultSet rs;
+      try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true&characterEncoding=utf-8";
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); 
+      }
+      catch(SQLException e){ }
+      String sqlStr ="update mess set name = ? ,height = ? where number = ? ";
+      String str = "SELECT name,height FROM mess where number = '00000'";
+      try { 
+          sql=con.prepareStatement(sqlStr);
+          sql.setString(1,"耿祥义");
+          sql.setFloat(2,1.72F);
+          sql.setString(3,"00000");
+          sql.executeUpdate();
+          rs=sql.executeQuery(str); 
+          if(rs.next()) {
+             String name=rs.getString(1);
+             String h=rs.getString(2);
+             System.out.printf("%s:%s\n",name,h);//【代码】
+          }
+          con.close();  
+      }
+      catch(SQLException e) {System.out.println(e);}
+  }
+}
+
+
+null	null	null	null
+图像的名字图11_1.jpg
+答案：耿祥义:1.72
+
+
+题库中第5题:
+用户数据库为students，其中的表mess的结构与部分记录如图。给出下列【代码】注释标注的代码的输出结果。
+import java.sql.*; 
+public class E {
+   public static void main(String args[]) {
+      Connection con=null;
+      PreparedStatement sql; 
+      ResultSet rs;
+      try{  Class.forName("com.mysql.jdbc.Driver");
+      }
+      catch(Exception e){}
+      String uri = "jdbc:mysql://localhost:3306/students?useSSL=true&characterEncoding=utf-8";
+      String user ="root";
+      String password ="";
+      try{  
+         con = DriverManager.getConnection(uri,user,password); 
+      }
+      catch(SQLException e){ }
+      String sqlStr ="insert into mess values(?,?,?,?)";
+      String str = "SELECT name,height FROM mess where number = 'AABBCC'";
+      try { 
+          sql=con.prepareStatement(sqlStr);
+          sql.setString(1,"AABBCC");
+          sql.setString(2,"郑州好");
+          sql.setString(3,"2002-12-09");
+          sql.setFloat(4,1.76f);
+          sql.executeUpdate();
+          rs=sql.executeQuery(str); 
+          if(rs.next()) {
+             String name=rs.getString(1);
+             String h=rs.getString(2);
+             System.out.printf("%s:%s\n",name,h);//【代码】
+          }
+          con.close();  
+      }
+      catch(SQLException e) {System.out.println(e);}
+  }
+}
+
+
+null	null	null	null
+图像的名字图11_1.jpg
+答案：郑州好:1.76

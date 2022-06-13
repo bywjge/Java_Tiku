@@ -1,0 +1,320 @@
+题库中第1题:
+
+1．下列哪个叙述是正确的？
+A. String 类是final 类，不可以有子类。
+B. String 类在java.util包中。
+C. "abc"=="abc"的值是false .
+D. "abc".equals("Abc")的值是true
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+下列哪些叙述是错误的？（多选）
+1．下列哪个叙述是正确的？
+A. String 类是final 类，不可以有子类。
+B. String 类在java.util包中。
+C. "abc"=="abc"的值是false .
+D. "abc".equals("Abc")的值是true
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第3题:
+下列哪个是正确的？
+A.  int m =Float.parseFloat("567"); 
+B.  int m =Short.parseShort("567");
+C.  byte m =Integer.parseInt("2");
+D.  float m =Float.parseDouble("2.9"); 
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+哪些是错误的？（多选）
+A.  int m =Float.parseFloat("567"); 
+B.  int m =Short.parseShort("567");
+C.  byte m =Integer.parseInt("2");
+D.  float m =Float.parseDouble("2.9");
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第5题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序编译出现错误。
+B. 程序标注的【代码】的输出结果是bird。
+C. 程序标注的【代码】的输出结果是fly。
+D. 程序标注的【代码】的输出结果是null。 
+public class E{ 
+   public static void main(String[] args){ 
+      String strOne="bird"; 
+      String strTwo=strOne; 
+      strOne="fly"; 
+      System.out.println(strTwo); 
+  } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第6题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序编译出现错误。
+B. 程序标注的【代码】的输出结果是hello。
+C. 程序标注的【代码】的输出结果是你好。
+D. 程序标注的【代码】的输出结果是null。 
+public class E { 
+   public static void main(String args[]){ 
+      String strOne = new String("你好"); 
+      String strTwo = strOne; 
+      strOne = new String("hello");
+      System.out.println(strTwo); 
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第7题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序出现编译错误。
+B．无编译错误，在命令行执行程序：“java E I love this game”，程序输出this。
+C．无编译错误，在命令行执行程序：“java E let us go”，程序无运行异常。 
+D．无编译错误，在命令行执行程序：“java E 0 1 2 3 4 5 6 7 8 9”程序输出3。 
+public class E {
+   public static void main (String args[]) {
+     String s1 = args[1];
+     String s2 = args[2];
+     String s3 = args[3];
+     System.out.println(s3); 
+   }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第8题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序出现编译错误。
+B．无编译错误，在命令行执行程序：“java E I love this game”，程序输出game。
+C．无编译错误，在命令行执行程序：“java E go on”，运行异常:ArrayIndexOutOfBoundsException: 2。 
+D．无编译错误，在命令行执行程序：“java E you are ok”程序输出you。 
+public class E {
+   public static void main (String args[]) {
+     String s0 = args[0];
+     String s1 = args[1];
+     String s2 = args[2];
+     System.out.println(s2); 
+   }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第9题:
+下列哪个叙述是错误的？
+A. "9dog".matches("\\ddog")的值是true。
+B."12hello567".replaceAll("[123456789]+","@")返回的字符串是@hello@。
+C. new Date(1000)对象含有的时间是公元后1000小时的时间
+D. "\\hello\n"是正确的字符串常量。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第10题:
+下列哪些叙述是正确的？（多选）
+A. "9dog".matches("\\ddog")的值是true。
+B."12hello567".replaceAll("[123456789]+","@")返回的字符串是@hello@。
+C. new Date(1000)对象含有的时间是公元后1000小时的时间
+D. "\\hello\n"是正确的字符串常量。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第11题:
+下列哪个叙述是错误的？
+A. "\hello"是正确的字符串常量。
+B. "\tea"是正确的字符串常量。
+C. "\'hello"是正确的字符串常量。
+D. "\natural"是正确的字符串常量。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第12题:
+下列哪些叙述是正确的？（多选）
+A. "\hello"是正确的字符串常量。
+B. "\tea"是正确的字符串常量。
+C. "\'hello"是正确的字符串常量。
+D. "\natural"是正确的字符串常量。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第13题:
+下列哪个叙述是错误？
+A. 表达式"Hello".equals("hello")的值时true。
+B. 表达式"java".equals("java")的值是true。
+C. 表达式"Bird".compareTo("Bird fly")的值是负数。
+D. 表达式"I love you".contains("you")的值是true。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第14题:
+下列哪些叙述是正确的？（多选）
+A. "default966".matches("[^bc]+[789]{1}[6]{2}")的值是true
+B. 表达式"RedBird".lastIndexOf("Bird")的值是4。
+C. 表达式"RedBird".indexOf("Bird")的值是3。
+D. 表达式"RedBird".indexOf("Cat")的值是-1。
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第15题:
+下列哪个叙述是错误的？
+A. "default966".matches("[^bc]+[789]{1}[6]{2}")的值是true
+B. 表达式"RedBird".lastIndexOf("Bird")的值是4。
+C. 表达式"RedBird".indexOf("Bird")的值是3。
+D. 表达式"RedBird".indexOf("Cat")的值是-1。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第16题:
+下列哪些叙述是正确的？（多选）
+A. Integer.parseInt("12.9");会触发NumberFormatException异常。
+B. 表达式"bird".contentEquals("bird")的值是true。
+C. 表达式"Bird" == "bird"的值是false。
+D. 表达式"Bird".equals("bird")的值是true。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第17题:
+下列哪个叙述是错误的？
+A. Integer.parseInt("12.9");会触发NumberFormatException异常。
+B. 表达式"bird".contentEquals("bird")的值是true。
+C. 表达式"Bird" == "bird"的值是false。
+D. new String("bird") == "bird"的值是true。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第18题:
+下列哪些叙述是正确的？（多选）
+A. 表达式"D:/java/book".lastIndexOf("/")的值是8。
+B. 表达式"3.14".matches("[0-9]+[.]{1}[0-9]+")的值是true。
+C. 表达式"220301200210250286".startsWith("2203")的值是true。
+D. 表达式"220301200210250286".endsWith("286")的值是true。
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第19题:
+下列哪个叙述是错误的？
+A. 表达式"D:/java/book".lastIndexOf("/")的值是8。
+B. 表达式"3.14".matches("[0-9]+[.]{1}[0-9]+")的值是true。
+C. 表达式"220301200210250286".startsWith("2203")的值是true。
+D. 表达式"220301200210250286".endsWith("286")的值是true。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第20题:
+下列哪些叙述是正确的？（多选）
+A. String对象的字符序列是不可修改的。
+B. StringBuffer对象的字符序列是可修改的。
+C. Random对象的nextInt(int n)方法随机返回[0，n]之间的一个整数。
+D. 表达式"\t\nABC".length()的值是5。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第21题:
+下列哪些叙述是错误的？（多选）
+A. 表达式"hello*?".matches("[a-zA-Z|0-9|_]+")的值是true
+B. 表达式java88_hello_99".matches("[a-zA-Z|0-9|_]+")的值是true.
+C. 表达式"abcdef你好".matches("[^0-9^.]+")的值是true.
+D. 表达式"hello".matches("[^0-9^.]+")的值是false.
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第22题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序编译出现错误。
+B. 程序标注的【代码】的输出结果是bird。
+C. 程序标注的【代码】的输出结果是fly。
+D. 程序标注的【代码】的输出结果是null。 
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String ("bird"); 
+       modify(str); 
+       System.out.println(str);   //【代码】
+   } 
+   public static void modify (String s)  { 
+       s = s + "fly";  
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第23题:
+对于如下代码，下列哪个叙述是正确的？
+A. 程序编译出现错误。
+B. 程序标注的【代码】的输出结果是：hello。
+C. 程序标注的【代码】的输出结果是：你好。
+D. 程序标注的【代码】的输出结果是null。 
+public class E { 
+   public static void main (String[]args)   { 
+       String str = new String ("你好"); 
+       modify(str); 
+       System.out.println(str);   //【代码】
+   } 
+   public static void modify (String s)  { 
+       s = new String("hello");  
+   } 
+}   
+A	B	C	D
+图像的名字无图.jpg
+答案：C

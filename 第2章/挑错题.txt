@@ -1,0 +1,150 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c ='\uabcg'; //A
+        byte b = 127;     //B
+        int x = 100;      //C
+        float f = 3.14F;  //D
+     }
+ }
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c ='\uabcf';      //A
+        byte b = 127;          //B
+        int public = 100;      //C
+        float f = 3.14F;      //D
+     }
+ }
+A	B	C	D
+图像的名字无图1.jpg
+答案：C
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c ='a';           //A
+        byte b = 128;          //B
+        int height = 100;      //C
+        float f = 3.14F;      //D
+     }
+ }
+A	B	C	D
+图像的名字无图2.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c =65536;           //A
+        byte b = 127;          //B
+        int height = 100;      //C
+        float f = 3.14F;      //D
+     }
+}
+A	B	C	D
+图像的名字无图3.jpg
+答案：A
+
+
+题库中第5题:
+下列ABCD注释标注的哪行代码有错误？
+public class Test {
+    public static void main(String args[]){
+       char c =65535;           //A
+       byte b = 127;           //B
+       int height = 100;       //C
+       float f = 1e4;          //D
+    }
+}
+A	B	C	D
+图像的名字无图4.jpg
+答案：D
+
+
+题库中第6题:
+下列ABCD注释标注的哪行代码有错误？
+public class Test {
+    public static void main(String args[]){
+       int x = 8;
+       byte b = 127;     
+       b = x;                //A
+       x = 'a';              //B
+       long y= b;            //C  
+       float z=(int)6.89 ;   //D
+    }
+}
+A	B	C	D
+图像的名字无图5.jpg
+答案：A
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c =65535;           //A
+        byte b = 127;           //B
+        int height = 100;       //C
+        float f = 3.14;        //D
+     }
+}
+A	B	C	D
+图像的名字无图6.jpg
+答案：D
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+         int m = 'a';     //A
+         char ch = m;     //B
+         ch = 97;         //C
+         double t = 0.1;  //D
+     }
+ }
+A	B	C	D
+图像的名字无图7.jpg
+答案：B
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+         int m = 'a';              //A
+         unsigned char x = 'm';    //B
+         ch = 97;                 //C
+         double t = 0.1;          //D
+     }
+ }
+A	B	C	D
+图像的名字无图7.jpg
+答案：B
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+ public class Test {
+     public static void main(String args[]){
+        char c =65535;             //A
+        byte b = 127;               //B
+        unsigned int y = 200;       //C
+        float f = 3.14f;            //D
+     }
+}
+A	B	C	D
+图像的名字无图6.jpg
+答案：C

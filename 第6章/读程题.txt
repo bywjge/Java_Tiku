@@ -1,0 +1,223 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    int MAX = 100;
+    int on();
+}
+class A implements Com{
+    public int on(){
+       return Com.MAX;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Com com = new A();
+       int m = com.on();
+       System.out.printf("%d",m);//【代码】
+       
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+   int computer(int m,int n);
+}
+class A implements Com{
+   public int computer(int a,int b){
+       return a+b;
+   }
+}
+class B implements Com{
+   public int computer(int a,int b){
+       return a*b;
+   }
+}
+class People {
+    int a,b;
+    int handleDigit(Com com){
+        return com.computer(a,b)/2;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       People  p = new People ();
+       p.a =100;
+       p.b = 2;
+       int m = p.handleDigit(new A());
+       int n = p.handleDigit(new B());
+       System.out.printf("%d:%d",m,n);//【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：51:100
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    public abstract int computer(int a,int b);
+}
+class A implements Com{
+    public int computer(int a,int b){
+         return a+b;
+    }
+}
+class B implements Com{
+   public int computer(int a,int b){
+        return a*b;
+   }
+}
+class People {
+    Com com;
+    int getResult(int a,int b,int h){
+        return h*com.computer(a,b);
+    }
+}
+public class E {
+    public static void main(String args[]){
+       People  p = new People ();
+       p.com = new A();
+       int m = p.getResult(5,6,10);
+       p.com = new B();
+       int n = p.getResult(5,6,10);
+       System.out.printf("%d:%d",m,n);//【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：110:300
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    public abstract char cry();
+}
+class Dog implements Com{
+    public char cry(){
+         return 'D';
+    }
+}
+class Cat implements Com{
+    public char cry(){
+         return 'C';
+    }
+}
+class People {
+    Com com;
+    char seeCry(Com com){
+        return com.cry();
+    }
+}
+public class E {
+    public static void main(String args[]){
+       People  p = new People ();
+       char c1 = p.seeCry(new Dog());
+       char c2 = p.seeCry(new Cat());
+       System.out.printf("%c:%c",c1,c2);//【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：D:C
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+     int f(int x,int y); 
+}
+class People implements Com {
+     public int f(int x,int y) {
+        return x*y;
+     }
+     int g(int a,int b) {
+        return a+b;
+     }
+}
+public class E {
+public static void main(String args[]) {
+      Com com = new People();
+      int m = com.f(3,5); 
+      People p = (People)com;
+      System.out.printf("%d:%d",m,p.g(3,5)); //【代码】
+  }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：15:8
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    int add(int a,int b);
+}
+abstract class People {
+    abstract int add(int a,int b);
+}
+class Student extends People implements Com{
+   public int add(int a,int b) {
+      return a+b;
+   }
+}
+public class E {
+    public static void main(String args[]) {
+         Student stu =  new Student();
+         Com com = stu;
+         int m = com.add(12,6);
+         People p = stu;
+         int n = p.add(12,6);
+         System.out.printf("%d:%d",m,n);   //【代码】
+    }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：18:18
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    int add(int a,int b);
+    public static int get(int n){   //JDK8之后允许写static方法。用接口名直接调用
+        return n;
+    }
+    public default int see(int n){//JDK8之后允许写default方法。
+        return n;
+    }
+    public default int look(int n){//JDK8之后允许写default方法。
+        return n;
+    }
+}
+class A implements Com{  //A类自动有default方法，允许重写.但没有接口的static方法
+    public int add(int a,int b) {
+       return a+b;
+    }
+    public int see(int n){ //重写default方法(去掉default关键字)
+        return n+1;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+         A a =  new A();
+         int m = a.add(12,6);
+         int n =Com.get(12);
+         int t = a.see(6);
+         int q = a.look(6);
+         System.out.printf("%d:%d:%d:%d",m,n,t,q);   //【代码】
+    }
+}
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：18:12:7:6

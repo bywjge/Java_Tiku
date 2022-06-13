@@ -1,0 +1,369 @@
+题库中第1题:
+下列哪个叙述是正确的？
+A．new File("E.java")可能发生异常。
+B．BufferedRead流可以指向FileInputStream流。
+C．BufferedWrite流可以指向FileWrite流。
+D．RandomAccessFile流一旦指向文件，就会刷新该文件。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第2题:
+下列哪些叙述是错误的？（多选）
+A．new File("E.java")可能发生异常。
+B．BufferedRead流可以指向FileInputStream流。
+C．BufferedWrite流可以指向FileWrite流。
+D．RandomAccessFile流一旦指向文件，就会刷新该文件。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第3题:
+为了向文件hello.txt尾加数据，下列哪些是正确创建指向hello.txt的流？(多选)
+A．try {  OutputStream out = new FileOutputStream ("hello.txt");
+         }
+         catch(IOException e){} 
+
+B．try {  OutputStream out = new FileOutputStream ("hello.txt",true);
+         }
+    catch(IOException e){}
+C．try {  OutputStream out = new FileOutputStream ("hello.txt",false);
+         }
+    catch(IOException e){}
+D．try { RandomAccessFile out = new RandomAccessFile("hello.txt","rw");
+         }
+    catch(IOException e){}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BD
+
+
+题库中第4题:
+假设hello.txt文件的内容是:
+ABCDEF
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出字符 B。
+C. 下列程序在输出台输出字符 A。
+D. 下列程序在输出台输出 -1。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       try {
+            FileInputStream in = new  FileInputStream(file);
+            int c = in.read();
+            c = in.read();
+            System.out.println((char)c);
+       }
+       catch(IOException exp){}
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第5题:
+假设hello.txt文件的内容是:
+ABCDEF
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出 AB。
+C. 下列程序在输出台输出字符 ABC。
+D. 下列程序在输出台输出 ABCDEF。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       byte [] b = new byte[(int)file.length()];
+       try {
+            FileInputStream in = new  FileInputStream(file);
+            in.read(b);
+            System.out.println(new String(b));
+       }
+       catch(IOException exp){}
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第6题:
+假设hello.txt文件的内容是:
+ABCDEF
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出 ABCDE。
+C. 下列程序在输出台输出字符 F。
+D. 下列程序在输出台输出 ABCDEF。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       byte [] b = new byte[5];
+       try {
+            FileInputStream in = new  FileInputStream(file);
+            int m =in.read(b,0,5);
+            m = in.read(b,0,5);
+            System.out.println(new String(b,0,m));
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第7题:
+假设hello.txt文件的内容是:
+ABCDEF
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出 ABCDE。
+C. 下列程序在输出台输出字符 FBCDE。
+D. 下列程序在输出台输出 ABCDEF。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       byte [] b = new byte[5];
+       try {
+            FileInputStream in = new  FileInputStream(file);
+            int m =in.read(b,0,5);
+            m = in.read(b,0,5);
+            System.out.println(new String(b));
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第8题:
+假设hello.txt文件的内容是:
+ABCDEF
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出 B。
+C. 下列程序在输出台输出字符 C。
+D. 下列程序在输出台输出 D。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       try {
+            RandomAccessFile in = new RandomAccessFile(file,"rw");
+            in.seek(3);
+            int m = in.read();
+            System.out.println((char)m);
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第9题:
+假设hello.txt文件的内容是:
+今天是个好日子
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出：今天。
+C. 下列程序在输出台输出：今。
+D. 下列程序在输出台输出 好。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       try {
+            FileReader in = new  FileReader(file);
+            int m =in.read();
+            System.out.println((char)m);
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第10题:
+假设hello.txt文件的内容是:
+今天是个好日子
+下列哪个是正确的？
+A. 下列程序编译出现错误。
+B. 下列程序在输出台输出：是。
+C. 下列程序在输出台输出：今。
+D. 下列程序在输出台输出 好。
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");
+       char [] c = new char[(int)file.length()];
+       try {
+            FileReader in = new  FileReader(file);
+            int m =in.read(c);
+            System.out.println(c[2]);
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第11题:
+下列哪个是错误的？
+A.File类的long length()方法返回文件的长度（单位是字节）。
+B.BufferedWriter的目的地必须是字符输出流。
+C.FileOutputStream输出流按字符(char)写出数据。
+D.File类在java.io包中。
+ 
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第12题:
+下列哪个是错误的？
+A.如果磁盘不存在这样的路径："D:\1000\a.txt，new File("D:/1000/a.txt");会触发IOExce[tion异常。
+B.如果磁盘不存在这样的路径： D:/110,对于File f = new File(""D:/110"");
+file.isDirectory()的值是false 。
+C.如果D:/0/ 目录下不存在文件E.java,,对于File f = new File(""D:/0/"",""E.java"");
+f.isFile()的值是false。
+D.如果D:/0/ 目录下存有文件E.java,,对于File f = new File(""D:/0/E.java"");
+f.isFile()的值是true 。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第13题:
+下列哪个是错误的？
+A.程序如果需要读取程序"外部"的数据，可以创建指向外部的输入流。
+B.程序如果需要将程序中数据，写入到程序"外部"，可以创建指向外部的输出流。
+C.如果程序要读取一个文件，可以创建指向文件的FileInputStream输入流。
+D.如果程序要读取一个文件，可以创建指向文件的FileOutputStream输出流。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第14题:
+下列哪个是错误的？
+A.FileReader输入流按字符(char)读取文件的内容。
+B.FileWriter输出流按字符(char)写出数据。
+C.如果程序要读取一个文件，可以创建指向文件的FileReader输入流。	
+D.如果程序要读取一个文件，可以创建指向文件的FileWriter输出流。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第15题:
+下列哪个是错误的？
+A 只要不关闭流，FileInputStream流每次调用read方法就从文件的头开始读取文件。
+B.创建FileInputStream 对象，即文件字节输入流可能触发FileNotFoundException异常。
+C.FileNotFoundException类是IOException类的子类。
+D.FileInputStream流的int read(byte b[]) 方法从源中试图读取b.length个字节到字节数组b中，返回实际读取的字节数目。如果到达文件的末尾，则返回-1。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第16题:
+下列哪些是正确的？（多选）
+A 只要不关闭流，FileInputStream流每次调用read方法就从文件的头开始读取文件。
+B.创建FileInputStream 对象，即文件字节输入流可能触发FileNotFoundException异常。
+C.FileNotFoundException类是IOException类的子类。
+D.FileInputStream流的int read(byte b[]) 方法从源中试图读取b.length个字节到字节数组b中，返回实际读取的字节数目。如果到达文件的末尾，则返回-1。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第17题:
+下列哪个是错误的？
+A.BufferedReader流的源必须是字符输入流。
+B.BufferedWriter的目的地必须是字符输出流。
+C.RandomAccessFile类既不是InputStream类的子类，也不是OutputStram类的子类。
+D.RandomAccessFile流指向文件时，将刷新文件。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第18题:
+下列哪些是正确的？（多选）
+A.BufferedReader流的源必须是字符输入流（FileReader）。
+B.FileOutputStream流顺序地写文件，只要不关闭流，每次调用write方法就顺序地向目的地写入内容，直到流被关闭。。
+C.FileInputStream流顺序地读取文件，只要不关闭流，每次调用read方法就顺序地读取源中其余的内容，直到源的末尾或流被关闭。
+D.RandomAccessFile流指向文件时，将刷新文件。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第19题:
+下列哪些out流不刷新"hello.txt"？(多选)
+A．try {  OutputStream out = new FileOutputStream ("hello.txt");
+         }
+         catch(IOException e){} 
+
+B．try {  OutputStream out = new FileOutputStream ("hello.txt",true);
+         }
+    catch(IOException e){}
+C．try {  OutputStream out = new FileOutputStream ("hello.txt",false);
+         }
+    catch(IOException e){}
+D．try { RandomAccessFile out = new RandomAccessFile("hello.txt","rw");
+         }
+    catch(IOException e){}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BD
+
+
+题库中第20题:
+下列哪些out流刷新"hello.txt"？(多选)
+A．try {  OutputStream out = new FileOutputStream ("hello.txt");
+         }
+         catch(IOException e){} 
+
+B．try {  OutputStream out = new FileOutputStream ("hello.txt",true);
+         }
+    catch(IOException e){}
+C．try {  OutputStream out = new FileOutputStream ("hello.txt",false);
+         }
+    catch(IOException e){}
+D．try { RandomAccessFile out = new RandomAccessFile("hello.txt","rw");
+         }
+    catch(IOException e){}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AC

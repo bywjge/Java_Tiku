@@ -1,0 +1,205 @@
+题库中第1题:
+
+File类在java.io包中。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+如果磁盘不存在这样的路径："D:\1000\a.txt，new File("D:/1000/a.txt");会触发IOExce[tion异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第3题:
+
+如果磁盘不存在这样的路径： D:/110,对于File f = new File("D:/110");
+file.isDirectory()的值是false 。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第4题:
+
+如果D:/0/ 目录下不存在文件E.java,,对于File f = new File("D:/0/","E.java");
+f.isFile()的值是false。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+如果D:/0/ 目录下存有文件E.java,,对于File f = new File("D:/0/E.java");
+f.isFile()的值是true 。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+输入流的指向称为流的源。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+输出流的指向称为流的目的地。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+程序如果需要读取程序"外部"的数据，可以创建指向外部的输入流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第9题:
+
+程序如果需要 将程序中数据，写入到程序"外部"，可以创建指向外部的输出流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第10题:
+
+如果程序要读取一个文件，可以创建指向文件的FileInputStream输入流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第11题:
+
+如果程序要读取一个文件，可以创建指向文件的FileOutputStream输出流。。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第12题:
+
+FileInputStream输入流按字节(byte)读取文件的内容。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+FileOutputStream输出流按字节(byte)写出数据。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+如果程序要读取一个文件，可以创建指向文件的FileReader输入流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+如果程序要读取一个文件，可以创建指向文件的FileWriter输出流。。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第16题:
+
+FileReader输入流按字符(char)读取文件的内容。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+FileWriter输出流按字符(char)写出数据。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+创建FileInputStream 对象，即文件字节输入流可能触发FileNotFoundException异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+FileNotFoundException类是IOException类的子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+FileInputStream流的int read(byte b[]) 方法从源中试图读取b.length个字节到字节数组b中，返回实际读取的字节数目。如果到达文件的末尾，则返回-1。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第21题:
+
+FileInputStream流顺序地读取文件，只要不关闭流，每次调用read方法就顺序地读取源中其余的内容，直到源的末尾或流被关闭。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第22题:
+
+FileOutputStream流顺序地写文件，只要不关闭流，每次调用write方法就顺序地向目的地写入内容，直到流被关闭。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第23题:
+
+BufferedReader流的源必须是字符输入流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+BufferedWriter的目的地必须是字符输出流。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第25题:
+
+RandomAccessFile类既不是InputStream类的子类，也不是OutputStram类的子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第26题:
+
+RandomAccessFile流指向文件时，不刷新文件。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第27题:
+
+File类的long length()返回文件的长度（单位是字节）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第28题:
+
+RandomAccessFile类的seek(long a)方法，将读写位置定位于距离文件开头a个字节处。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+RandomAccessFile类的seek(long a)方法，将读写位置定位于文件的第a个字节处。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误

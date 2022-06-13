@@ -1,0 +1,449 @@
+题库中第1题:
+以下哪个布局是JPanel容器的默认布局？
+A. GridLayout
+B. BorderLayout
+C. CardLayout
+D. FlowLayout
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+假设容器con的布局是BorderLayout，下列哪个将组建com添加到了con的北面。
+A. con.add(com,BorderLayout.NORTH)。
+B. con.add(com,BorderLayout.SOUTH)。
+C. con.add(com,BorderLayout.EAST)。
+D. con.add(com,BorderLayout.WEST)。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第3题:
+假设容器con的布局是BorderLayout，下列哪个将组建com添加到了con的中心。
+A. con.add(com,BorderLayout.NORTH)。
+B. con.add(com)。
+C. con.add(com,BorderLayout.EAST)。
+D. con.add(com,BorderLayout.WEST)。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+为了给JButton按钮b注册ActionEvent事件的监视器listen，下列哪个是正确的？
+A. b.addActionListener(listen);
+B. b.addItemListener(listen);
+C. b.addKeyListener(listen);
+D. b.addWindowListener(listen);
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第5题:
+为了给JButton按钮b注册MouseEvent事件的监视器listen，下列哪个是正确的？
+A. b.addActionListener(listen);
+B. b.addItemListener(listen);
+C. b.addMouseListener(listen);
+D. b.addWindowListener(listen);
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+为了给JMenuItem菜单项b注册ActionEvent事件的监视器listen，下列哪个是正确的？
+A. b.addWindowListener(listen);
+B. b.addItemListener(listen);
+C. b.addMouseListener(listen);
+D. b.addActionListener(listen);
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第7题:
+为了给JcheckBox复选框b注册ItemEvent事件的监视器listen，下列哪个是正确的？
+A. b.addWindowListener(listen);
+B. b.addItemListener(listen);
+C. b.addMouseListener(listen);
+D. b.addActionListener(listen);
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第8题:
+为了给JTextField文本框b注册FocusEvent事件的监视器listen，下列哪个是正确的？
+A. b.addWindowListener(listen);
+B. b.addItemListener(listen);
+C. b.addFocusListener(listen);
+D. b.addActionListener(listen);
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第9题:
+监视器listen为了监视JTextField文本框触发的ActionEvent事件，下列哪个是正确的？
+A. 创建监视器listen的类需要实现ActionListener接口。
+B. 创建监视器listen的类需要实现ItemListener接口。
+C. 创建监视器listen的类需要实现DocumentListener接口。
+D. 创建监视器listen的类需要实现KeyListener接口。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第10题:
+监视器listen为了监视JPanel容器触发的MouseEvent事件，下列哪个是正确的？
+A. 创建监视器listen的类需要实现ActionListener接口。
+B. 创建监视器listen的类需要实现ItemListener接口。
+C. 创建监视器listen的类需要实现DocumentListener接口。
+D. 创建监视器listen的类可以是MouseAdapater类的子类。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+监视器listen为了监视JFrame窗口触发的WindowEvent事件，下列哪个是正确的？
+A. 创建监视器listen的类需要实现ActionListener接口。
+B. 创建监视器listen的类需要实现ItemListener接口。
+C. 创建监视器listen的类需要实现DocumentListener接口。
+D. 创建监视器listen的类可以是WindowAdapater类的子类。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第12题:
+监视器listen为了监视JCheckBox复选框触发的ItemEvent事件，下列哪个是正确的？
+A. 创建监视器listen的类需要实现ActionListener接口。
+B. 创建监视器listen的类需要实现ItemListener接口。
+C. 创建监视器listen的类需要实现DocumentListener接口。
+D. 创建监视器listen的类可以是MouseAdapater类的子类。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第13题:
+哪个叙述是错误的？
+A. JButton在javax.swing包中。
+B. ActionEvent在java.awt包中。
+C. ActionListener在java.awt.event包中。
+D. Font类在java.awt包中。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第14题:
+哪个叙述是错误的？
+A.javax.swing包中JComponent类是java.awt包中Container类的子类。
+B.java.awt包中Container类是java.awt包中Component类的子类。
+C.JFrame创建的窗口默认是可见的。
+D.Java提供的JFrame类的实例就是一个底层容器，即通常所称的窗口。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第15题:
+哪个叙述是错误的？
+A. JFrame窗口可以调用setLocation(int x,int y)设置自己的在显示屏上的位置。
+B. 容器也可以添加JFrame的实例到该容器中。
+C. JTextField文本框允许用户在文本框中输入单行文本。
+D. JTextField可以触发ActionEvent事件。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第16题:
+哪些叙述是正确的？（多选）
+A. JFrame窗口可以调用setLocation(int x,int y)设置自己的在显示屏上的位置。
+B. 容器也可以添加JFrame的实例到该容器中。
+C. JTextField文本框允许用户在文本框中输入单行文本。
+D. JTextField可以触发ActionEvent事件。
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第17题:
+下列哪些叙述是正确的？（多选）
+A. WindowListener接口中只有一个方法。
+B. 一个应用程序中最多只能有一个窗口。
+C. JFrame创建的窗口默认是不可见的。
+D. 窗口（JFrame）可以调用setSize(int int h)方法设置窗口的大小。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：CD
+
+
+题库中第18题:
+下列哪些叙述是错误的？（多选）
+A. KeyListener接口中只有一个方法。
+B. 一个应用程序中最多只能有一个窗口。
+C. JFrame创建的窗口默认是不可见的。
+D. 窗口（JFrame）可以调用setSize(int int h)方法设置窗口的大小。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AB
+
+
+题库中第19题:
+下列哪些叙述是正确的？（多选）
+A.JCheckBox复选框可以使用使用addItemLister(ItemListener l)方法将没有实现ItemListener接口的类的实例注册为自己的监视器。
+B.对于有监视器的JCheckBox复选框，如果复选框的状态发生变化，就触发ItemEvent事件。"
+C.监视KeyEvent事件的监视器也可以是KeyAdapater类的子类的实例。
+D.JButton按钮也可以触发ItemEvent事件。
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第20题:
+下列哪个叙述是错误的？（多选）
+A.JCheckBox复选框可以使用使用addItemLister(ItemListener l)方法将没有实现ItemListener接口的类的实例注册为自己的监视器。
+B.对于有监视器的JCheckBox复选框，如果复选框的状态发生变化，就触发ItemEvent事件。"
+C.监视KeyEvent事件的监视器也可以是KeyAdapater类的子类的实例。
+D.JButton按钮也可以触发ItemEvent事件。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第21题:
+下列哪些叙述是正确的？（多选）
+A.使用FlowLayout布局的容器最多可以添加5个组件。
+B.使用BorderLayout布局的容器被划分成5个区域。
+C.JPanel的默认布局是FlowLayout布局。
+D.JDialog的默认布局是CardLayout布局。
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第22题:
+下列哪些叙述是错误的？（多选）
+A.使用FlowLayout布局的容器最多可以添加5个组件。
+B.使用BorderLayout布局的容器被划分成5个区域。
+C.JPanel的默认布局是FlowLayout布局。
+D.JDialog的默认布局是CardLayout布局。
+A	B	C	D
+图像的名字无图.jpg
+答案：AD
+
+
+题库中第23题:
+下列哪些叙述是正确的？（多选）
+A.JCheckBox选择框提供两种状态，一种是选中，另一种是未选中。
+B.JTextArea上不能触发MouseEvent事件。
+C.CheckBox选择框可以触发ItemEvent事件。
+D.JTextArea文本区的Document对象可以触发DocumentEvent事件。
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第24题:
+下列哪个叙述是错误的？
+A.JCheckBox选择框提供两种状态，一种是选中，另一种是未选中。
+B.JTextArea上不能触发MouseEvent事件。
+C.CheckBox选择框可以触发ItemEvent事件。
+D.JTextArea文本区的Document对象可以触发DocumentEvent事件。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第25题:
+下列哪些叙述是正确的？（多选）
+A.使用GridLayout布局的容器中的单元格大小相同。
+B.一个容器可以调用setLayout(LayoutManager mgr)方法更改自己的布局。
+C.java.awt.event包中的KeyAdapter类实现了KeyListener接口。
+D.KeyListener接口在java.awt包中。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第26题:
+下列哪个叙述是错误的？
+A.使用GridLayout布局的容器中的单元格大小相同。
+B.一个容器可以调用setLayout(LayoutManager mgr)方法更改自己的布局。
+C.java.awt.event包中的KeyAdapter类实现了KeyListener接口。
+D.KeyListener接口在java.awt包中。。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第27题:
+对于下列代码，哪个叙述是正确的？
+A. 窗口Win的布局是BorderLayout布局。
+B. 用户单击按钮b不会触发ActionEvent事件。
+C. 用户单击按钮b后，按钮上的名字改变成ok。
+D. 用户单击按钮b后，按钮上的名字仍然是yes。
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JButton b;
+   public Win() {
+      setLayout(new FlowLayout());
+      b = new JButton("yes"); 
+      add(b);
+      b.addActionListener(new ActionListener(){
+                            public void actionPerformed(ActionEvent e) {
+                               b.setText("ok");
+                            }
+                          });
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   }
+   public static void main(String args[]){
+        new Win();
+   }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第28题:
+对于下列代码，哪些叙述是正确的？（多选）
+A. 用户将复选框的状态从未选中状态变成选中状态时触发ActionEvent事件。。
+B. 用户将复选框的状态从选中状态变成未选中状态时触发ActionEvent事件。
+C. 用户将复选框的状态从未选中状态变成选中状态时，复选框的名字变成Yes。
+D. 用户将复选框的状态从选中状态变成未选中状态时，复选框的名字变成No。
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JCheckBox check;
+   public Win() {
+      setLayout(new FlowLayout());
+      check = new JCheckBox("你好"); 
+      add(check);
+      check.addItemListener(new ItemListener(){
+                            public void itemStateChanged(ItemEvent e) {
+                               if(check.isSelected())
+                                  check.setText("Yes");
+                                else
+                                  check.setText("No"); 
+                            }
+                          });
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   }
+   public static void main(String args[]){
+        new Win();
+   }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：CD
+
+
+题库中第29题:
+对于下列代码，哪些叙述是正确的？（多选）
+A. 用户第一次将鼠标指针移动进入文本区text内,text显示的文本是你好。
+B. 用户将鼠标指针移动进入文本区text，触发了DocumentEvent事件。
+C. 用户第1次将鼠标指针移动进入文本区text内,text显示的文本是1。
+D. 用户将鼠标指针退出文本区，第2次将鼠标指针移动进入文本区text内,text显示的文本是2。
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextArea text;
+   int m = 0;
+   public Win() {
+      setSize(500,400);
+      text = new JTextArea("你好"); 
+      add(text);
+      text.addMouseListener(new MouseAdapter(){
+                            public void mouseEntered(MouseEvent e) {
+                               m++;
+                               text.setText(""+m); 
+                            }
+                          });
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   }
+   public static void main(String args[]){
+        new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：CD
+
+
+题库中第30题:
+对于下列代码，哪些叙述是正确的？（多选）
+A. 用户文本框text输入文本3，文本框将显示文本9。
+B. 用户文本框text输入文本3然后按Enter回车键，文本框将显示文本9。
+C. 用户文本框text输入文本6然后按Enter回车键，文本框将显示文本36。
+D. 用户文本框text输入文本20，文本框将显示文本20。
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+public class Win extends JFrame { 
+   JTextField text;
+   public Win() {
+      setSize(500,400);
+      setLayout(new FlowLayout());
+      text = new JTextField(8); 
+      add(text);
+      text.addActionListener(new ActionListener(){
+                            public void actionPerformed(ActionEvent e) {
+                                int m = Integer.parseInt(text.getText());
+                                text.setText(""+(m*m)); 
+                            }
+                          });
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   }
+   public static void main(String args[]){
+        new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：BC
+
+
+题库中第31题:
+监视器listen为了监视JTextField文本框触发的FocusEvent事件，下列哪个是正确的？
+A. 创建监视器listen的类需要实现ActionListener接口。
+B. 创建监视器listen的类需要实现ItemListener接口。
+C. 创建监视器listen的类需要实现KeyListener接口。
+D. 创建监视器listen的类可以是FocusAdapater类的子类。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B

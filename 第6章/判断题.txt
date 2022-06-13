@@ -1,0 +1,352 @@
+题库中第1题:
+
+一个源文件中如果定义了接口，就不能再定义类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第2题:
+
+一个源文件中既可以定义接口，也可以定义类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+使用关键字interface来定义一个接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第4题:
+
+接口中只有常量，没有变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+接口中可只有abstract方法，不能有非abstract方法（JDK7版本）
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+接口中可以有abstract方法或default修饰的带方法体的方法（JDK8版本）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+接口中 void f();方法声明等价于public abstract void f();即方法默认是public访问权限的abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+接口中 int x =10等价于 public static final int x = 10,即默认是常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第9题:
+
+接口里也可以定义非abstract的方法（不加default修饰）。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第10题:
+
+一个接口可以有多个父接口：例如：interface A extends Com1,Com2
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第11题:
+
+类使用关键字implements 实现一个或多个接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第12题:
+
+如果一个非abstract类实现某个接口，该类必须重写接口中的全部abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+可以用接口名直接访问接口中的常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+不能用final修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+能用final修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第16题:
+
+能用public修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+能用protected修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第18题:
+
+接口中的方法的访问权限一定都是public（允许省略public）.
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+类声明class A implements Printable,Addable意思是A类实现Prinabe和Addable两个接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+类声明class Stu extends People implements Com 意思是Stu类是People类的子类，
+同时实现Com接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第21题:
+
+interface Com1 extends Com2 意思是Com1是Com2的子接口.
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第22题:
+
+类声明class Stu extends People implements Com 意思是Stu类是People类的子类，
+父类People实现Com接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+一个类声明实现一个接口，但没有重写接口中的所有方法，那么这个类必须是抽象类，
+也就是说抽象类既可以重写接口中的方法也可以直接拥有接口中的方法
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+子接口将继承父接口中的全部方法和常量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第25题:
+
+接口也是Java中一种重要数据类型，用接口声明的变量称做接口变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第26题:
+
+接口变量中可以存放实现该接口的类的实例的引用(对象的引用)。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第27题:
+
+可以把一个int数据赋值给接口变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第28题:
+
+把实现某一接口的类创建的对象的引用赋值给该接口声明的接口变量，那么该接口变量就可以调用被类实现的接口方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+接口中只可以有常量，不能有变量。而abstract类中既可以有常量也可以有变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第30题:
+
+接口中的方法不可以用private或protected修饰。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第31题:
+
+接口中的方法也可以用private或protected修饰。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第32题:
+
+接口中的常量可以不指定初值，编译器会提供默认值。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第33题:
+
+接口中的常量必须指定初值。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第34题:
+
+可以用abstract修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第35题:
+
+可以用private或proteced修饰接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第36题:
+
+一个接口可以继承多个接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第37题:
+
+可以用final修饰接口中的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第38题:
+
+接口默认是public接口
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第39题:
+
+public类只能实现public接口，不能实现友好接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第40题:
+
+类和它所实现的接口不一定在同一个包里。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第41题:
+
+abstract类不能实现任何接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第42题:
+
+一个类至多可实现一个接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第43题:
+
+一个类不能重复实现同一个接口，例如class A implements Com,Com
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第44题:
+
+final类不能实现任何接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第45题:
+
+public接口可以被任何一个类实现。一个类和友好接口在同一个包里，就允许它实现该友好接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第46题:
+
+友好类和它所实现的接口必须在一个包里。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第47题:
+
+允许public类实现任何友好接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第48题:
+
+任何一个类都可以实现public接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第49题:
+
+如果一个类和友好接口在同一个包里，就允许它实现该接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第50题:
+
+接口变量中可以存放任何对象的引用。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误

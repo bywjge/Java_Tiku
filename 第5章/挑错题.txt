@@ -1,0 +1,490 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Animal{
+    int m =100;  //A
+}
+class Dog extend Animal  //B
+{
+}
+class Cat extends Animal  //C
+{
+}
+public class E {
+   public static void main(String args[]){
+      Animal cat = new Cat(); //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+   static int m;
+   static void f(){
+       m = 20 ;          //A
+   } 
+}
+class B extends A {
+   void f()              //B
+   {  m = 222 ;         //C      
+   } 
+}
+class E {
+   public static void main(String args[]) {
+      A.f();            // D    
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+   static int m;
+   void f(){
+       m = 20 ;          //A
+   } 
+}
+class B extends A {
+   static void f()       //B
+   {  m = 222 ;         //C      
+   } 
+}
+class E {
+   public static void main(String args[]) {
+      B.m  = 10;            // D    
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Animal extends Object //A
+{
+    int m =100;
+    void Animal(){
+       m = 20;
+    }
+    Animal(int m){
+      this.m = m;    //B
+    }
+}
+class Dog extends Animal{
+    Dog(){
+       super();    //C
+    }
+    Dog(int m){
+       super(m);    //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Father {
+   private int money =12;
+   float height;
+   int seeMoney(){
+      return money ;           //A
+   } 
+}
+class Son extends Father {
+   int height;
+   int lookMoney() {
+      int m = seeMoney();      //B
+      return m;             
+   }
+}
+class E {
+   public static void main(String args[]) {
+      Son erzi = new Son();
+      erzi.money = 300;         //C
+      erzi.height = 1.78F;      //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Father {
+   private int money =12;
+   float height;
+   int seeMoney(){
+      return money ;           //A
+   } 
+}
+class Son extends Father {
+   int m;
+   void f() {
+      m =  seeMoney();     //B
+      m =  money;          //C
+      height = m+12.7F;    //D       
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Takecare {
+    protected void speakHello() {}        //A
+    public abstract static void cry();    //B
+    static int f(){ return 0 ;}          //C
+    abstract float g();                 //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Hello {
+    protected void speakHello() {}        //A
+    public abstract void cry();          //B
+    static int f(){ return 0 ;}          //C
+    void start(){ }                      //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class AAA {
+    final static void speakHello() {}       //A
+    final abstract void cry();             //B
+    static final int f(){ return 0 ;}      //C
+    abstract float g();                    //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Animal {
+    protected void cry(){} 
+}
+class Dog extends Animal {
+    void cry()  //A
+    {}
+    void cry(int m)  //B
+    {}  
+}
+class Cat extends Animal {
+    public void cry()  //C
+    {}
+    void cry(int m,int n)  //D
+    {}  
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第11题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Animal {
+    void cry(){} 
+}
+class Dog extends Animal {
+    protected  void cry()  //A
+    {}
+    void cry(int m)       //B
+    {}  
+}
+class Cat extends Animal {
+    private void cry()    //C
+    {}
+    void cry(int m,int n)  //D
+    {}  
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第12题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+    float computer(float x,float y)  //A
+    {
+       return x+y;
+    }
+    int g(int x,int y)       //B
+    {
+       return x+y;
+    }
+}
+class B extends A {
+    double computer(float x,float y) //C
+    {
+       return x*y;
+    }
+    public int g(int x,int y)       //D
+    {
+       return x-y;
+    }  
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第13题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Tom {
+    private int x = 120;
+    protected int y = 20;
+    int z = 11;
+    private void showX() {
+        System.out.println(x);  
+    } 
+    public void setX(int x) {
+        this.x = x;
+        System.out.println(x); 
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        Tom tom = new Tom();
+        tom.setX(22);     //A
+        tom.y = 33;       //B
+        tom.z = 55;       //C
+        tom.showX();      //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第14题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Animal {
+    void cry(){} 
+}
+class Dog extends Animal {
+}
+class Cat extends Animal {
+}
+class GetAnimal {
+    Animal get() {
+       return null;  //A 
+    }
+}
+class GetDog extends GetAnimal {
+    Dog get()       //B
+    {             
+       return new Dog(); 
+    }
+}
+class GetCat extends GetAnimal {
+    Cat get()      //C
+    {             
+       return new Cat(); 
+    }
+}
+class Other extends GetAnimal {
+    Animal get() 
+    {             
+       return new Animal(); //D
+    }
+}
+
+
+
+
+
+
+
+
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第15题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class A {            
+   abstract float getFloat ();  //A
+   void f()                     //B
+   {}
+}
+class B extends A {
+   private float m = 1.0f;      //C
+   private float getFloat ()     //D
+   {  return m;
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第16题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A { 
+   public float getNum() {
+       return 3.0f;
+   }     
+} 
+class B extends A { 
+     public void getNum()         //A
+     {}
+     public float getNum(int x)   //B
+     {
+        return 3.14f+x;
+     } 
+     public void getNum(double d) //C
+     {} 
+     public double getNum(float d) //D
+     {
+         return 5.8+d;
+     }
+} 
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第17题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Animal {
+    int m =100;
+    Animal(){
+       m = 20;
+    }
+    Animal(int m){
+      this.m = m;    //A
+    }
+}
+class Dog extends Animal{
+    Dog(){
+       m = 100;
+       super(2);     //B
+    }
+    Dog(int m){
+       super();        //C
+       this.m = m ;    //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第18题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Animal {
+    int m =100;
+}
+class Dog extends Animal{
+    double m;
+}
+public class E {
+    public static void main(String args[]){
+        Animal animal = null;   //A
+        Dog dog = new Dog();     
+        animal = dog;          //B
+        dog.m = 3.14;          //C
+        animal.m = 3.14;      //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第19题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Animal {
+    double m =100;
+}
+class Dog extends Animal{
+    int m;
+}
+public class E {
+    public static void main(String args[]){
+        Animal animal = null;   //A
+        Dog dog = new Dog();     
+        animal = dog;          //B
+        dog.m = 3.14;          //C
+        animal.m = 3.14;      //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第20题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Animal {
+    abstract void f();
+}
+class Dog extends Animal{
+    public void f(){}
+    public void g(){}
+}
+public class E {
+    public static void main(String args[]){
+         Animal animal = null;        
+         Dog dog = new Dog(); //A 
+         animal = dog ;       //B
+         animal.f() ;        //C
+         animal.g();         //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第21题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+   int f(int x,int y) {
+       return x+y;
+   }
+}
+class B extends A {
+   int f(double x,int y) {
+       return (int)x*y;
+   }
+}
+public class E {
+public static void main(String args[]) {
+      B b=new B();
+      int m = b.f(3,5); //A
+      m = b.f(3.14,5);  //B
+      A a = b;
+      m = a.f(3,5);     //C  
+      m = a.f(3.14,5);  //D
+  }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+

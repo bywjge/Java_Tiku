@@ -1,0 +1,202 @@
+题库中第1题:
+
+Java支持在一个类中定义一个类，这样的类称作该类的内部类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+内部类的外嵌类的成员变量在内部类中仍然有效。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+内部类中的方法也可以调用外嵌类中的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第4题:
+
+内部类的类体中不可以声明类变量和类方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+外嵌类的类体中可以用内部类声明对象，作为外嵌类的成员。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+可以用private或protected修饰内部类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+内部类仅供它的外嵌类使用，其他类不可以用某个类的内部类声明对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+static内部类不能操作外嵌类中的实例成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第9题:
+
+非匿名内部类也可以实现接口。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第10题:
+
+非匿名内部类也可以有（内部）子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第11题:
+
+内部类不可以是final类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第12题:
+
+不可能用匿名类声明对象，但却可以直接用匿名类创建一个对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+匿名子类（和子类有关的匿名类）可以继承父类的方法也可以重写父类的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+匿名子类（和子类有关的匿名类）的类体中不可以声明static成员变量和static方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+接口匿名类（和接口有关的匿名类）的类体中不可以声明static成员变量和static方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第16题:
+
+匿名类一定是内部类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+Java使用throw关键字抛出一个Exception的子类的实例表示异常发生。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第18题:
+
+try~catch语句可以由几个catch组成，分别处理发生的相应异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+一个方法在声明时可以使用throws关键字声明要产生的若干个异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+一个方法在声明时可以使用throw关键字声明要产生的若干个异常。。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第21题:
+
+throw的作用就是抛出异常.throw和throws是两个不同的关键字。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第22题:
+
+接口匿名类（和接口有关的匿名类）可以是抽象类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+匿名子类（子类有关的匿名类）可以是抽象类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第24题:
+
+匿名子类（子类有关的匿名类）一定不是抽象类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第25题:
+
+接口匿名类（和接口有关的匿名类）一定不是抽象类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第26题:
+
+匿名类没有构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第27题:
+
+匿名类只有一个不带参数的构造方法（编译器会给匿名类一个名字和构造方法）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第28题:
+
+匿名类也有构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+匿名类一定是final类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确

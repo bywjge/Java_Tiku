@@ -1,0 +1,436 @@
+题库中第1题:
+ 下列哪个叙述是正确的？
+A.  5.0/2+10的结果是double型数据。
+B．(int)5.8+1.0的结果是int型数据。
+C．'苹'+ '果'的结果是char型数据。
+D．(short)10+'a'的结果是short型数据。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+用下列哪个代码替换程序标注的【代码】会导致编译错误？
+public class E {  
+    public static void main (String args[ ]) { 
+      int m=10,n=0;
+      while(【代码】) {
+         n++;
+      }  
+    }
+}
+A．m-->0  
+B．m++>0 
+C．m = 0  
+D．m>100&&true
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第3题:
+用下列哪个代码替换程序标注的【代码】会导致编译错误？
+public class E {  
+    public static void main (String args[ ]) { 
+      int m=10,n=0;
+      if(【代码】) {
+         n++;
+      }  
+    }
+}
+A．m-->0  
+B．m++>0 
+C．m = 0  
+D．m>100&&true
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第4题:
+用下列哪个替换程序中的【代码】导致如图3_1所提示的错误。
+public class Test {  
+    public static void main (String args[ ]) { 
+       byte m = 1;
+       byte n = 1+【代码】;
+    }
+}
+A．'a'  
+B．126 
+C．m  
+D．'A'
+注解：允许把不超出byte的取值范围的int常量赋值给byte变量。但是注意，编译器在编译时并不计算1+m中变量m中的值，只是编译出1+m表达式的值是int型数据。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字图3_1.jpg
+答案：C
+
+
+题库中第5题:
+用下列哪个替换程序中的【代码】导致如图3_2所提示的错误。
+public class Test {  
+    public static void main (String args[ ]) { 
+       int x = 0;
+      【代码】
+    }
+}
+A．short t = 12+'a'; 
+B．char c ='a'+1; 
+C．char m ='a'+x;  
+D．byte n ='a'+1;
+注解：允许把不超出byte,char,short的取值范围的int常量赋值给相应的变量。但是注意，编译器在编译时并不计算'a'+x中变量x中的值，只是编译出'a'+x表达式的值是int型数据。有关知识点见教材3.1.3节。
+A	B	C	D
+图像的名字图3_2.jpg
+答案：C
+
+
+题库中第6题:
+ 以下哪一项是下列代码的执行输出结果？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m =10,n;
+       n = m++;
+       n = --m;
+       System.out.printf("%d,%d",m,n);
+    }
+}
+
+ A. 11,10
+ B. 10,10
+ C. 10,11
+ D. 11,11
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m = 10, n = 20;
+       if(n>m)
+          System.out.print("hello");
+       else
+          System.out.print("ok");
+          System.out.print("你好");
+    }
+}
+ A. 程序输出的结果是hello你好
+ B. 程序的输出结果是hello
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是你好
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第8题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m = 10, n = 20;
+       if(n>m)
+          System.out.print("hello");
+          System.out.print("你好");
+       else
+          System.out.print("ok");
+          System.out.print("yes");
+    }
+}
+ A. 出现编译错误。
+ B. 程序的输出结果是hello你好
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是okyes
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第9题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       boolean boo = false;
+       if(boo = true){
+          System.out.print("hello");
+          System.out.print("你好");
+       }
+       else {
+          System.out.print("ok");
+          System.out.print("yes");
+       }
+    }
+}
+
+ A. 出现编译错误。
+ B. 程序的输出结果是hello你好
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是okyes
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第10题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       boolean boo = false;
+       if(boo == true){
+          System.out.print("hello");
+          System.out.print("你好");
+       }
+       else {
+          System.out.print("ok");
+          System.out.print("yes");
+       }
+    }
+}
+
+ A. 出现编译错误。
+ B. 程序的输出结果是hello你好
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是okyes
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m =100;
+       if(m = 100){
+          System.out.print("hello");
+          System.out.print("你好");
+       }
+       else {
+          System.out.print("ok");
+          System.out.print("yes");
+       }
+    }
+}
+
+ A. 出现编译错误。
+ B. 程序的输出结果是hello你好
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是okyes
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第12题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       double m = 0.4;
+       double n = 0.4F;
+       if(m == n){ 
+           System.out.printf("%s","您好"); 
+       }
+       else {
+           System.out.printf("%s","hello");
+       } 
+    }
+}
+
+ A. 出现编译错误。
+ B. 程序的输出结果是您好。
+ C. 程序输出的结果是hello。
+ D. 程序没有输出任何结果。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第13题:
+对于下列Test.java下列哪个叙述是正确的？
+public class Test {  
+    public static void main (String args[ ]) { 
+       int m =100;
+       if(m == 100){
+          System.out.print("hello");
+          System.out.print("你好");
+       }
+       else {
+          System.out.print("ok");
+          System.out.print("yes");
+       }
+    }
+}
+
+ A. 出现编译错误。
+ B. 程序的输出结果是hello你好
+ C. 程序输出的结果是ok
+ D. 程序输出的结果是okyes
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第14题:
+ 下列哪个叙述是正确的？?
+A. 'a'+10的结果是int型数据。
+B．(int)5.8+2e1的结果是int型数据。
+C．'苹'+ '果'的结果是char型数据。
+D．(byte)3.14+1的结果是byte型数据。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第15题:
+对于int n=6789;，表达式的值为7的是：    
+
+A. n%10 
+B. n/10%10 
+C. n/100%10 
+D. n/1000%10
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第16题:
+对于int n=789;，表达式的值为8的是：    
+
+A. n%10 
+B. n/10 
+C. n/100%10 
+D.(n-n/100*100)/10
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第17题:
+用下列哪个代码替换程序标注的【代码】会导致编译错误？
+public class E {  
+    public static void main (String args[ ]) { 
+      for(int m =-10;【代码】;m++) {
+         m++;
+      }  
+    }
+}
+A．m-- > 0  
+B．m++  >0 
+C．m = 0  
+D．m < 100
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第18题:
+用下列哪个代码替换程序标注的【代码】会导致编译错误？
+public class Test {  
+    public static void main (String args[ ]) { 
+         int m = 0;
+         if(【代码】){
+           System.out.println("条件表达式必须是bookean");
+         }
+    }
+}
+A．m-- > 0  
+B．++m  >0 
+C．m = 0  
+D．m != 0 
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第19题:
+用下列哪个代码替换程序标注的【代码】会使得程序输出您好。
+public class Test {  
+    public static void main (String args[ ]) { 
+         int m = 0;
+         if(【代码】){
+           System.out.println("您好");
+         }
+         else {
+           System.out.println("hello");
+         }
+    }
+}
+A．m-- > 0  
+B．++m  >0 
+C．m++ > 0  
+D．--m > 0
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第20题:
+用下列哪个代码替换程序标注的【代码】会使得程序输出hello。
+public class Test {  
+    public static void main (String args[ ]) { 
+         int m = 0;
+         if(【代码】){
+           System.out.println("您好");
+         }
+         else {
+           System.out.println("hello");
+         }
+    }
+}
+A．m-- <= 0  
+B．++m  > 0 
+C．m++ > 0  
+D．--m < 0
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第21题:
+ 下列哪些叙述是正确的？（多选）
+A. 表达式5.0/2+10的结果是double型数据：12.5。
+B. 表达式5/2的结果是2。
+C. 表达式10>20-17的结果是1
+D. 表达式5>1的结果是true。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第22题:
+ 下列哪个叙述是错误的？
+A. 表达式5.0/2+10的结果是double型数据：12.5。
+B. 表达式5/2的结果是2。
+C. 表达式10>20-17的结果是1
+D. 表达式5>1的结果是true。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第23题:
+ 下列哪个叙述是错误的？
+A. 逻辑运算符的运算结果是int型数据。
+B. 关系运算符的运算结果是boolean型数据。
+C. 逻辑运算符的运算结果是boolean型数据。
+D. 逻辑运算符的操作元必须是boolean型数据。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第24题:
+ 下列哪个叙述是错误的？
+A. while(表达式)...语句中的“表达式”的值必须是boolean型数据。。
+B. for(表达式1; 表达式2; 表达式3)...语句中的“表达式2”的值必须是boolean型数据。
+C. if(表达式)...语句中的“表达式”的值必须是boolean型数据。
+D. switch语句中必须要有default选项。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D

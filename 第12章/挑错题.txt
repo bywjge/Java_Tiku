@@ -1,0 +1,56 @@
+题库中第1题:
+下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();   //A
+       Cat cat =new Cat();   //B
+       cat.start();          //C
+       while(true){
+          System.out.println("yes");
+       }
+       dog.start();         //D
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("dog");
+       }
+    }
+}
+class Cat extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("cat");
+       }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+下列ABCD注释标注的哪行代码有错误？
+public class E { 
+   public static void main(String args[]) { 
+       Target t = new Target();
+       Thread dog =new Thread(t);   //A
+       Thread cat =new Thread(new Target()); //B
+       dog.start();          //C
+       while(true){
+          System.out.println("yes");
+       }
+       cat.start();         //D
+   }
+}
+class Target implements Runnable{
+    public void run(){
+       while(true){
+          System.out.println("ok");
+       }
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D

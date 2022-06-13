@@ -1,0 +1,380 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+public class Win extends JFrame { 
+   JTextField text;
+   public Win() {
+      setLayout(12,39); //A
+      setSize(500,400); //B
+      text = new JTextField(8); 
+      add(text);        //C
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JTextField text;
+   public Win() {
+      setLayout(new FlowLayout()); //A
+      setLocation(500,400);       //B
+      text = new TextField(8);    //C
+      add(text);                  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame implements ItemListener { 
+   JTextField text;
+   public Win() {
+      setLayout(new FlowLayout()); //A
+      setLocation(500,400);       //B
+      text = new JTextField(8);    
+      add(text);    
+      text.addItemListener(this);  //C             
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE); //D
+   }
+   public void itemStateChanged(ItemEvent e){}
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.event.*;
+public class Win extends JFrame implements DocumentListener { 
+   JCheckBox check;
+   public Win() {
+      setLayout(new CardLayout()); //A
+      setLocation(500,400);       //B
+      check = new JCheckBox();    
+      add(check);    
+      check.addDocumentListener(this);  //C             
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); //D
+   }
+   public void changedUpdate(DocumentEvent e) {}   
+   public void removeUpdate(DocumentEvent e){}
+   public void insertUpdate(DocumentEvent e){}
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+import javax.swing.event.*;
+public class Win extends JFrame implements DocumentListener { 
+   JTextArea text1,text2;
+   public Win() {
+      setLayout(new GridLayout(2,2)); //A
+      text1 = new JTextArea();
+      text2 = new JTextArea(12);     //B   
+      add(text1);
+      text1.getDocument().addDocumentListener(this); //C              
+      setVisible(true);
+      setBounds(500,400,2,3);          //D
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public void changedUpdate(DocumentEvent e) {}   
+   public void removeUpdate(DocumentEvent e){}
+   public void insertUpdate(DocumentEvent e){}
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   public Win() {
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       JButton b = new JButton();     //A
+       Win win=new Win();
+       win.add(b,"java");             //B
+       win.setTitle("ok");            //C
+       win.setBounds(10,10,460,360);  //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JComponent b ;
+   public Win() {
+      b = new JButton();   //A
+      setLayout(new FlowLayout());
+      add(1,b);           //B
+      setTitle("ok");            //C
+      setBounds(10,10,460,360);  //D
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(IllegalArgumentException: adding a window to a container)
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JDialog dialog ;
+   public Win() {
+      dialog = new JDialog();   //A
+      setLayout(new FlowLayout());
+      add(dialog);           //B
+      setTitle("ok");            //C
+      setBounds(10,10,460,360);  //D
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第9题:
+下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(NullPointerException)
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JPanel panel;
+   public Win() {
+      panel.setLayout(new FlowLayout()); //A
+      panel = new JPanel();              //B
+      add(panel);                        //C
+      panel.add(new JLabel("java"));     //D          
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第10题:
+下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(NullPointerException)
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JPanel panel;
+   JButton button;
+   public Win() {
+      panel = new JPanel();              
+      panel.setLayout(new FlowLayout()); //A
+      add(panel);                        //B
+      panel.add(new JLabel("java"));     //C
+      panel.add(button);                 //D
+      button = new JButton("enter");          
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(NullPointerException)
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame implements ActionListener{ 
+   JPanel panel;
+   JButton button;
+   public Win() {
+      panel = new JPanel();              
+      panel.setLayout(new FlowLayout()); //A
+      add(panel);                        //B
+      panel.add(new JLabel("java")); 
+      button.addActionListener(this);    //C    
+      button = new JButton("enter"); 
+      panel.add(button);                 //D
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public void actionPerformed(ActionEvent e){}
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第12题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(NullPointerException)
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame implements ActionListener{ 
+   JPanel panel;
+   JTextField text;
+   public Win() {
+      panel = new JPanel();              
+      panel.setLayout(new FlowLayout()); //A
+      add(panel);                        //B
+      panel.add(new JLabel("java")); 
+      text.setFont(new Font("宋体",Font.BOLD,20)); //C
+      text = new JTextField("ok"); 
+      text.addActionListener(this);      //D    
+      panel.add(text);                
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public void actionPerformed(ActionEvent e){}
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第13题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(IllegalArgumentException: adding a window to a container)
+import javax.swing.*;
+import java.awt.*;
+public class Win extends JFrame { 
+   JFrame window ;
+   public Win() {
+      window = new JFrame();   //A
+      setLayout(new FlowLayout());
+      add(window);           //B
+      setTitle("ok");            //C
+      setBounds(10,10,460,360);  //D
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第14题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+(NullPointerException)
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame implements ItemListener{ 
+   JPanel panel;
+   JCheckBox c;
+   public Win() {
+      panel = new JPanel();              
+      panel.setLayout(new FlowLayout());     //A
+      c.setBackground(new Color(12,255,100)); //B
+      c = new JCheckBox("ok"); 
+      c.addItemListener(this);           //C 
+      add(panel);                        //D
+      panel.add(new JLabel("java"));     
+      panel.add(c);                
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public void itemStateChanged(ItemEvent e){}
+   public static void main(String args[]) {
+       Win win=new Win();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第15题:
+ 下列ABCD注释标注的哪行代码有错误？
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+public class Win extends JFrame implements ItemListener{ 
+   JCheckBox c;
+   public Win() {
+      c = new JCheckBox("ok");
+      c.setBackground(new Color(12,255,100)); //A
+      c.addItemListener(this);                //B 
+      add(c);                                 //C               
+      setBounds(10,10,460,360);  
+      setVisible(true);
+      setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
+   }
+   public void itemStateChanged(ItemEvent e){
+       JCheckBox box = e.getSource();      //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D

@@ -1,0 +1,94 @@
+题库中第1题:
+下列ABCD注释标注的哪行代码有错误？
+public class Example          //A
+{
+   public static void main(String args[]) //B
+   {
+      System.out.println("ok");          //C
+      System.out.println("hello");
+      system.out.println("您好");         //D
+   } 
+}
+A	B	C	D
+图像的名字无图jpg
+答案：D
+
+
+题库中第2题:
+下列ABCD注释标注的哪行代码有错误？
+Public class Example          //A
+{
+   public static void main(String args[]) //B
+   {
+      System.out.println("ok");          //C
+      System.out.println("hello");
+      System.out.println("您好");         //D
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第3题:
+下列ABCD注释标注的哪行代码有错误？
+public class Example          //A
+{
+   public static void main(string args[]) //B
+   {
+      System.out.println("ok");          //C
+      System.out.println("hello");
+      System.out.println("您好");         //D
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+下列ABCD注释标注的哪行代码有错误？
+public class Example          //A
+{
+   public static void main(String args[]) //B
+   {
+      System.out.println("ok");            //C
+      System.out.println("hello");
+      System.out.println("您好”);         //D
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第5题:
+下列ABCD注释标注的哪行代码有错误？
+public class Example          //A
+{
+   public static void main(String args[]) //B
+   {
+      System.out.println("ok")            //C
+      System.out.println("hello");
+      System.out.println("您好");         //D
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+下列ABCD注释标注的哪行代码有错误？
+public class Example          //A
+{
+   public void main(String args[]) //B
+   {
+      System.out.println("ok");            //C
+      System.out.println("hello");
+      System.out.println("您好"];         //D
+   } 
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D

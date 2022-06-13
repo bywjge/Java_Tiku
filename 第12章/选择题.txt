@@ -1,0 +1,433 @@
+题库中第1题:
+下列哪个是正确的?
+A. 线程被创建，在JVM管理的线程队列立刻就有这个线程。 
+B. 当一个线程进入中断状态后，它被放在JVM管理的线程队列中的最前面排队等待CPU资源，以便从中断处继续运行。
+C. 一个线程从死亡状态可以再回到中断状态。 
+D. 线程调用start()方法可以使一个线程成为可运行的，但是它不一定立即开始运行。
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第2题:
+A．线程新建后，可以调用run方法进入运行状态。
+B．如果两个线程需要调用同一个同步方法，那么一个线程调用该同步方法时，另一个线程必须等待。
+C．线程的目标对象中的run方法可能启动多次。
+D．默认情况下，所有线程的优先级都是5级。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第3题:
+下列哪个叙述是正确的？
+A．run()方法是Runnable接口中的方法。
+B．start()方法是Runnable接口中的方法。
+C．sleep()方法是Runnable接口中的方法。
+D．interrupt()方法是Runnable接口中的方法。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第4题:
+下列哪个叙述是正确的?
+A．多线程需要多个CPU才可以。
+B．多线程需要多个进程来实现。
+C．一个进程可以产生多线程。
+D．线程之间无法实现数据共享。
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+下列哪个方法可以让新建的线程进入JVM管理的线程列队中？
+A．start()。
+B．run()。
+C．init()。
+D．isAlive()。
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第6题:
+wait()方法、notify()及notifyAll()方法在下列哪个类或接口中？
+A．java.lang.Thread。
+B．java.lang.Object。
+C．java.lang.Runnable。
+D．java.lang.System。
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+下列哪些叙述是正确的?（多选）
+A．线程不是进程，但其行为很象进程，线程是比进程更小的执行单位。
+B. 一个进程在其执行过程中，可以产生多个线程。
+C.一个进程在其执行过程中，至多可以产生1个线程。
+D. JVM加载代码，发现主类的main方法之后，就会启动一个线程，这个线程称为“主线程”（main线程），该线程负责执行main方法。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABD
+
+
+题库中第8题:
+哪个叙述是错误的？
+A．线程不是进程，但其行为很象进程，线程是比进程更小的执行单位。
+B. 一个进程在其执行过程中，可以产生多个线程。
+C.一个进程在其执行过程中，至多可以产生1个线程。
+D. JVM加载代码，发现主类的main方法之后，就会启动一个线程，这个线程称为“主线程”（main线程），该线程负责执行main方法。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第9题:
+下列哪些叙述是正确的？（多选）
+A．线程在它的一个完整的生命周期中通常要经历如下的四种状态:1.新建, 2．运行 ,3中断,4．死亡。
+B.可以使用Thread类或其子类创建（新建）线程。
+C.线程调用start方法将启动线程，使之从新建状态进入就绪队列排队.
+一旦轮到它来享用CPU资源时，就可以脱离创建它的线程独立开始自己的生命周期了。
+D.线程不调用start方法，JVM就也会把它当作一个线程来对待（JVM管理的线程队列有这个线程）。
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第10题:
+哪个叙述是错误的？
+A．线程在它的一个完整的生命周期中通常要经历如下的四种状态:1.新建, 2．运行 ,3中断,4．死亡。
+B.可以使用Thread类或其子类创建（新建）线程。
+C.线程调用start方法将启动线程，使之从新建状态进入就绪队列排队.
+一旦轮到它来享用CPU资源时，就可以脱离创建它的线程独立开始自己的生命周期了。
+D.线程不调用start方法，JVM就也会把它当作一个线程来对待（JVM管理的线程队列有这个线程）。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第11题:
+哪个叙述是错误的？
+A．线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是false。
+B. 线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是true。
+C. currentThread()方法是Thread类中的static方法，该方法返回当前正在使用CPU资源的线程.
+D. 线程调用interrupt()方法将使得处于speep方法或wait方法中断的该线程触发InterruptedException异常。
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第12题:
+哪些叙述是正确的？（多选）
+A．线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是false。
+B. 线程处于“新建”状态时（在调用start方法之前），线程调用isAlive()方法返回的值是true。
+C. currentThread()方法是Thread类中的static方法，该方法返回当前正在使用CPU资源的线程.
+D. 线程调用interrupt()方法将触发InterruptedException异常。
+
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第13题:
+哪些叙述是正确的？（多选）
+A．进入运行状态的线程，调用isAlive()方法返回的值是true。
+B. 新建状态的线程调用isAlive()方法返回的值是false。
+C. currentThread()方法是Thread类中的static方法，该方法返回当前正在使用CPU资源的线程.
+D. Java中的线程不可以共享数据。
+
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ABC
+
+
+题库中第14题:
+哪个叙述是错误的？
+A．进入运行状态的线程（run方法未结束），调用isAlive()方法返回的值是true。
+B. 新建状态的线程调用isAlive()方法返回的值是false。
+C. currentThread()方法是Thread类中的static方法，该方法返回当前正在使用CPU资源的线程.
+D. Java中的线程不可以共享数据。
+
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第15题:
+对于下列程序，哪个叙述是正确的？
+A．JVM认为这个应用程序共有两个线程。
+B．JVM认为这个应用程序只有一个主线程。
+C．JVM认为这个应用程序只有一个thread线程。 
+D．thread的优先级是10级。
+public class E { 
+   public static void main(String args[]) { 
+       Target target =new Target();
+       Thread thread =new Thread(target);
+       thread.start();
+   }
+}
+class Target implements Runnable{
+    public void run(){
+       System.out.println("ok");
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第16题:
+对于下列程序，哪个叙述是正确的？
+A．JVM认为这个应用程序共有两个线程。
+B．JVM认为这个应用程序只有一个主线程。
+C．JVM认为thread在JVM管理的线程队列里。
+D．程序有编译错误，无法运行。
+public class E { 
+   public static void main(String args[]) { 
+       Target target =new Target();
+       Thread thread =new Thread(target);
+       target.run();
+   }
+}
+class Target implements Runnable{
+    public void run(){
+       System.out.println("ok");
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第17题:
+对于下列程序，哪些叙述是错误的？（多选）
+A．JVM认为这个应用程序共有两个线程。
+B．JVM认为这个应用程序只有一个主线程。
+C．JVM认为thread在JVM管理的线程队列里。
+D．程序有编译错误，无法运行。
+public class E { 
+   public static void main(String args[]) { 
+       Target target =new Target();
+       Thread thread =new Thread(target);
+       target.run();
+   }
+}
+class Target implements Runnable{
+    public void run(){
+       System.out.println("ok");
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第18题:
+对于下列程序，哪些叙述是错误的？（多选）
+A．JVM认为这个应用程序共有两个线程。
+B．JVM认为这个应用程序只有一个主线程。
+C．JVM认为dog在JVM管理的线程队列里。
+D．程序有编译错误，无法运行。
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();
+       dog.run();
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       System.out.println("ok");
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：ACD
+
+
+题库中第19题:
+对于下列程序，哪个叙述是正确的？
+A．JVM认为这个应用程序共有两个线程:主线程和dog线程。
+B．JVM认为这个应用程序只有一个主线程。
+C．JVM认为这个应用程序只有一个dog线程。
+D．程序有编译错误，无法运行。
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();
+       dog.start();
+       while(true){
+          System.out.println("yes");
+       }
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("ok");
+       }
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第20题:
+对于下列程序，哪个叙述是正确的？
+A．JVM认为这个应用程序共有两个线程:主线程和dog线程。
+B．JVM认为dog在JVM管理的线程列队中。
+C．应用程序可以编译通过，运行效果是：循环地输出ok。
+D．程序有编译错误，无法运行。
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();
+       dog.run();
+       while(true){
+          System.out.println("yes");
+       }
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("ok");
+       }
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第21题:
+对于下列程序，哪个叙述是正确的？
+A．应用程序运行效果是：循环地只输出yes。
+B．程序没有编译错误，但运行时触发NullPointerException。
+C．应用程序可以编译通过，运行效果是：循环地只输出ok。
+D．程序有编译错误。
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();
+       dog.run();
+       while(true){
+          System.out.println("yes");
+       }
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("ok");
+       }
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第22题:
+对于下列程序，哪个叙述是正确的？
+A．应用程序可以编译通过，运行效果是：循环地只输出ok。
+B．程序没有编译错误，但运行时触发NullPointerException。
+C．应用程序可以编译通过，运行效果是：循环地交替输出几个ok或几个yes。
+D．程序有编译错误。
+public class E { 
+   public static void main(String args[]) { 
+       Dog dog =new Dog();
+       dog.start();
+       while(true){
+          System.out.println("yes");
+       }
+   }
+}
+class Dog extends Thread{
+    public void run(){
+       while(true){
+          System.out.println("ok");
+       }
+    }
+}
+
+
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第23题:
+哪些叙述是正确的？(多选)
+A．一个线程A调用synchronized方法期间，其他线程也可以能成功调用这个synchronized方法。
+B. wait()、notify()和notifyAll()都是Object类中的final方法，
+被所有的类继承、且不允许重写的方法。
+C. 一个线程在执行同步方法时，如果执行wait()方法，使本线程进入中断，就允许其它线程使用这个同步方法。
+D. 一个因执行wait方法进入中断状态的线程，需要其他线程执行notify()或notifyAll()通知它结束中断状态。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第24题:
+哪个叙述是错误的？
+A．一个线程A调用synchronized方法期间，其他线程也可以能成功调用这个synchronized方法。
+B. wait()、notify()和notifyAll()都是Object类中的final方法，
+被所有的类继承、且不允许重写的方法。
+C. 一个线程在执行同步方法时，如果执行wait()方法，使本线程进入中断，就允许其它线程使用这个同步方法。
+D. 一个因执行wait方法进入中断状态的线程，需要其他线程执行notify()或notifyAll()通知它结束中断状态。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第25题:
+哪个叙述是错误的？
+A．一个线程A调用synchronized方法期间，执行sleep方法进入中断后，其他线程就能成功调用这个synchronized方法。
+B. 线程在执行完run()方法之前，如果再次让线程执行start方法，
+就会发生ILLegalThreadStateException 异常。
+C. javax.swing.Timer类称为计时器线程，计时器的监视器必须是组件类的子类的实例，否则计时器无法启动。
+D. 线程默认是非守护线程。当程序中的所有非守护户线程都已结束运行时，即使守护线程的run方法中还有需要执行的语句，守护线程也立刻结束运行。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第26题:
+哪些叙述是正确的？（多选）
+A．一个线程调用synchronized方法期间，执行sleep方法进入中断后，其他线程就能成功调用这个synchronized方法。
+B. 线程在执行完run()方法之前，如果再次让线程执行start方法，
+就会发生ILLegalThreadStateException 异常。
+C. javax.swing.Timer类称为计时器线程，计时器的监视器必须是组件类的子类的实例，否则计时器无法启动。
+D. 线程默认是非守护线程。当程序中的所有非守护户线程都已结束运行时，即使守护线程的run方法中还有需要执行的语句，守护线程也立刻结束运行。
+
+A	B	C	D
+图像的名字无图.jpg
+答案：BCD

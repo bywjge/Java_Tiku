@@ -1,0 +1,388 @@
+题库中第1题:
+ 下列哪个类型声明的变量可以取true或false两个值?
+ A. byte
+ B. boolean
+ C. char
+ D. double
+A	B	C	D
+图像的名字无图1.jpg
+答案：B
+
+
+题库中第2题:
+ 下列哪项字符序列可以做为标识符？
+ A. true
+ B. default
+ C. _int
+ D. good-class
+A	B	C	D
+图像的名字无图2.jpg
+答案：C
+
+
+题库中第3题:
+ 下列哪一项是正确的float变量的声明？
+ A. float foo = 1; 
+ B. float foo = 1.0; 
+ C. float foo = 2e1; 
+ D. float foo = 2.02; 
+A	B	C	D
+图像的名字无图3.jpg
+答案：A
+
+
+题库中第4题:
+ 下列哪一项是正确的float变量的声明？
+ A. float foo = 1e2; 
+ B. float foo = 3.14; 
+ C. float foo = 3.03d; 
+ D. float foo = 0x0123;
+A	B	C	D
+图像的名字无图4.jpg
+答案：D
+
+
+题库中第5题:
+ 下列哪一项叙述是正确的？
+ A. char型字符在Unicode表中的位置范围是0至32767
+ B. char型字符在Unicode表中的位置范围是0至65535
+ C. char型字符在Unicode表中的位置范围是0至65536
+ D. char型字符在Unicode表中的位置范围是-32768至32767
+A	B	C	D
+图像的名字无图5.jpg
+答案：B
+
+
+题库中第6题:
+ 以下哪一项是正确的char型变量的声明？
+ A. char ch = "R";
+ B. char ch = '\\'
+ C. char ch = 'ABCD';
+ D. char ch = "ABCD";
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+ 以下哪一项是错误的char型变量的声明？
+ A. char ch = '\ucafe';
+ B. char ch = '\u1010'
+ C. char ch = '\t';
+ D. char ch = '\t\n';
+A	B	C	D
+图像的名字无图6.jpg
+答案：D
+
+
+题库中第8题:
+ 对于int a[] = new int[3];下列哪个叙述是错误的？
+ A. a.length的值是3。
+ B. a[1]的值是1。
+ C. a[0]的值是0。
+ D. a[a.length-1]的值等于a[2]的值。
+
+A	B	C	D
+图像的名字无图7.jpg
+答案：B
+
+
+题库中第9题:
+以下哪一项是错误的float变量的声明？
+ A. float a = 1.19; 
+ B. float b = 520; 
+ C. float c = 'a'; 
+ D. float d = 1.0f; 
+A	B	C	D
+图像的名字无图8.jpg
+答案：A
+
+
+题库中第10题:
+ 以下哪一项是错误的float变量的声明？
+ A. float a = 2e3; 
+ B. float b = 520; 
+ C. float c = '你'; 
+ D. float d = 3.14F; 
+A	B	C	D
+图像的名字无图9.jpg
+答案：A
+
+
+题库中第11题:
+ 以下哪一项是正确的float常量？
+ A. 15.3; 
+ B. 3.14E2; 
+ C. 67F; 
+ D. 10d; 
+A	B	C	D
+图像的名字无图10.jpg
+答案：C
+
+
+题库中第12题:
+ 以下哪一项是Java语言的关键字？
+ A. Class 
+ B. int 
+ C. Float 
+ D. main 
+A	B	C	D
+图像的名字无图11.jpg
+答案：B
+
+
+题库中第13题:
+ 以下哪种类型变量占用的内存最少？
+ A. short 
+ B. int 
+ C. float 
+ D. byte 
+A	B	C	D
+图像的名字无图12.jpg
+答案：D
+
+
+题库中第14题:
+ 以下哪种类型变量占用的内存最少？
+ A. char 
+ B. int 
+ C. double 
+ D. long 
+A	B	C	D
+图像的名字无图13.jpg
+答案：A
+
+
+题库中第15题:
+ 以下哪种类型变量占用的内存最多？
+ A. int 
+ B. float 
+ C. double 
+ D. char 
+A	B	C	D
+图像的名字无图14.jpg
+答案：C
+
+
+题库中第16题:
+ 以下哪个是错误的数组声明？
+ A. short [] a; 
+ B. int a[5]; 
+ C. float []a[];
+ D. byte  [][]a
+A	B	C	D
+图像的名字无图15.jpg
+答案：B
+
+
+题库中第17题:
+ 对于int [][] a = {{1,2},{1,2,3},{1,2,3,4}};
+ 下列哪个叙述是错误的？ 
+ A. a.length的值是3。 
+ B. a[2].length的值是4。
+ C. a[0][1]的值是1。
+ D. a[2][0]的值是1。
+
+A	B	C	D
+图像的名字无图16.jpg
+答案：C
+
+
+题库中第18题:
+ 下列哪项是Java语言规定的关键字？
+ A. run
+ B. import
+ C. Int
+ D. implement
+A	B	C	D
+图像的名字无图17.jpg
+答案：B
+
+
+题库中第19题:
+ 下列哪项是Java语言规定的关键字？
+ A. NULL
+ B. sizeof
+ C. friend
+ D. extends
+A	B	C	D
+图像的名字无图18.jpg
+答案：D
+
+
+题库中第20题:
+ 下列哪项正确表达了int型变量的取值范围？
+ A. 取决于编译器 
+ B. -231 至 231-1
+ C. -231-1 至 231
+ D. -216 至 216-1
+A	B	C	D
+图像的名字无图19.jpg
+答案：B
+
+
+题库中第21题:
+ char型变量的取值范围是下列哪一项？
+ A. 0 至 216 
+ B. 0 至 216-1
+ C. -215 至 215-1
+ D. 0 至 215-1
+A	B	C	D
+图像的名字无图20.jpg
+答案：B
+
+
+题库中第22题:
+ 对于下列Test.java代码，下列哪个叙述是正确的?
+ public class Test{
+    public static void main(String args[]){
+        int arr[] = new int[10];
+        System.out.println(arr[1]);
+    }
+ }  
+ A. 产生编译错误。 
+ B. 输出null。
+ C. 编译正确,发生运行异常。 
+ D. 输出:0。   
+A	B	C	D
+图像的名字无图20.jpg
+答案：D
+
+
+题库中第23题:
+ 对于下列Test.java代码，下列哪个叙述是正确的?
+ public class Test{
+    public static void main(String args[]){
+        int arr[] ;
+        System.out.println(arr[1]);
+   }
+ }  
+ A. 产生如图2_1所示编译错误。 
+ B. 输出null。
+ C. 编译正确,发生运行异常。 
+ D. 输出:0。 
+A	B	C	D
+图像的名字图2.1.jpg
+答案：A
+
+
+题库中第24题:
+ 对于下列E.java代码，下列哪个叙述是正确的?
+public class E {
+   public static void main(String args[]) {
+        int [] a = {1,2,3,4};
+        System.out.println(a[4]);
+   }
+}
+ A. 有编译错误。 
+ B. 输出4。
+ C. 编译正确,发生运行异常ArrayIndexOutOfBoundsException: 4。 
+ D. 输出:3。 
+A	B	C	D
+图像的名字无图21.jpg
+答案：C
+
+
+题库中第25题:
+ 对于下列E.java代码，下列哪个叙述是正确的?
+public class E {
+   public static void main(String args[]) {
+       int [][] a = {{1,2,3,4},{100,200,300},{7,8}};
+       System.out.println(a[3][0]);
+   }
+}
+ A. 有编译错误。 
+ B. 输出7。
+ C. 编译正确,发生运行异常ArrayIndexOutOfBoundsException: 3。 
+ D. 输出:100。 
+A	B	C	D
+图像的名字无图22.jpg
+答案：C
+
+
+题库中第26题:
+哪些叙述是正确的?（多选）
+A.  char ch = '\t';是正确的char变量声明。
+B.  char ch ='你';是正确的char变量声明。
+C.  char ch ='\u000M';是正确的char变量声明。
+D.  char ch ='\0';是正确的char变量声明。
+A	B	C	D
+图像的名字无图23.jpg
+答案：ABD
+
+
+题库中第27题:
+哪个叙述是错误的?
+A.  char ch = '\t';是正确的char变量声明。
+B.  char ch ='你';是正确的char变量声明。
+C.  char ch ='\u000M';是正确的char变量声明。
+D.  char ch ='\0';是正确的char变量声明。
+A	B	C	D
+图像的名字无图23.jpg
+答案：C
+
+
+题库中第28题:
+哪个叙述是正确的?
+A.  float height = 3.5F;是正确的float变量声明。
+B.  main是java语言规定的关键字。
+C.  boolean yes = 1;是正确的boolean变量声明。
+D.  byte amount = 128;是正确的byte型变量声明。
+A	B	C	D
+图像的名字无图24.jpg
+答案：A
+
+
+题库中第29题:
+哪些叙述是错误的?（多选）
+A.  float height = 3.5F;是正确的float变量声明。
+B.  main是java语言规定的关键字。
+C.  boolean yes = 1;是正确的boolean变量声明。
+D.  byte amount = 128;是正确的byte型变量声明。
+A	B	C	D
+图像的名字无图25.jpg
+答案：BCD
+
+
+题库中第30题:
+哪些叙述是正确的?(多选)
+A. int [] a,b[];是声明了1个int型一维数组a和1个int型二维数组b。
+B. float a[20];是正确的数组声明。
+C. boolean yes = false;是正确的boolean变量声明。
+D. 1e2和2.05E2都是double型常量。
+A	B	C	D
+图像的名字无图26.jpg
+答案：ACD
+
+
+题库中第31题:
+哪个叙述是错误的?
+A. int [] a,b[];是声明了1个int型一维数组a和1个int型二维数组b。
+B. float a[20];是正确的数组声明。
+C. boolean yes = false;是正确的boolean变量声明。
+D. 1e2和2.05E2都是double型常量。
+A	B	C	D
+图像的名字无图27.jpg
+答案：B
+
+
+题库中第32题:
+哪个叙述是错误的?
+A. System是关键字。
+B. _class可以作为标识符。
+C. char型字符在Unicode表中的位置范围是0至65535。
+D. 对于int a[] = new int[3];a.length的值是3。
+A	B	C	D
+图像的名字无图28.jpg
+答案：A
+
+
+题库中第33题:
+哪个叙述是错误的?
+A. 对于int a[][] = new int[6][4];a.length的值是6。
+B. 对于int a[][] = new int[2][9];a.length,a[0].length,a[1].length的值都是9。
+C. 对于int [] a = new int[3];a[0]，a[1],a[2]的值都是0。
+D. float height = 1eF;是正确的float变量声明。
+A	B	C	D
+图像的名字无图29.jpg
+答案：B

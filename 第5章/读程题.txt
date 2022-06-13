@@ -1,0 +1,614 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    private int m = 100;
+    public int setM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    int m = 65;
+    public int getM(){
+       return m;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Dog dog = new Dog();
+       System.out.printf("%d:%d",dog.setM(),dog.getM());//【代码】
+       
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:65
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    int m = 100;
+    public int setM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    double m = 3.14;
+}
+public class E {
+    public static void main(String args[]){
+       Dog dog = new Dog();
+       System.out.printf("%d",dog.setM());
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    int m = 100;
+    public int setM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    int m = 6;
+    public int setM(){
+       return  m;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Dog dog = new Dog();
+       System.out.printf("%d",dog.setM()); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    int m = 100;
+    public int setM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    int m = 6;
+    public int setM(){
+       return  m;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Animal dog = new Dog();
+       System.out.printf("%d:%d",dog.setM(),dog.m); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6:100
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    int m = 100;
+    public int setM(){
+       return m;
+    }
+    public int getM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    int m = 6;
+    public int setM(){
+       return  m;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Animal dog = new Dog();
+       System.out.printf("%d:%d",dog.setM(),dog.getM()); //【代码】
+    }
+}
+注解：子类继承的方法中操作的成员变量m一定是继承的或者被子类隐藏的m。子类新增或重写的方法中操作的m一定是子类声明的那个m.
+null	null	null	null
+图像的名字无图.jpg
+答案：6:100
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    int m;
+    Animal(){
+       m = 100; 
+    }
+    Animal(int m) {
+       this.m = m; 
+    } 
+}
+class Dog extends Animal {
+    Dog() {
+        super(8);
+        m += 10;
+    }
+}
+public class E {
+   public static void main(String args[]){
+      Dog dog = new Dog();
+      System.out.println(dog.m); //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：18
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    int m;
+    Animal(){
+       m = 100; 
+    }
+    Animal(int m) {
+       this.m = m; 
+    } 
+}
+class Dog extends Animal {
+    Dog() {
+        m += 10;
+    }
+}
+public class E {
+   public static void main(String args[]){
+      Dog dog = new Dog();
+      System.out.println(dog.m); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：110
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    int m = 100;
+}
+class Dog extends Animal {
+   double m; 
+   public void setM(){
+       m = super.m+3.14;
+   }
+}
+public class E {
+   public static void main(String args[]){
+      Dog dog = new Dog();
+      dog.setM();
+      System.out.println(dog.m); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：103.14
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    public int get(int n){
+        return n;
+    } 
+}
+class Dog extends Animal {
+    public int get(int n){
+       return n+super.get(n);
+    }
+}
+class Cat extends Animal {
+    public int get(int n){
+       return n*super.get(n);
+    }
+}
+public class E {
+   public static void main(String args[]){
+       Animal animal = new Dog();
+       int m = animal.get(10);
+       animal = new Cat();
+       int n = animal.get(10);
+       System.out.printf("%d:%d",m,n); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：20:100
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    public int get(int n){
+        return n;
+    } 
+}
+class Dog extends Animal {
+    public int get(int n){
+       return n+super.get(n);
+    }
+}
+public class E {
+   public static void main(String args[]){
+       Animal animal = new Animal();
+       int m =animal.get(10);
+       animal = new Dog();
+       int n =animal.get(10);
+       System.out.printf("%d:%d",m,n); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:20
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    public int get(int n){
+        return n;
+    } 
+}
+class Dog extends Animal {
+    public int get(int n){
+       return n+8;
+    }
+}
+public class E {
+   public static void main(String args[]){
+       Animal animal = new Animal();
+       int m =animal.get(10);
+       animal = new Dog();
+       int n =animal.get(10);
+       System.out.printf("%d:%d",m,n); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:18
+
+
+题库中第12题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    int m = 9;
+    public int get(int n){
+        return n+m;
+    }
+    public int see(int n){
+        return n+m;
+    }  
+}
+class Dog extends Animal {
+    int m = 18;
+    public int get(int n){
+       return n+m;
+    }
+}
+public class E {
+   public static void main(String args[]){
+       Animal animal = null;
+       Dog dog = new Dog();
+       animal = dog;
+       animal.m = 19;
+       dog.m = 88; 
+       int result1 =animal.see(10);
+       int result2 =animal.get(10);
+       System.out.printf("%d:%d",result1,result2); //【代码】
+   }
+}
+注解：知识点细节见教材5.7节。上转型对象操作的m,animal.m一定是子类隐藏的m。上转型调用的继承的方法see(int n)操作的m一定是子类隐藏的m。dog的上转型对象animal调用的get方法一定是子类重写的get方法，等价子类对象dog去调用。
+null	null	null	null
+图像的名字无图.jpg
+答案：29:98
+
+
+题库中第13题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Lake {
+    Fish fish;
+    void setFish(Fish s){
+        fish = s;
+    }
+    void foodFish(int m) {
+        fish.weight=fish.weight+m;
+    }
+    Fish getFish(){
+       fish.weight -= 10;
+       return fish;
+    }
+}
+public class E {
+     public static void main(String args[]) {
+        Fish  redFish = new Fish();
+        Lake lake = new Lake();
+        lake.setFish(redFish);
+        lake.foodFish(120);
+        int w = lake.fish.weight;
+        Fish fishOK = lake.getFish();
+        System.out.printf("%d:%d:%d",w,lake.fish.weight,fishOK.weight);  //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：121:111:111
+
+
+题库中第14题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal{
+    public static int get(int n){
+        return n+10;
+    }
+    public int see(int n){
+        return n+10;
+    }
+}
+class Dog extends Animal {
+    public static int get(int n){
+        return n*10;
+    }
+     public int see(int n){
+        return n*10;
+    }
+}
+public class E {
+   public static void main(String args[]){
+       Animal animal = null;
+       animal = new Dog();
+       System.out.printf("%d:%d",animal.get(10),animal.see(10)); //【代码】
+   }
+}
+注解：知识点见教材java2实用教程微课版5.7节中的注。
+null	null	null	null
+图像的名字无图.jpg
+答案：20:100
+
+
+题库中第15题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class University { 
+     public int getScore(){
+       return 410;
+     }      
+} 
+class Beijing extends University { 
+     public int getScore(){
+        return 210+super.getScore();
+     }     
+} 
+class Shanghai extends University { 
+     public int getScore(){
+        return 220+super.getScore();
+     }     
+}
+public class E {
+   public static void main(String args[]){
+       University u = new Beijing();
+       int m = u.getScore();
+       u = new Shanghai();
+       int n = u.getScore();
+       System.out.printf("%d:%d",m,n); //【代码】 
+   }
+} 
+null	null	null	null
+图像的名字无图.jpg
+答案：620:630
+
+
+题库中第16题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ class A {
+   int f(int x,int y) {
+       return x+y;
+   }
+}
+class B extends A {
+   int f(double x,int y) {
+       return (int)x*y;
+   }
+}
+public class E {
+public static void main(String args[]) {
+      B b=new B();
+      int m = b.f(3,5);
+      int n = b.f(3.14,5);
+      System.out.printf("%d:%d",m,n);  //【代码】
+  }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：8:15
+
+
+题库中第17题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A {
+   int f(int x,int y) {
+       return x+y;
+   }
+}
+class B extends A {
+   int f(double x,int y) {
+       return (int)x*y;
+   }
+}
+public class E {
+public static void main(String args[]) {
+      B b=new B();
+      int m = b.f(3,5); 
+      A a = b;
+      int n = a.f(3,5);
+      System.out.printf("%d:%d",m,n); //【代码】      
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：8:8
+
+
+题库中第18题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A { 
+   public int getNumber(int a) { 
+       return a+1; 
+   } 
+} 
+class E extends A { 
+   public int getNumber (int a) { 
+       return a+100;
+   } 
+   public static void main (String args[])  { 
+      A a = new A();
+      int m = a.getNumber(10);  
+      a = new E(); 
+      int n = a.getNumber(10);
+      System.out.printf("%d:%d",m,n);  //【代码】
+   } 
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：11:110
+
+
+题库中第19题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A {
+   int f(int x,int y) {
+      return x+y;
+   }
+}
+class B extends A {
+   int f(int x,int y) {
+      int m = super.f(x,y)+10;
+      return m;
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      A a = new B();
+      System.out.println(a.f(2,10));   //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：22
+
+
+题库中第20题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A {
+   int f(int x,int y) {
+       return x+y;
+   }
+   static int g(int n) {
+       return n*n;
+   }
+}
+class B extends A {
+   int f(int x,int y) {
+      int m = super.f(x,y)+x*y;
+      return m;
+   }
+   static int g(int n) {
+      int m = A.g(n)+n; 
+      return m;
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      A a = new B();
+      int m = a.f(10,8); 
+      int n = a.g(3); 
+      System.out.printf("%d:%d",m,n);        //【代码】
+  }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：98:9
+
+
+题库中第21题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A {
+   int m;
+   int getM() {
+      return m;
+   }
+   int seeM() {
+       return m;
+   }
+}
+class B extends A {
+     int m ; 
+     int getM() {
+        return m+100;
+     }
+}
+public class E {
+public static void main(String args[]) {
+     B b = new B();
+     b.m = 20;
+     int num1 = b.getM(); 
+     A a = b;
+     a.m = 100;                 
+     int num2 = a.getM();   
+     int num3 = a.seeM();
+     System.out.printf("%d:%d:%d",num1,num2,num3);
+  }
+}
+注解:细节见教材5.7节.b的上转型对象a访问的是被隐藏的m，b的上转型对象a调用的一定是子类重写的getM()方法
+子类继承的seeM()方法操作的m是被子类隐藏的m
+null	null	null	null
+图像的名字无图.jpg
+答案：120:120:100
+
+
+题库中第22题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Animal {
+    int m = 100;
+    public int seeM(){
+       return m;
+    }
+    public int getM(){
+       return m;
+    }
+}
+class Dog extends Animal{
+    int m = 6;
+    public int seeM(){
+       return  m;
+    }
+}
+public class E {
+    public static void main(String args[]){
+       Animal animal = null;
+       Dog dog = new Dog();
+       animal = dog; 
+       System.out.printf("%d:%d:%d",dog.seeM(),animal.seeM(),animal.getM()); //【代码】
+    }
+}
+注解：子类继承的方法中操作的成员变量m一定是继承的或者被子类隐藏的m。子类新增或重写的方法中操作的m一定是子类声明的那个m.
+null	null	null	null
+图像的名字无图.jpg
+答案：6:6:100

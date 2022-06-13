@@ -1,0 +1,319 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class RedCowForm {
+      static class RedCow {  //静态内部类RedCow是外嵌类中的一种静态数据类型
+          void speak() {
+              System.out.println("红牛");
+          }
+      }
+}
+class E{
+    public static void main(String args[]) {
+        RedCowForm.RedCow red = new RedCowForm.RedCow(); 
+        red.speak(); //【代码】 
+    } 
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：红牛
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class RedCowForm {
+      int m =100;
+      RedCow  cow;
+      RedCowForm(){
+          cow = new RedCow();
+      }
+      class RedCow {  
+          int n =200;
+          void speak() {
+             System.out.printf("%d:%d",m,n);
+          }
+      }
+}
+class E{
+    public static void main(String args[]) {
+        RedCowForm form = new RedCowForm(); 
+        form.cow.speak();   //【代码】
+    } 
+}
+
+null	null	null	null
+图像的名字无图4.jpg
+答案：100:200
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+abstract class A {
+    abstract int get(int a,int b);
+}
+public class E {
+    public static void main(String args[]) {
+        A  a=new A() {
+                     public int get(int a,int b){
+                       return a+b;
+                     }};
+        int m = a.get(2,5);
+        a=new A() {
+                     public int get(int a,int b){
+                       return a*b;
+                     }}; 
+        int n = a.get(2,5);
+        System.out.printf("%d:%d",m,n);//【代码】
+   } 
+}
+
+null	null	null	null
+图像的名字无图5.jpg
+答案：7:10
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    abstract int get(int a,int b);
+}
+public class E {
+    public static void main(String args[]) {
+        Com  com=new Com() {
+                     public int get(int a,int b){
+                       return a+b;
+                     }};
+        int m = com.get(2,5);
+        com=new Com() {
+                     public int get(int a,int b){
+                       return a*b;
+                     }}; 
+        int n = com.get(2,5);
+        System.out.printf("%d:%d",m,n);
+   } 
+}
+
+null	null	null	null
+图像的名字无图6.jpg
+答案：7:10
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+interface Com {
+    abstract int get(int a,int b);
+}
+class People {
+    int getResult(Com com,int a,int b){
+        return com.get(a,b);
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        People p = new People();
+        Com  com=new Com() {
+                     public int get(int a,int b){
+                       return a+b;
+                     }};
+        int m = p.getResult(com,2,5);
+        com=new Com(){
+                     public int get(int a,int b){
+                       return a*b;
+                     }}; 
+        int n = p.getResult(com,2,5);
+        System.out.printf("%d:%d",m,n);
+   } 
+}
+
+
+null	null	null	null
+图像的名字无图7.jpg
+答案：7:10
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+abstract class Computer {
+    abstract int get(int a,int b);
+}
+class People {
+    int getResult(Computer com,int a,int b){
+        return com.get(a,b);
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        People p = new People();
+        Computer com = new Computer () {
+                     public int get(int a,int b){
+                       return a+b;
+                     }};
+        int m = p.getResult(com,2,5);
+        com = new Computer (){
+                     public int get(int a,int b){
+                       return a*b;
+                     }}; 
+        int n = p.getResult(com,2,5);
+        System.out.printf("%d:%d",m,n);//【代码】
+   } 
+}
+
+
+null	null	null	null
+图像的名字无图8.jpg
+答案：7:10
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+abstract class Computer {
+    abstract int get(int a,int b);
+}
+class People {
+    int a,b;
+    int getResult(Computer com){
+        return com.get(a,b);
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        People p = new People();
+        p.a = 2;
+        p.b = 5;
+        int m = p.getResult(new Computer (){
+                         public int get(int a,int b){
+                             return a+b;
+                         }});
+        int n = p.getResult(new Computer (){
+                         public int get(int a,int b){
+                             return a*b;
+                         }});
+        System.out.printf("%d:%d",m,n);
+   } 
+}
+
+
+
+null	null	null	null
+图像的名字无图9.jpg
+答案：7:10
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.io.IOException; 
+public class E { 
+   public static void main(String args[]){ 
+      int m =10;
+      try {  methodA(); 
+             m = 100;
+      }
+      catch(IOException e){ 
+             m = 1000;
+      } 
+      finally {
+            m = 99;
+      }
+      System.out.println(m);
+  }
+  public static void methodA() throws IOException{ 
+      throw new IOException(); 
+  } 
+}
+null	null	null	null
+图像的名字无图10.jpg
+答案：99
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.io.IOException; 
+public class E { 
+   public static void main(String args[]){ 
+      int m =10;
+      try {  methodA(); 
+             m = 100;
+      }
+      catch(IOException e){ 
+             m = 1000;
+      } 
+      System.out.println(m);
+  }
+  public static void methodA() throws IOException{ 
+      throw new IOException(); 
+  } 
+}
+null	null	null	null
+图像的名字无图11.jpg
+答案：1000
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class ScoreException extends Exception {
+    int m;
+    ScoreException(int m){
+       this.m = m;
+    }
+    int getMess(){
+       return m;
+    }
+}
+class Teacher {
+    public int giveScore(int score) throws ScoreException {
+        if(score > 100|| score< 0)
+            throw  new ScoreException(score);
+        return score;
+    }
+}
+public class E { 
+   public static void main(String args[]){ 
+      Teacher t = new Teacher();
+      int m = 0,n = 0;
+      try {  m = t.giveScore(199); 
+             m = t.giveScore(69);
+      }
+      catch(ScoreException e){ 
+             n = e.getMess();
+      } 
+      System.out.printf("%d:%d",m,n);
+  }
+}
+null	null	null	null
+图像的名字无图13.jpg
+答案：0:199
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class ScoreException extends Exception {
+    int m;
+    ScoreException(int m){
+       this.m = m;
+    }
+    int getMess(){
+       return m;
+    }
+}
+class Teacher {
+    public int giveScore(int score) throws ScoreException {
+        if(score > 100|| score< 0)
+            throw  new ScoreException(score);
+        return score;
+    }
+}
+public class E { 
+   public static void main(String args[]){ 
+      Teacher t = new Teacher();
+      int m = 0,n = 0;
+      try {  m = t.giveScore(100); 
+             m = t.giveScore(101);
+      }
+      catch(ScoreException e){ 
+             n = e.getMess();
+      } 
+      System.out.printf("%d:%d",m,n);//【代码】
+  }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:101

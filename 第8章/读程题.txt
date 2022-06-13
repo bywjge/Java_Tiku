@@ -1,0 +1,523 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+         String hello = "你好";
+         String testOne = "你"+"好";             
+         System.out.println(hello == testOne);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：true
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+         String hello = "你好";
+         String you = "你";
+         String hi = "好"; 
+         String str = you+hi;           
+         System.out.println("你好" == str);     //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：false
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+          String s1,s2;
+          s1 = new String("天道酬勤");
+          s2 = new String("天道酬勤");
+          boolean b1 = s1 == s2;
+          boolean b2 = s1.equals(s2);
+          System.out.printf("%b:%b",b1,b2);     //【代码】
+     }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：false:true
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+           String s1 = "we are students";
+           String s2 = new String("we are students");
+           boolean b1 = s1 == s2;
+           boolean b2 = s1.equals(s2);
+           System.out.printf("%b:%b",b1,b2);     //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：false:true
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+           String s1 = "勇者无敌";
+           String s2 = "勇者无敌";
+           boolean b1 = s1 == s2;
+           boolean b2 = s1.equals(s2);
+           System.out.printf("%b:%b",b1,b2);     //【代码】
+     }
+}
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：true:true
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+   public static void main (String[]args)   { 
+        String str = new String ("苹果"); 
+        modify(str); 
+        System.out.println(str);   //【代码】
+   } 
+   public static void modify (String s)  { 
+        s = s + "好吃";  
+   } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：苹果
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+   public static void main (String[]args)   { 
+        String str = new String ("yes"); 
+        modify(str); 
+        System.out.println(str);   //【代码】
+   } 
+   public static void modify (String s)  { 
+        s = new String("hello");  
+   } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：yes
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          String s = "ABCDEF";
+          int index = s.indexOf("C");
+          String str1 = s.substring(index);
+          String str2 = s.substring(index,index+2);
+          System.out.printf("%s:%s",str1,str2);
+     } 
+}   
+null	null	null	null
+图像的名字无图.jpg
+答案：CDEF:CD
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+         char [] a; 
+         String s="ABCDEF";
+         a = new char[3];
+         s.getChars(1,4,a,0);
+         System.out.printf("%c%c%c",a[0],a[1],a[2]);
+     } 
+}   
+null	null	null	null
+图像的名字无图.jpg
+答案：BCD
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+        byte a [] = "Java你好".getBytes(); 
+        int m = a.length;
+        String s=new String(a,4,2); 
+        System.out.printf("%d:%s",m,s);
+     } 
+}   
+null	null	null	null
+图像的名字无图.jpg
+答案：8:你
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          int m = 0;
+          String regex = "[a-zA-Z|0-9|_]+"; 
+          String s ="zheng_hello678";
+          if(s.matches(regex)) {
+             m = 100;
+          }
+          else {
+            m = 20; 
+          }
+          System.out.printf("%d",m); //【代码】
+     } 
+}   
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第12题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          int m = 0;
+          String regex = "[0-9]+[.]\\d+"; 
+          String s ="003.1415926";
+          if(s.matches(regex)) {
+             m = 100;
+          }
+          else {
+            m = 20; 
+          }
+          System.out.printf("%d",m); //【代码】
+     } 
+}   
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第13题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          String regex = "[^0-9]+"; 
+          String s ="java8,你好9";
+          s = s.replaceAll(regex,"1");
+          System.out.printf("%s",s); //【代码】
+     } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：1819
+
+
+题库中第14题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          int m = 0;
+          String regex = "[\\p{Punct}\\p{Blank}]+"; 
+          String [] s ="we are student,I am tehcher(hello)".split(regex);
+          m = s.length;
+          System.out.printf("%d:%s",m,s[m-1]); //【代码】
+     } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：7:hello
+
+
+题库中第15题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          int m = 0;
+          String regex = "[\\p{Punct}\\p{Blank}]+"; 
+          String [] s =",,,(()we are student".split(regex);
+          m = s.length;
+          System.out.printf("%d:%s",m,s[1]); //【代码】
+     } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：4:we
+
+
+题库中第16题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E { 
+     public static void main (String[]args) { 
+          int m = 0;
+          String regex = "\\djava\\w{1,}" ;
+          String str1 = "88javaookk";
+          String str2 = "9javaHello";
+          if(str1.matches(regex)) {
+              m++;
+          }
+          if(str2.matches(regex)) {
+               m++ ;
+          }  
+          System.out.printf("%d",m);
+     } 
+}   
+
+null	null	null	null
+图像的名字无图.jpg
+答案：1
+
+
+题库中第17题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class MyString {
+  public String getString(String s) {
+      StringBuffer str = new StringBuffer();
+      for(int i=0;i<s.length();i++) {
+         if(i%2==0) {
+            char c = s.charAt(i);
+            str.append(c);
+          }
+      }
+     return new String(str);
+   }
+}
+public class E {
+public static void main(String args[ ]) {
+      String s = "ABCD";
+      MyString ms = new MyString();
+      System.out.println(ms.getString(s)); //【代码】
+   }
+}
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：AC
+
+
+题库中第18题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+public static void main(String args[ ]) {
+      byte d[]="abc我们喜欢篮球".getBytes();
+      String s=new String(d,0,7);
+      System.out.println(s);         //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：abc我们
+
+
+题库中第19题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.StringTokenizer;
+public class E {
+public static void main(String args[ ]) {
+      String s ="we are students(hello)";
+      StringTokenizer fenxi = new StringTokenizer(s," ()"); 
+      int m = fenxi.countTokens();
+      s = fenxi.nextToken();
+      s = fenxi.nextToken();
+      int  n =  fenxi.countTokens(); 
+      System.out.printf("%d:%d:%s",m,n,s);         //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：4:2:are
+
+
+题库中第20题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.*;
+public class E {
+   public static void main(String args[]) {
+      String cost = "一班30人,二班32人,三班20人";
+      Scanner scanner = new Scanner(cost);
+      scanner.useDelimiter("[^0-9]+");
+      int sum = 0;
+      while(scanner.hasNext()){
+         try{  int peopleNumber = scanner.nextInt();
+               sum = sum+peopleNumber;
+         } 
+         catch(InputMismatchException exp){
+               String t = scanner.next();
+         }   
+      }
+      System.out.println(sum); //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：82
+
+
+题库中第21题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+   public static void main(String args[]) {
+      try{  
+            Class cs = Class.forName("java.lang.StringBuffer");
+            StringBuffer str = (StringBuffer)cs.newInstance();
+            str.append("avaj");
+            str.setCharAt(3 ,'J'); 
+            str.reverse();
+            System.out.println(str);
+       }
+       catch(Exception e){} 
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：Java
+
+
+题库中第22题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.*;
+public class E {
+   public static void main(String args[]) {
+      String s ="987.8065";
+      StringTokenizer fenxi = new StringTokenizer(s,"."); 
+      int m = Integer.parseInt(fenxi.nextToken());
+      int n = Integer.parseInt(fenxi.nextToken());
+      System.out.printf("%d:%d",m,n);         //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：987:8065
+
+
+题库中第23题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.*;
+public class E {
+   public static void main(String args[]) {
+      String str = "现在时间是20:58:18";
+      str = str.replaceAll("[^0-9:]+","");
+      StringTokenizer fenxi = new StringTokenizer(str,":"); 
+      int h = Integer.parseInt(fenxi.nextToken());
+      int m = Integer.parseInt(fenxi.nextToken());
+      int s = Integer.parseInt(fenxi.nextToken());
+      System.out.printf("%d:%d:%d",h,m,s);         //【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：20:58:18
+
+
+题库中第24题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.regex.*;
+public class E {
+   public static void main(String args[ ]) { 
+      String s = "市话12.8元,长途:8.2元,短信10.9"; 
+      String regex = "[0-9]+[.][0-9]+";    
+      Pattern p =Pattern.compile(regex);  
+      Matcher m =p.matcher(s);            
+      double sum =0;
+      while(m.find()) {
+         String item = m.group();
+         sum = sum+Double.parseDouble(item);
+      } 
+      int n = (int)sum;
+      System.out.printf("%d",n);//【代码】
+   }
+}
+
+null	null	null	null
+图像的名字无图.jpg
+答案：31
+
+
+题库中第25题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.regex.*;
+public class E {
+   public static void main(String args[ ]) { 
+      String s = "we are students(we are from Beijing)"; 
+      String regex = "[a-zA-Z]+";    
+      Pattern p =Pattern.compile(regex);  
+      Matcher m =p.matcher(s);            
+      int  count =0;
+      String item ="";
+      while(m.find()) {
+         item = m.group();
+         count ++;
+      } 
+      System.out.printf("%d:%s",count,item);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：7:Beijing
+
+
+题库中第26题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.regex.*;
+public class E {
+   public static void main(String args[ ]) { 
+      String s = "10月1日至11月6日禁止通行"; 
+      String regex = "[0-9]+[月日]";    
+      Pattern p =Pattern.compile(regex);  
+      Matcher m =p.matcher(s);            
+      int  count =0;
+      String item ="";
+      while(m.find()) {
+         item = m.group();
+         count ++;
+      } 
+      System.out.printf("%d:%s",count,item);//【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：4:6日
+
+
+题库中第27题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.regex.*;
+public class E {
+   public static void main(String args[ ]) { 
+      String s = "登陆www.tup.com.cn，输入耿祥义可查询全部作者教材，欢迎您登陆"; 
+      String regex = "登陆";    
+      Pattern p =Pattern.compile(regex);  
+      Matcher m =p.matcher(s); 
+      s = m.replaceAll("登录");
+      regex = "登录"; 
+      p =Pattern.compile(regex);
+      m =p.matcher(s); 
+      int  count =0;
+      String item ="";
+      while(m.find()) {
+         item = m.group();
+         count ++;
+      } 
+      System.out.printf("%d:%s",count,item);
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：2:登录

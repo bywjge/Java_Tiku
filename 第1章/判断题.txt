@@ -1,0 +1,466 @@
+题库中第1题:
+
+Java语言的主要贡献者是James Gosling
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+Java语言是1995年5月Sun公司推出的编程语言
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+Java语言是1995年5月IBM司推出的编程语言
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第4题:
+
+开发Java应用程序的基本步骤是：
+1 编写源文件，
+2.编译源文件，
+3.运行程序。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+Java源文件是由若干个书写形式互相独立的类组成。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+Java源文件中只能有一个类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第7题:
+
+如果源文件中有多个类，那么至多有一个类可以是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+如果源文件中有多个类，那么必须要有一个类是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第9题:
+
+如果源文件中有多个类，这些类可以都不是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第10题:
+
+如果源文件中只有一个类，这个类必须是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第11题:
+
+如果源文件中只有一个类，这个类必须是主类
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第12题:
+
+java源文件中可以没有主类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+java源文件中可以没有public类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第14题:
+
+java源文件的扩展名是.java
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+java源文件的扩展名是.class
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第16题:
+
+编译java源文件得到的字节码文件的扩展名是.class
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+java应用程序必须要有主类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+java应用程序的主类可以不是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第19题:
+
+java应用程序的主类必须是public类
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第20题:
+
+必须用文本编辑器编写源文件
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第21题:
+
+下列源文件可保存成Dog.java
+class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第22题:
+
+下列源文件可保存成dog.java
+public class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+下列源文件必须保存成Dog.java
+public class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+下列源文件可以保存成Dog.java或Cat.java
+class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+class Cat {
+    public void cry() {
+        System.out.println("maiomiao");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第25题:
+
+下列源文件必须保存成Cat.java
+class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+public class Cat {
+    public void cry() {
+        System.out.println("maiomiao");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第26题:
+
+下列源文件Dog.java会出现编译错误
+public class Dog {
+    public void cry() {
+        System.out.println("wangwang");
+    }
+}
+public class Cat {
+    public void cry() {
+        System.out.println("maiomiao");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第27题:
+
+如果JDK的安装目录为D:\jdk，也可以临时在命令行编辑path,如图1_1。
+null	null	null	null
+图像的名字图1_1.jpg
+答案：正确
+
+题库中第28题:
+
+java编译器位于java安装目录的\bin文件夹中。名字是javac.exe
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+java编译器的名字是java.exe
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第30题:
+
+下列源文件People.java中People是主类
+class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+public class People {
+    public static void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第31题:
+
+下列源文件People.java中People是主类
+class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+public class People {
+    public void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第32题:
+
+下列源文件People.java中没有主类，编译，运行效果会如图1_2.
+class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+public class People {
+    public void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字图1_2.jpg
+答案：正确
+
+题库中第33题:
+
+下列源文件必须保存成Hello.java
+并运行主类People,如题1_3.
+public class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+class People {
+    public  void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字图1_3.jpg
+答案：正确
+
+题库中第34题:
+
+出现如图1_4的错误提示，说明程序中语句要求的分号不正确：
+编辑源文件时，是在非英文输入法状态下输入的分号，而不是英文输入法下输入的分号
+null	null	null	null
+图像的名字图1_4.jpg
+答案：正确
+
+题库中第35题:
+
+出现如图1_5的错误提示，说明源文件Home.java没有保存在D:\00目录中。
+null	null	null	null
+图像的名字图1_5.jpg
+答案：正确
+
+题库中第36题:
+
+出现如图1_6的错误提示，说明源文件Hello.java中第8行（数行时，包括空行和注释行）中的语句缺失了语句的分号。
+null	null	null	null
+图像的名字图1_6.jpg
+答案：正确
+
+题库中第37题:
+
+使用java解释器运行Hello类:
+java Hello
+得到提示：“错误: 在类 Hello 中找不到 main 方法, 请将 main 方法定义为:
+   public static void main(String[] args)”
+说明Hello不是主类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第38题:
+
+下列源文件Hello.java的编程风格属于独行风格
+public class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+class People {
+    public static void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第39题:
+
+下列源文件Hello.java的编程风格属于行尾风格
+public class Hello {
+    public void speak() {
+        System.out.println("wangwang");
+    }
+}
+class People {
+    public static void main(String args[]) {
+        System.out.println("你好");
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第40题:
+
+下列源文件的名字必须是Person.java
+public class Person {
+   void speakHello() {  
+      System.out.print("您好，很高兴认识您");
+      System.out.println(" nice to meet you");
+   }
+}
+class Xiti {       
+   public static void main(String args[]) {
+      Person zhang = new Person();
+      zhang.speakHello();
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第41题:
+
+编译下列源文件的Person.java将得到2个字节码文件：Person.class和Xiti.class.
+public class Person {
+   void speakHello() {  
+      System.out.print("您好，很高兴认识您");
+      System.out.println(" nice to meet you");
+   }
+}
+class Xiti {       
+   public static void main(String args[]) {
+      Person zhang = new Person();
+      zhang.speakHello();
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第42题:
+
+下列源文件Person.java编译通过后，如果用解释器java如下运行程序
+java xiti
+将得到如图1_7所示的提示,因为主类的名字不是xiti，而是Xiti。
+public class Person {
+   void speakHello() {  
+      System.out.print("您好，很高兴认识您");
+      System.out.println(" nice to meet you");
+   }
+}
+class Xiti {       
+   public static void main(String args[]) {
+      Person zhang = new Person();
+      zhang.speakHello();
+    }
+}
+null	null	null	null
+图像的名字图1_7.jpg
+答案：正确
+
+题库中第43题:
+
+下列源文件Person.java编译通过后，如果用解释器java如下运行程序
+java Person
+将得到如图1_8所示的提示,因为主类的名字不是Person，而是Xiti。
+public class Person {
+   void speakHello() {  
+      System.out.print("您好，很高兴认识您");
+      System.out.println(" nice to meet you");
+   }
+}
+class Xiti {       
+   public static void main(String args[]) {
+      Person zhang = new Person();
+      zhang.speakHello();
+    }
+}
+null	null	null	null
+图像的名字图1_8.jpg
+答案：正确

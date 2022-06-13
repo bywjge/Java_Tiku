@@ -1,0 +1,543 @@
+题库中第1题:
+
+用户在定义子类时，可以给子类指定多个父类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第2题:
+
+除了java.lang.Object类，任何一个类有且仅有一个父类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+一个非final类可以有多个子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第4题:
+
+类声明class A与class A extends Object是等价的。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+java.lang包中的Object类是所有其他类的祖先类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+如果子类和父类不在同一个包中，子类不继承父类的友好成员。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+所谓子类继承父类的成员变量作为自己的一个成员变量，就好象它们是在子类中直接声明一样，
+可以被子类中自己定义的任何实例方法操作。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+如果在子类中想使用被子类隐藏的实例成员变量或实例方法就需要使用关键字super。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第9题:
+
+子类不可以声明和父类的成员变量同名的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第10题:
+
+子类继承父类的构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第11题:
+
+子类不可以定义和父类的方法同名的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第12题:
+
+子类不继承父类的构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+可以用final修饰构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第14题:
+
+可以用static修饰构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第15题:
+
+如果在子类的构造方法中，没有显示地写出super关键字来调用父类的某个构造方法，那么编译器默认地有：
+    super();调用父类的无参数的构造方法（如果父类没有这样的构造方法，代码将出现编译错误）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第16题:
+
+super关键字形成的语句必须是子类构造方法中的第1条语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+如果在子类的构造方法中，显示地写出了super关键字来调用父类的某个构造方法，那么编译器不再提供默认的super语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+子类构造方法中可以有多条super调用父类的某个构造方法的语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第19题:
+
+子类和父类必须在一个包中。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第20题:
+
+final类至多可以有一个子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第21题:
+
+final类不能被继承，即不能有子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第22题:
+
+可以同时用final和abstract修饰同一个方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+可以同时用final和abstract修饰一个类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第24题:
+
+abstract类中，必须要有abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第25题:
+
+abstract类中，也可以没有abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第26题:
+
+多态性就是指父类的某个方法被其子类重写时，可以各自产生自己的功能行为（多：子类数目，态：父类某个方法）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第27题:
+
+子类声明的成员的变量的名字和从父类继承来的成员变量的名字相同，子类就会隐藏掉所继承的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第28题:
+
+方法的修饰(如果有)，例如public,abstract，必须放在方法的类型的前面，不可以插在方法类型和方法名字之间。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+abstract类中不能有非abstract实例方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第30题:
+
+不允许同时用static和abstract修饰同一方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第31题:
+
+子类可以用super关键字调用父类的父类中的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第32题:
+
+不允许同时用final和abstract修饰同一个方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第33题:
+
+不允许同时用final和abstract修饰一个类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第34题:
+
+子类重写或新增的方法也能直接操作被子类隐藏的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第35题:
+
+子类继承的方法所操作的成员变量一定是被子类继承或隐藏的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第36题:
+
+如果子类可以继承父类的某个方法，那么子类就有权利重写这个方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第37题:
+
+abstract类的子类必须是非abstract类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第38题:
+
+子类重写或新增的方法也能直接操作被子类隐藏的成员变量
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第39题:
+
+abstract类中只可以有abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第40题:
+
+允许使用static修饰abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第41题:
+
+如果一个类的所有构造方法的访问权限都是private的，那么意味着这个类不能有子类
+（原因：一个类的private方法不能在其他类中被使用，但子类的构造方法中一定会调用父类的某个构造方法）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第42题:
+
+不能用final修饰构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第43题:
+
+不能用static修饰构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第44题:
+
+可以用public,protected或private修饰构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第45题:
+
+子类在方法重写时，不可以把父类的类（static）方法重写为实例方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第46题:
+
+子类在方法重写时，不可以把父类的实例方法重写为类（static）方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第47题:
+
+子类在方法重写时，可以把父类的实例方法重写为类（static）方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第48题:
+
+子类在方法重写时，可以把父类的类（static）方法重写为实例方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第49题:
+
+子类重写父类的方法时，不允许降低方法的访问权限，但可以提高访问权限
+（访问限制修饰符按访问权限从高到低的排列顺序是：public、protected、友好的、private）
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第50题:
+
+子类在方法重写时，可以把父类的public方法重写为private方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第51题:
+
+子类在方法重写时，可以把父类的protected方法重写为public方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第52题:
+
+如果子类是abstract类，允许子类将父类的非abstract方法重写为abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第53题:
+
+如果一个非抽象类是某个抽象类的子类，那么它必须重写父类的抽象方法，即给出方法体（将abstract方法重写为非abstract方法）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第54题:
+
+如果一个抽象类是某个抽象类的子类，那么它可以将父类abstract方法重写为非abstract方法也可以不重写这个abstract方法（直接继承）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第55题:
+
+子类对象的上转型对象不能操作子类新增的成员变量（失掉了这部分属性）,不能调用子类新增的方法（失掉了一些行为）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第56题:
+
+子类对象的上转型对象可以访问子类继承或隐藏的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第57题:
+
+子类对象的上转型对象操作子类继承的方法或子类重写的实例方法，其作用等价于子类对象去调用这些方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第58题:
+
+子类对象的上转型对象不能操作子类新增的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第59题:
+
+子类对象的上转型对象不能操作不能调用子类新增的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第60题:
+
+面向抽象编程，是指当设计某种重要的类时，不让该类面向具体的类，而是面向抽象类，
+即所设计类中的重要数据是抽象类声明的对象，而不是具体类声明的对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第61题:
+
+如果成员变量被修饰为final的，就是常量，用户在声明时必须指定该常量的值。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第62题:
+
+如果成员变量被修饰为final的，就是常量，用户在声明时可以不指定该常量的值，编译器会提供默认的值。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第63题:
+
+子类对象的上转型对象也能操作子类新增的成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第64题:
+
+子类对象的上转型对象也能调用子类新增的方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第65题:
+
+abstract类也可以同时是final类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第66题:
+
+final类也可以同时是abstract类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第67题:
+
+abstract方法也可以同时是final方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第68题:
+
+final方法也可以同时是abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第69题:
+
+static方法也可以同时是final方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第70题:
+
+final方法也可以同时是static方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第71题:
+
+static方法也可以同时是abstract方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第72题:
+
+abstract方法也可以同时是static方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第73题:
+
+除了java.lang.Object类外，任何类都有且仅有一个父类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第74题:
+
+任何一个类都可以有多个子类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第75题:
+
+final 类不可以有父类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第76题:
+
+可以用new运算符和abstract类的构造方法创建对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第77题:
+
+如果一个类中有abstract方法，这个类必须是abstract类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确

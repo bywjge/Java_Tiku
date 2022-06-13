@@ -1,0 +1,236 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+class OutClass {
+    int m = 1;
+    static float x;             //A
+    class InnerClass {
+       int m =12;            //B
+       static float n =20.89f;   //C 
+       InnerClass(){
+       }
+       void f() {
+          m = 100;
+       }
+    }
+    void cry() {
+      InnerClass tom = new InnerClass(); //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Country {
+    int m = 1;
+    float x;     //A
+    class People {
+       People(){
+          m =12;     //B
+          x =20.89f;//C 
+       }
+       static void f() //D
+       {
+          System.out.println("Error");
+       }
+    }
+}
+A	B	C	D
+图像的名字无图1.jpg
+答案：D
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class A {
+   abstract int get();
+}
+class People {
+    int computer(A a){
+        return a.get();
+    }
+}
+class E {
+    public static void main(String args[]){
+        People p = new People();
+        int m = p.computer(new A() {
+                              int m =100;        //A
+                              static int n =10;  //B
+                              public int get()   //C
+                              {
+                                return 100+m;    //D
+                               }
+                           });
+        System.out.println(m);
+    }
+}
+
+A	B	C	D
+图像的名字无图2.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+   abstract int get();
+}
+class People {
+    int computer(Com com){
+        return com.get();
+    }
+}
+class E {
+    public static void main(String args[]){
+        People p = new People();
+        int m = p.computer(new Com() {
+                              int m =100;        //A
+                              static int n =10;  //B
+                              public int get()   //C
+                              {
+                                return 100+m;    //D
+                              }
+                           });
+        System.out.println(m);
+    }
+}
+
+A	B	C	D
+图像的名字无图3.jpg
+答案：B
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+   abstract int get();
+}
+class People {
+    int computer(Com com){
+        return com.get();
+    }
+}
+class E {
+    public static void main(String args[]){
+        People p = new People();
+        int m = p.computer(new Com() {
+                               int m =100;        //A
+                               public int get()   //B
+                               {
+                                return 100+m;    //C
+                               }
+                               public static void f(){} //D
+                           });
+        System.out.println(m);
+    }
+}
+
+
+A	B	C	D
+图像的名字无图4.jpg
+答案：D
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class A  {
+   abstract int get();
+}
+class People {
+    int computer(A a){
+        return a.get();
+    }
+}
+class E {
+    public static void main(String args[]){
+        People p = new People();
+        int m = p.computer(new A() {
+                               int m =100;        //A
+                               public int get()   //B
+                               {
+                                return 100+m;    //C
+                               }
+                               public static void f(){} //D
+                           });
+        System.out.println(m);
+    }
+}
+
+A	B	C	D
+图像的名字无图5.jpg
+答案：D
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+    public static void main(String args[]){
+      int n = 0,m = 0,t = 1000;
+      try{  m = Integer.parseInt("8888");
+            n = Integer.parseInt("ab89"); //A
+      }
+      n =100;            //B
+      catch(NumberFormatException e) {}
+      try{  m = Integer.parseInt("aaaa");  //C
+            n = Integer.parseInt("8999"); //D
+      }
+      catch(NumberFormatException e) {}
+    }
+}
+A	B	C	D
+图像的名字无图6.jpg
+答案：B
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+    public static void main(String args[]){
+      int n = 0,m = 0,t = 1000;
+      try{  m = Integer.parseInt("8888"); //A
+            n = Integer.parseInt("ab89"); //B
+            t = Integer.parseInt("1289"); //C  
+      }
+      catch(Exception e) {}               //D
+      catch(NumberFormatException e) {}   
+    }
+}
+A	B	C	D
+图像的名字无图7.jpg
+答案：D
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+    public static void main(String args[]){
+      int n = 0,m = 0,t = 1000;
+      try{  m =  8888;         //A
+            throw new java.io.IOException("right"); //B
+            t = 1000;         //C  
+      }
+      catch(Exception e) {}   //D
+    }
+} 
+A	B	C	D
+图像的名字无图8.jpg
+答案：C
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+class E {
+    public static void main(String args[]){
+      int n = 0,m = 0,t = 1000;
+      try{   m =  8888;         //A
+             throw new NumberFormatException("right"); //B
+             t = 1000;         //C  
+      }
+      catch(Exception e) {}   //D
+    }
+} 
+A	B	C	D
+图像的名字无图9.jpg
+答案：C

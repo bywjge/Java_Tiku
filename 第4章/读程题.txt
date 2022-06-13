@@ -1,0 +1,703 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Tom {
+    int weight  = 10;
+    void Tom(){
+        weight = 18;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+       Tom cat = new Tom();
+       System.out.println(cat.weight); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Tom {
+    int weight  = 10;
+    public Tom(){
+        weight = 18;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+       Tom cat = new Tom();
+       System.out.println(cat.weight); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：18
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Tom {
+    int weight  = 10;
+}
+public class E {
+    public static void main(String args[]) {
+       Tom cat = new Tom();
+       System.out.println(cat.weight); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Car {
+    int speed;
+    void upSpeed(int m){
+        if(m>0)
+          speed += m; 
+    } 
+}
+public class E {
+    public static void main(String args[]) {
+       Car carOne = new Car();
+       Car carTwo = new Car();
+       carOne.upSpeed(50);
+       carTwo.upSpeed(100); 
+       System.out.printf("%d:%d",carOne.speed,carTwo.speed); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：50:100
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class People {
+    int money;
+    static int water; 
+    void addMoney(int m){
+        money += m; 
+    }
+    void addWater(int w){
+        water += w;
+    } 
+}
+public class E {
+    public static void main(String args[]) {
+       People sun = new People();
+       People zh  = new People();
+       sun.addMoney(5);
+       zh.addMoney(10);
+       sun.addWater(5);
+       zh.addWater(10); 
+       System.out.printf("%d:%d",sun.money,sun.water); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：5:15
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class People {
+    int money;
+    static int water; 
+    void addMoney(int m){
+        money += m; 
+    }
+    void addWater(int w){
+        water += w;
+    } 
+}
+public class E {
+    public static void main(String args[]) {
+       People sun = new People();
+       People zh  = new People();
+       sun.addMoney(5);
+       zh.addMoney(10);
+       sun.addWater(5);
+       zh.addWater(10); 
+       System.out.printf("%d:%d",zh.money,zh.water); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:15
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class AAA {
+   static int m ;
+   static { 
+      m = 888;
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      AAA a= null;  
+      System.out.printf("%d:%d",AAA.m,a.m);  
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：888:888
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Tom {
+    int sum; 
+    int getSum(int m,int ... item ){
+       sum = m;
+       for(int n:item){
+         sum += n;
+       }
+       return sum;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+       Tom tom = new Tom();
+       int resultOne = tom.getSum(0,1,2,3,4,5);
+       int resultTwo = tom.getSum(10,7,13,15,5,9);
+       System.out.printf("%d:%d",resultOne,resultTwo); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：15:59
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class A {
+   int f(int x,double y) {
+      return x+(int)y;
+   }
+   int f(int x,int y) {
+      return x*y;
+   }
+}
+public class E {
+   public static void main(String args[]) {
+      A a=new A();
+      System.out.printf("%d:%d",a.f(10,10),a.f(10,10.0)); //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:20
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class B {
+    int n;
+    static int sum=0;
+    void setN(int n) {
+        this.n=n;
+    }
+    int getSum() {
+        for(int i=1;i<=n;i++)
+            sum=sum+i;
+        return sum;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+        B b1=new B(),b2=new B();
+        b1.setN(3);
+        b2.setN(5);
+        int s1=b1.getSum();
+        int s2=b2.getSum();
+        System.out.printf("%d:%d",s1,s2);
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6:21
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class B {
+     int x = 100,y = 200;
+     public void setX(int x) {
+          x = x;
+     }
+     public void setY(int y) {
+         this.y = y;
+     }
+     public int getXYSum() {
+         return x+y;
+     }
+}
+public class E {
+     public static void main(String args[]) { 
+        B b = new B();
+        b.setX(-100);
+        b.setY(88);
+        System.out.printf("%d:%d:%d",b.x,b.y,b.getXYSum());
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:88:188
+
+
+题库中第12题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Fish {
+    int weight = 1;
+}
+class Lake {
+    Fish fish;
+    void setFish(Fish s){
+        fish = s;
+    }
+    void foodFish(int m) {
+        fish.weight=fish.weight+m;
+    }
+}
+public class E {
+     public static void main(String args[]) {
+        Fish  redFish = new Fish();
+        Lake lake = new Lake();
+        lake.setFish(redFish);
+        lake.foodFish(120);
+        System.out.printf("%d:%d",redFish.weight,lake.fish.weight);  //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：121:121
+
+
+题库中第13题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Lake {
+    Fish fish;
+    void setFish(Fish s){
+        fish = s;
+    }
+    void foodFish(int m) {
+        fish.weight=fish.weight+m;
+    }
+    Fish getFish(){
+       fish.weight -= 10;
+       return fish;
+    }
+}
+public class E {
+     public static void main(String args[]) {
+        Fish  redFish = new Fish();
+        Lake lake = new Lake();
+        lake.setFish(redFish);
+        lake.foodFish(120);
+        int w = lake.fish.weight;
+        Fish fishOK = lake.getFish();
+        System.out.printf("%d:%d:%d",w,lake.fish.weight,fishOK.weight);  //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：121:111:111
+
+
+题库中第14题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Circle {
+    int radius = 1 ;
+    void setRadius(int radius){
+        if(radius>0)
+          this.radius = radius;
+    }
+}
+class Geometry {
+    Circle c;
+    void setCircle(Circle c) {
+        c.radius += 10;
+        this.c = c;
+    }
+    
+}
+public class E {
+     public static void main(String args[]) {
+        Circle  circle = new Circle();
+        circle.setRadius(10);
+        Geometry  geometry = new  Geometry();
+        int r = circle.radius;
+        geometry.setCircle(circle);
+        System.out.printf("%d:%d:%d",r,geometry.c.radius,circle.radius); //【代码】
+     }
+}
+
+
+
+null	null	null	null
+图像的名字无图.jpg
+答案：10:20:20
+
+
+题库中第15题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Tom {
+    static int sum; 
+    int getSum(int ... item ){
+       for(int n:item){
+         sum += n;
+       }
+       return sum;
+    }
+}
+public class E {
+    public static void main(String args[]) {
+       Tom cat1 = new Tom();
+       Tom cat2 = new Tom();
+       int resultOne = cat1.getSum(1,2,3,4);
+       int resultTwo = cat2.getSum(10,30);
+       System.out.printf("%d:%d",resultOne,resultTwo); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:50
+
+
+题库中第16题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class Test {  
+    public static void main (String args[ ]) { 
+        int m =100,n =10;
+        if(m > n) {
+           n = 100;
+           m = 10;
+        }
+        else
+          n = -100;
+          m = -99;
+        System.out.printf("%d:%d",m,n);       //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：-99:100
+
+
+题库中第17题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class Test {  
+    public static void main (String args[ ]) { 
+        int m =100,n =10;
+        if(m > n) {
+           n = 100;
+           m = 10;
+        }
+        else {
+           n = -100;
+           m = -99;
+        }
+        System.out.printf("%d:%d",m,n);       //【代码】
+   }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：10:100
+
+
+题库中第18题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+    public static void main(String args[]) {
+      int [] a = {12,3,9,23,45,9,-100};
+      java.util.Arrays.sort(a);
+      int index=java.util.Arrays.binarySearch(a,9);    
+      System.out.printf("%d:%d",index,a[index]);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：3:9
+
+
+题库中第19题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+    public static void main(String args[]) {
+      int [] a = {12,3,9,23,45,9,-100};
+      java.util.Arrays.sort(a);
+      int index=java.util.Arrays.binarySearch(a,-100);    
+      System.out.printf("%d:%d",index,a[index]);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：0:-100
+
+
+题库中第20题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+    public static void main(String args[]) {
+      int [] a = {12,3,9,23,45,9,-100};
+      java.util.Arrays.sort(a);
+      int index=java.util.Arrays.binarySearch(a,45);    
+      System.out.printf("%d:%d",index,a[index]);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：6:45
+
+
+题库中第21题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.lang.Math;
+public class E {
+    public static void main(String args[]) {
+      int m = (int)Math.sqrt(9);
+      int n = Math.abs(-20);
+      System.out.printf("%d:%d",m,n);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：3:20
+
+
+题库中第22题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Computer {
+    static long getSum(int a,int n){
+        long sum = 0,item = a;
+        for(int i=1;i<=n;i++) {
+           sum = sum+item;
+           item = item*10+a;  
+        }
+       return sum; 
+    }
+}
+public class E {
+    public static void main(String args[]) {
+      long m = Computer.getSum(1,5);
+      long n = Computer.getSum(2,3);
+      System.out.printf("%d:%d",m,n);   //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：12345:246
+
+
+题库中第23题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Circle {
+    int radius = 1 ;
+    void setRadius(int radius){
+        if(radius>0)
+          this.radius = radius;
+    }
+}
+class Geometry {
+    Circle c;
+    void setCircle(Circle c) {
+        c.radius += 10;
+        this.c = c;
+    }
+}
+public class E {
+     public static void main(String args[]) {
+        Circle  circle = new Circle();
+        circle.setRadius(10);
+        Geometry  geometry = new  Geometry();
+        geometry.setCircle(circle);
+        Circle  circleTwo = new Circle();
+        geometry.setCircle(circleTwo); 
+        System.out.printf("%d:%d",circle.radius,geometry.c.radius); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：20:11
+
+
+题库中第24题:
+ 给出下列【代码】注释标注的代码的输出结果。
+class Family{
+     int height;
+     static char surname;
+}
+public class E {
+    public static void main(String args[]) {
+        Family boy = new Family();
+        Family girl = new Family();
+        boy.surname ='张';
+        girl.surname ='孙'; 
+        boy.height = 176;
+        girl.height =166;
+        System.out.printf("%c:%c:%d:%d",
+                          boy.surname,girl.surname,
+                          boy.height,girl.height);    //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：孙:孙:176:166
+
+
+题库中第25题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.lang.Character;
+class Letter{
+     char [] ch;
+     Letter(char [] ch){
+         this.ch = ch;
+     }
+     int getDigitAmount(){
+         int amount = 0;
+         for(char c:ch) {
+             if(Character.isDigit(c))
+               amount++;
+         }
+         return amount;
+     }
+     int getLetterAmount(){
+         int amount = 0;
+         for(char c:ch) {
+             if(Character.isLetter(c))
+               amount++;
+         }
+         return amount;
+     }
+     int getOtherAmount(){
+         int amount = 0;
+         for(char c:ch) {
+             if(!Character.isLetter(c)&&!Character.isDigit(c))
+               amount++;
+         }
+         return amount;
+     }
+}
+public class E {
+    public static void main(String args[]) {
+        char [] a = {'a','b','?','*','c','9','0','*'};
+        Letter tom = new Letter(a);
+        System.out.printf("%d:%d:%d",tom.getLetterAmount(),
+                                     tom.getDigitAmount(),
+                                     tom. getOtherAmount());    //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：3:2:3
+
+
+题库中第26题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+        char [] c = {'y','b','o'};
+        java.util.Arrays.sort(c);
+        System.out.printf("%c%c%c",c[0],c[1],c[2]); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：boy
+
+
+题库中第27题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+         int [] c = {10,9,2,8};
+         java.util.Arrays.sort(c);
+         System.out.printf("%d%d%d%d",c[0],c[1],c[2],c[3]);//【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：28910
+
+
+题库中第28题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+     public static void main(String args[]) {
+         int [] c = {10,9,-2,8};
+         java.util.Arrays.sort(c);
+         int index1=java.util.Arrays.binarySearch(c,19);
+         int index2=java.util.Arrays.binarySearch(c,-2);
+         System.out.printf("%b:%b",index1<0,index2>=0); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：true:true
+
+
+题库中第29题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.Arrays;
+public class E {
+     public static void main(String args[]) {
+         int [] source = {100,200,500,4,5,6};
+         int [] copy=Arrays.copyOfRange(source,0,2); //复制数组source，下标[0,2)范围
+         System.out.printf("%d:%d:%d",copy[0],copy[1],copy.length); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:200:2
+
+
+题库中第30题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.Arrays;
+public class E {
+     public static void main(String args[]) {
+         int [] source = {100,200,500,4,5,6};
+         int [] copy=Arrays.copyOfRange(source,1,3); //复制数组source，下标[1,3)范围
+         System.out.printf("%d:%d:%d",copy[0],copy[1],copy.length); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：200:500:2
+
+
+题库中第31题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.Arrays;
+public class E {
+     public static void main(String args[]) {
+         int [] source = {100,200,500,4,5,6};
+         int [] copy=Arrays.copyOf(source,3); //复制数组source，下标[0,3)范围
+         System.out.printf("%d:%d:%d",copy[0],copy[1],copy[2]); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100:200:500
+
+
+题库中第32题:
+ 给出下列【代码】注释标注的代码的输出结果。
+import java.util.Arrays;
+public class E {
+     public static void main(String args[]) {
+         char [] source = {'N','B','A','O','K'};
+         char [] copy=Arrays.copyOf(source,3); //复制数组source，下标[0,3)范围
+         System.out.printf("%c%c%c",copy[0],copy[1],copy[2]); //【代码】
+     }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：NBA

@@ -1,0 +1,393 @@
+题库中第1题:
+
+类是Java语言中最重要的“数据类型”，类声明的变量被称做对象变量，简称对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第2题:
+
+类体中声明成员变量是为了体现对象的属性。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第3题:
+
+类所声明的变量被称为对象，对象（变量）负责存放引用，以确保对象可以操作分配给该对象的变量以及调用类中的方法。
+分配给对象的变量被习惯地称做对象的实体。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第4题:
+
+类体内容中定义的非构造方法是为了体现对象的行为。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第5题:
+
+构造方法没有类型。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第6题:
+
+类中的实例变量在用该类创建对象的时候才会被分配内存空间。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第7题:
+
+构造方法也可以重载。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第8题:
+
+类中的实例方法可以用类名直接调用。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第9题:
+
+类中的类方法可以用类名直接调用。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第10题:
+
+this关键字代表某个对象。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第11题:
+
+类中的实例方法可以操作类变量（static变量），也可以操作实例变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第12题:
+
+类中的类方法（static方法）只能操作类变量（static变量），不可以操作实例变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第13题:
+
+this可以出现在类方法（static方法）中。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第14题:
+
+this可以出现在实例方法和构造方法中。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第15题:
+
+源文件至多有一条包语句（package）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第16题:
+
+源文件可以有多条import语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第17题:
+
+如果源文件有package语句，该语句必须是源文件的第一条语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第18题:
+
+Java应用程序由若干个类所构成，这些类必须在一个源文件中。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第19题:
+
+Java应用程序由若干个类所构成，这些类可以在一个源文件中，也可以分布在若干个源文件中。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第20题:
+
+一个Java源文件必须要有主类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第21题:
+
+Java源文件如果含有主类，主类必须是public类。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第22题:
+
+一个Java源文件必须要有package语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第23题:
+
+一个Java源文件默认有“import java.lang.*;”语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第24题:
+
+一个Java源文件可以有多条import语句。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第25题:
+
+成员变量的名字不可以和局部变量的相同。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第26题:
+
+方法的参数的名字可以和方法中声明的局部变量的名字相同。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第27题:
+
+成员变量没有默认值。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第28题:
+
+局部变量没有默认值。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第29题:
+
+类的名字在习惯上准守驼峰规则。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第30题:
+
+习惯将方法名及变量名的首字母小写。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第31题:
+
+如果在类中显示地定义了构造方法，Java编译器将不再提供默认的构造方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第32题:
+
+一个类可以把某个对象作为自己的一个成员变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第33题:
+
+protected class Test是一个错误的类声明，即类不可以是protected类（不包括以后学习的内部类inner class）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第34题:
+
+private class Test是一个错误的类声明，即类不可以是private类（不包括以后学习的内部类inner class）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第35题:
+
+public class Test是一个正确的类声明，即类可以是public类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第36题:
+
+class Test是一个正确的类声明，即类可以是友好类。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第37题:
+
+Float是java.lang包中一个类的名字，而float是java的关键字，用来声明float基本类型变量。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第38题:
+
+一个类声明的两个对象如果具有相同的引用，二者就具有完全相同的变量（实体）。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第39题:
+
+没有实体的对象称做空对象，应当仔细检查，避免使用空对象，即让一个空对象去调用方法产生行为。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第40题:
+
+组合关系也叫has a,属于弱耦合关系。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第41题:
+
+编译器器不提示程序使用了空对象（让一个空对象去调用实例方法），但程序在运行时会出现NullPointerException异常。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第42题:
+
+方法重载的意思是：一个类中可以有多个方法具有相同的名字，但这些方法的参数必须不同。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第43题:
+
+static方法不可以重载。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第44题:
+
+构造方法不可以重载。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第45题:
+
+在Java中，方法的所有参数都是“传值”的，也就是说，方法中参数变量的值是调用者指定的实参值的拷贝。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第46题:
+
+当方法被调用时，参数被分配内存空间，调用者向参数传递值，即方法被调用时，参数变量必须有具体的值。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第47题:
+
+类中的类变量（static）在该类被加载到内存时（即使该类未创建对象）就会被分配内存空间。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第48题:
+
+类中的重载方法的访问权限必须保持一致。比如，或者都是public方法，或者都是private方法。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第49题:
+
+构造方法的访问权限必须是public。
+null	null	null	null
+图像的名字无图.jpg
+答案：错误
+
+题库中第50题:
+
+构造方法的访问权限可以是public，protected,private或友好的。
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第51题:
+
+如果源文件的包语句是package tom.jiafei;
+那么可以将源文件保存在C:\1000\tom\jiafei中，然后进入到tom\jiafei的上一层目录1000中编译源文件：
+    C:\1000> javac tom\jiafei\源文件
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第52题:
+
+如果主类的包名是tom.jiafei，那么主类的字节码一定存放在…\tom\jiafei目录中，那么必须到tom\jiafei的上一层（即tom的父目录）目录中去运行主类。假设tom\jiafei的上一层目录是1000，那么，必须用如下格式来运行：
+
+C:\1000> java tom.jiafei.主类名
+
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第53题:
+
+方法中声明的局部变量不可以用访问修饰符：public,proteced,private修饰。
+
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第54题:
+
+方法中声明的局部变量不可以用static修饰。
+
+null	null	null	null
+图像的名字无图.jpg
+答案：正确
+
+题库中第55题:
+
+方法中声明的局部变量的名字不可以和方法的参数的名字相同。
+
+null	null	null	null
+图像的名字无图.jpg
+答案：正确

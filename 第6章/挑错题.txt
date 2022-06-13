@@ -1,0 +1,475 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+    int M = 200;  
+    int f();          //A
+}
+class People implements Com {
+    int f()           //B
+    {
+        return 100+M; //C
+    }
+}
+class Hello implements Com {
+    public int f()   //D
+    {
+       return 200;
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+class A {
+   static int m;
+   static void f(){
+       m = 20 ;          //A
+   } 
+}
+class B extends A {
+   void f()              //B
+   {  m = 222 ;         //C      
+   } 
+}
+class E {
+   public static void main(String args[]) {
+      A.f();            // D    
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+    int M = 200;  
+    int f();          //A
+}
+class People implements Com {
+    public int f()       //B
+    {
+        return 100+M; //C
+    }
+}
+class Hello implements Com {
+    protected int f()   //D
+    {
+       return 200;
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+    void start();  //A
+    void stop();   //B
+}
+class AAA implements Com,Com  //C
+{
+    public void start()       //D
+    {
+        System.out.println("start");
+    }
+    public void stop() {
+        System.out.println("stop");
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+    protected void start();  //A
+                             //B
+}
+class AAA implements Com     //C
+{
+    public void start()      //D
+    {
+        System.out.println("start");
+    }
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract interface Com  //A
+{
+      void start();   
+      char LETTER;     //B
+}
+class AAA implements Com     //C
+{
+    public void start()      //D
+    {
+        System.out.println("start");
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第7题:
+ 下列ABCD注释标注的哪行代码有错误？
+final interface Com           //A
+{
+      void start();   
+      char LETTER = 'A';     //B
+      public void f();      //C
+      abstract int g();     //D
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：A
+
+
+题库中第8题:
+ 下列ABCD注释标注的哪行代码有错误？
+class Hello {
+    protected void speakHello() {}        //A
+    public abstract void cry();          //B
+    static int f(){ return 0 ;}          //C
+    void start(){ }                      //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第9题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract interface Com           //A
+{
+      void start();   
+      char LETTER = 'A';         //B
+      public void f();           //C
+      final abstract int g();    //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第10题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com           
+{
+      public static int M = 12;        //A
+      protected char LETTER = '好';    //B
+      public void f();                //C
+      abstract int g();               //D
+}
+
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第11题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com           
+{
+      public static int M = 12;        //A
+      static char LETTER = '好';       //B
+      private void f();                //C
+      abstract int g();               //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第12题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    int M = 200;  
+    int f();            //A
+}
+class People implements Com {
+    public int f()       //B
+    {
+        return 100+M; 
+    }
+}
+class E {
+   public static void main(String args[]){
+       People p = new People();
+       Com com = p;    //C
+       com = 100;      //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第13题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    int M = 200;  
+    int f();            //A
+}
+class People implements Com {
+    public int f()       //B
+    {
+        return 100+M; 
+    }
+    public void g(){
+        System.out.println(M);
+    }
+}
+class E {
+   public static void main(String args[]){
+       People p = new People();
+       Com com = p;     //C
+       int m = com.f();
+       com.g();          //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第14题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class A {            
+   abstract float getFloat ();  //A
+   void f()                     //B
+   {}
+}
+class B extends A {
+   private float m = 1.0f;      //C
+   private float getFloat ()     //D
+   {  return m;
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第15题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    double PI = 3.14;  
+    void showArea(double r);      //A
+}
+class People implements Com {
+    public void showArea(double r)  {
+         PI + = 0.005926;        //B
+         System.out.println(r*r*PI);
+    }
+    public void g(){
+        System.out.println(Com.PI); 
+    }
+}
+class E {
+   public static void main(String args[]){
+       People p = new People();
+       Com com = p;     
+       com.showArea(10) ; //C
+       p.g();            //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第16题:
+ 下列ABCD注释标注的哪行代码有错误？
+abstract class Animal {
+    int m =100;
+}
+class Dog extends Animal{
+    double m;
+}
+public class E {
+    public static void main(String args[]){
+        Animal animal = null;   //A
+        Dog dog = new Dog();     
+        animal = dog;          //B
+        dog.m = 3.14;          //C
+        animal.m = 3.14;      //D
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第17题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    int MAX = 100;  
+    void cry();      //A
+}
+class Dog  {
+    protected void cry() //    B
+    {
+        System.out.println("wangwang"); 
+    }
+}
+class E {
+   public static void main(String args[]){
+       Dog dog  = new Dog();
+       Com com = dog;      //C    
+       dog.cry();          //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第18题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    int MAX = 100;  
+    void cry();            //A
+}
+class Dog implements Com {
+    public void cry()       
+    {
+        System.out.println("wangwang"); 
+    }
+    protected void cry(int m) 
+    {
+        System.out.println(m); 
+    }
+}
+class E {
+   public static void main(String args[]){
+       Dog dog  = new Dog();
+       Com com = dog;        //B 
+       com.cry();            //C
+       com.cry(100);         //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第19题:
+ 下列ABCD注释标注的哪行代码有错误？
+interface Com {
+    int MAX = 100;  //A
+    void f();
+}
+abstract class Animal implements Com {
+    int MIN ;      //B
+}
+class Dog extends Animal{
+    public void f()
+    {  
+       MIN = 10;     //C
+       MAX = 200;    //D
+    }   
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第20题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    abstract void cry();       //A
+    public int x = 0;          //B 
+    static int y = 0;          //C
+}
+abstract class Cat implements Com {
+    abstract void cry();       //D
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第21题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    abstract void cry();       //A
+    public int x = 0;          //B 
+}
+abstract class Animal implements Com {
+    public abstract void cry();    
+}
+class E {
+   public static void main(String args[]){
+       Animal dog  = null ; // C
+       dog  = new Animal(); // D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D
+
+
+题库中第22题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    abstract void cry();       //A
+    public int x = 0;          //B 
+}
+abstract class Animal implements Com {
+}
+class Dog extends Animal {
+     void cry()               //C
+     {
+        System.out.println("wangwang");
+     }
+}
+class E {
+   public static void main(String args[]){
+       Com com  = new Dog() ; //D
+       com.cry();
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第23题:
+ 下列ABCD注释标注的哪行代码有错误？
+public interface Com {
+    abstract void cry();       //A
+    public int x ;             //B 
+}
+abstract class Animal implements Com {
+}
+class Dog extends Animal {
+     public void cry() {      
+         System.out.println("wangwang");
+     }
+}
+class E {
+   public static void main(String args[]){
+       Com com  = new Dog() ; //C
+       com.cry();             //D
+   }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B

@@ -1,0 +1,122 @@
+题库中第1题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+       long m = file.length();                 //B
+       FileReader in = new  FileReader(file);  //C
+       try{
+           FileWriter out = new FileWriter(file); //D
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第2题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+       long m = file.length();                 //B
+       try{
+           FileReader in = new  FileReader(file);  
+           BufferedReader bufferRead =new BufferedReader(file);//C
+           FileWriter out = new FileWriter(file); //D
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第3题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+       int m = file.length();                 //B
+       try{
+           FileReader in = new  FileReader(file);  
+           BufferedReader bufferRead =new BufferedReader(in);//C
+           FileWriter out = new FileWriter(file); //D
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第4题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+       int m = file.isFile();                 //B
+       try{
+           FileReader in = new  FileReader(file);  
+           BufferedReader bufferRead =new BufferedReader(in);//C
+           String s = bufferRead.readLine();  //D 
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：B
+
+
+题库中第5题:
+ 下列ABCD注释标注的哪行代码有错误？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+       boolean  m = file.isFile();             //B
+       try{
+           FileOutputStream fileOut = new FileOutputStream(file);
+           ObjectOutputStream objectOut = new ObjectOutputStream(file);//C
+           objectOut.writeObject(new Integer(100));   //D
+           objectOut.close(); 
+       }
+       catch(IOException exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：C
+
+
+题库中第6题:
+ 下列ABCD注释标注的哪行代码没有编译错误，但触发运行异常？
+import java.io.*;
+public class E {
+    public static void main(String args[]){
+       File file = new File("hello.txt");      //A
+      try{
+           FileOutputStream fileOut = new FileOutputStream(file);
+           ObjectOutputStream objectOut = new ObjectOutputStream(fileOut);//B
+           objectOut.writeObject(new Integer(100));   //C
+           objectOut.close(); 
+           FileInputStream fileIn = new FileInputStream(file);
+           ObjectInputStream objectIn = new ObjectInputStream(fileIn);
+           Integer number = objectIn.readObject();   //D
+           System.out.println(number.intValue());
+       }
+       catch(Exception exp){}
+    }
+}
+A	B	C	D
+图像的名字无图.jpg
+答案：D

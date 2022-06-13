@@ -1,0 +1,305 @@
+题库中第1题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+         System.out.println(Byte.MAX_VALUE); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：127
+
+
+题库中第2题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+         System.out.println(Byte.MIN_VALUE); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：-128
+
+
+题库中第3题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+          System.out.println((int)'a'); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：97
+
+
+题库中第4题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+          System.out.println((char)65); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：A
+
+
+题库中第5题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+        int m = 100;
+        System.out.println(m+"100"); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：100100
+
+
+题库中第6题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+           int m =100;
+           System.out.println(m+100); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：200
+
+
+题库中第7题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+           int [] a ={1,2,3,4,5,6};
+           System.out.println(a.length+"hello"+a[5]); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：6hello6
+
+
+题库中第8题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+          int [][] a ={{0,1,2,3,4},{5,6},{8,9,10}};
+          System.out.println(a.length+"java"+a[2][0]); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：3java8
+
+
+题库中第9题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+     public static void main(String args[]){
+        int [][] a ={{0,1,2,99,4},{5,6},{8,9,10}};
+        System.out.println(a[1].length+"java"+a[0][3]); //【代码】
+     }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：2java99
+
+
+题库中第10题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int a[] = {1,2,3,4};
+       int b[] = {100,200,300};
+       a = b;
+       System.out.println(a[1]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：200
+
+
+题库中第11题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int a[] = {1,2,3,4};
+       int b[] = {100,200,300};
+       b = a;
+       System.out.println(b[3]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：4
+
+
+题库中第12题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int a[] = {1,2,3,4};
+       int b[] = {100,200,300};
+       b = a;
+       System.out.println(b.length); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：4
+
+
+题库中第13题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int a[] = {1,2,3,4};
+       int b[] = {100,200,300};
+       a = b;
+       System.out.println(a.length); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：3
+
+
+题库中第14题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{1,2,3,4},{5,6},{7,8,9}};
+       int b[] = {100,200,300};
+       b = a[0];
+       System.out.println(b[0]); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：1
+
+
+题库中第15题:
+ 给出下列【代码】注释标注的代码的输出结果。
+public class E {
+    public static void main(String args[]){
+       int [][] a = {{1,2,3,4},{5,6},{7,8,9}};
+       int b[] = {100,200,300};
+       a[1] = b;
+       System.out.println(a[1][2]); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：300
+
+
+题库中第16题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{1,2,3,4},{5,6},{7,8,9}};
+       int b[] = {100,200,300};
+       a[2] = b;
+       System.out.println(a[2][0]); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：100
+
+
+题库中第17题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{1,2,3,4},{5,6},{7,8,9}};
+       a[2] = a[0];
+       System.out.println(a[2][0]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：1
+
+
+题库中第18题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{0,1,2,3,4},{5,6},{7,8,9}};
+       int [] b ={100,200,300};
+       b = a[0];
+       System.out.println(b.length+"java"+b[0]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：5java0
+
+
+题库中第19题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       char c = '好';
+       int m = (int)c;
+       System.out.println("你"+(char)m); //【代码】
+    }
+}
+null	null	null	null
+图像的名字无图.jpg
+答案：你好
+
+
+题库中第20题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{0,1,2,3,4},{5,6},{7,8,9}};
+       int [] b ={100,200,300};
+       a[0] = b;
+       int m = a[0][2]+b[2];
+       System.out.println(m); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：600
+
+
+题库中第21题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{0,1,2,3,4},{5,6},{7,8,9}};
+       int [] b ={100,200,300};
+       a[0] = b;
+       System.out.println(a[0].length+"java"+a[0][0]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：3java100
+
+
+题库中第22题:
+ 给出下列【代码】注释标注的代码的输出结果。
+ public class E {
+    public static void main(String args[]){
+       int [][] a = {{0,1,2,3,4},{5,6},{7,8,9}};
+       int [] b ={100,200,300};
+       a[0][0] = b[2];
+       System.out.println(a[0].length+"java"+a[0][0]); //【代码】
+    }
+ }
+null	null	null	null
+图像的名字无图.jpg
+答案：5java300
